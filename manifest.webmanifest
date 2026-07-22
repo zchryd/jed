@@ -1,0 +1,15 @@
+{
+  "name": "Jedediah Smith Redwoods — Trip Guide",
+  "short_name": "Jed Smith",
+  "description": "Fact-checked history, maps, field guide, and hikes for Jedediah Smith Redwoods State Park.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2EEE3",
+  "theme_color": "#3B2A20",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
