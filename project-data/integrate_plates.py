@@ -23,6 +23,9 @@ html=re.sub(r'<figure class="plate">.*?</figure>', '', html, flags=re.S)
 html=re.sub(r'\n?<section id="credits">.*?</section>', '', html, flags=re.S)
 html=re.sub(r'/\* PLATES \*/.*?/\* END PLATES \*/\n?', '', html, flags=re.S)
 html=re.sub(r'<!-- LIGHTBOX -->.*?<!-- END LIGHTBOX -->\n?', '', html, flags=re.S)
+# revert any prior trust-note injection so step 6 re-applies cleanly (idempotent)
+html=re.sub(r"they don't spawn in the Smith\..*?at the foot of the page\.</div>",
+            "they don't spawn in the Smith.</div>", html, flags=re.S)
 
 # ---- 1. dry-run heading match ----
 problems=[]
