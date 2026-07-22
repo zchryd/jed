@@ -3,3 +3,13 @@
 
 # macOS noise
 .DS_Store
+
+# plate-sourcing scratch (montages, logs, candidate thumbnail dirs)
+project-data/_*.jpg
+project-data/_*.log
+project-data/cand*/
+project-data/plates/
+
+# python cache
+__pycache__/
+*.pyc

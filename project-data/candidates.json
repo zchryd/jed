@@ -1,0 +1,2136 @@
+{
+ "coast-redwood": {
+  "anchor": "Coast redwood",
+  "subject": "Sequoia sempervirens",
+  "cand": [
+   {
+    "title": "File:Mitteilungen der Deutschen Dendrologischen Gesellschaft (1918) (14589637220).jpg",
+    "sc": 7,
+    "lic": "No restrictions",
+    "artist": "Deutsche Dendrologische Gesellschaft",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281918%29_%2814589637220%29.jpg/500px-Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281918%29_%2814589637220%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_(1918)_(14589637220).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coast-redwood__0.jpg"
+   },
+   {
+    "title": "File:Mitteilungen der Deutschen Dendrologischen Gesellschaft (1918) (14775998452).jpg",
+    "sc": 7,
+    "lic": "No restrictions",
+    "artist": "Deutsche Dendrologische Gesellschaft",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281918%29_%2814775998452%29.jpg/500px-Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281918%29_%2814775998452%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_(1918)_(14775998452).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coast-redwood__1.jpg"
+   },
+   {
+    "title": "File:TheTreesOfGreatBritainAndIreland vol03B.djvu",
+    "sc": 3,
+    "lic": "Public domain",
+    "artist": "Henry John Elwes / Augustine Henry",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TheTreesOfGreatBritainAndIreland_vol03B.djvu/page1-500px-TheTreesOfGreatBritainAndIreland_vol03B.djvu.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:TheTreesOfGreatBritainAndIreland_vol03B.djvu",
+    "mime": "image/vnd.djvu",
+    "cam": false,
+    "file": "cand/coast-redwood__2.jpg"
+   },
+   {
+    "title": "File:California Digital Library (IA hortusveitchiihi00veitrich).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "Veitch, James Herbert, 1868-1907",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/California_Digital_Library_%28IA_hortusveitchiihi00veitrich%29.pdf/page1-500px-California_Digital_Library_%28IA_hortusveitchiihi00veitrich%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:California_Digital_Library_(IA_hortusveitchiihi00veitrich).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/coast-redwood__3.jpg"
+   }
+  ]
+ },
+ "redwood-sorrel": {
+  "anchor": "Redwood sorrel",
+  "subject": "Oxalis oregana",
+  "cand": [
+   {
+    "title": "File:Redwood Sorrel (Oxalis oregana), closeup of flower.jpg",
+    "sc": -44,
+    "lic": "CC0",
+    "artist": "Kollibri1969",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Redwood_Sorrel_%28Oxalis_oregana%29%2C_closeup_of_flower.jpg/500px-Redwood_Sorrel_%28Oxalis_oregana%29%2C_closeup_of_flower.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Redwood_Sorrel_(Oxalis_oregana),_closeup_of_flower.jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/redwood-sorrel__0.jpg"
+   },
+   {
+    "title": "File:Redwood Sorrel (Oxalis oregana).jpg",
+    "sc": -44,
+    "lic": "CC0",
+    "artist": "Kollibri1969",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Redwood_Sorrel_%28Oxalis_oregana%29.jpg/500px-Redwood_Sorrel_%28Oxalis_oregana%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Redwood_Sorrel_(Oxalis_oregana).jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/redwood-sorrel__1.jpg"
+   },
+   {
+    "title": "File:USFWS oxalis oregana (23805499826).jpg",
+    "sc": -44,
+    "lic": "Public domain",
+    "artist": "USFWS - Pacific Region",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/USFWS_oxalis_oregana_%2823805499826%29.jpg/500px-USFWS_oxalis_oregana_%2823805499826%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:USFWS_oxalis_oregana_(23805499826).jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/redwood-sorrel__2.jpg"
+   },
+   {
+    "title": "File:Oxalis oregana - Armstrong Redwoods State Natural Reserve - January 2023 - Sarah Stierch.jpg",
+    "sc": -69,
+    "lic": "CC0",
+    "artist": "Missvain",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Oxalis_oregana_-_Armstrong_Redwoods_State_Natural_Reserve_-_January_2023_-_Sarah_Stierch.jpg/500px-Oxalis_oregana_-_Armstrong_Redwoods_State_Natural_Reserve_-_January_2023_-_Sarah_Stierch.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Oxalis_oregana_-_Armstrong_Redwoods_State_Natural_Reserve_-_January_2023_-_Sarah_Stierch.jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/redwood-sorrel__3.jpg"
+   }
+  ]
+ },
+ "sword-fern": {
+  "anchor": "Sword fern",
+  "subject": "Polystichum munitum",
+  "cand": []
+ },
+ "western-trillium": {
+  "anchor": "Western trillium",
+  "subject": "Trillium ovatum",
+  "cand": [
+   {
+    "title": "File:Trillium ovatum 41 n California.jpg",
+    "sc": 11,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trillium_ovatum_41_n_California.jpg/500px-Trillium_ovatum_41_n_California.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Trillium_ovatum_41_n_California.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/western-trillium__0.jpg"
+   },
+   {
+    "title": "File:Flora Washingtonensis; a catalogue of the Phaenogamia and Pteridophyta of the state of Washington (IA cu31924001737000).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Suksdorf, Wilhelm N",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Flora_Washingtonensis%3B_a_catalogue_of_the_Phaenogamia_and_Pteridophyta_of_the_state_of_Washington_%28IA_cu31924001737000%29.pdf/page1-500px-Flora_Washingtonensis%3B_a_catalogue_of_the_Phaenogamia_and_Pteridophyta_of_the_state_of_Washington_%28IA_cu31924001737000%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Flora_Washingtonensis;_a_catalogue_of_the_Phaenogamia_and_Pteridophyta_of_the_state_of_Washington_(IA_cu31924001737000).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/western-trillium__1.jpg"
+   },
+   {
+    "title": "File:Checklist of the vascular plants of Steamboat Mountain Research Natural Area (IA checklistofvascu375schu).pdf",
+    "sc": -25,
+    "lic": "Public domain",
+    "artist": "Schuller, Reid Frenkel, Robert E Pacific Northwest Forest and Range Experiment Station (Portland, Or.)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Checklist_of_the_vascular_plants_of_Steamboat_Mountain_Research_Natural_Area_%28IA_checklistofvascu375schu%29.pdf/page1-500px-Checklist_of_the_vascular_plants_of_Steamboat_Mountain_Research_Natural_Area_%28IA_checklistofvascu375schu%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Checklist_of_the_vascular_plants_of_Steamboat_Mountain_Research_Natural_Area_(IA_checklistofvascu375schu).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/western-trillium__2.jpg"
+   },
+   {
+    "title": "File:Flora of California - First Fascicle. (IA ccr 000140).pdf",
+    "sc": -29,
+    "lic": "Public domain",
+    "artist": "Jones, Marcus E. (Marcus Eugene), 1852-1934",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flora_of_California_-_First_Fascicle._%28IA_ccr_000140%29.pdf/page1-500px-Flora_of_California_-_First_Fascicle._%28IA_ccr_000140%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Flora_of_California_-_First_Fascicle._(IA_ccr_000140).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/western-trillium__3.jpg"
+   }
+  ]
+ },
+ "bead-lily": {
+  "anchor": "Clintonia (bead lily)",
+  "subject": "Clintonia andrewsiana",
+  "cand": [
+   {
+    "title": "File:Foundations of botany (1901) (14597697037).jpg",
+    "sc": 19,
+    "lic": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Foundations_of_botany_%281901%29_%2814597697037%29.jpg/500px-Foundations_of_botany_%281901%29_%2814597697037%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Foundations_of_botany_(1901)_(14597697037).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/bead-lily__0.jpg"
+   },
+   {
+    "title": "File:Flora Telluriana (IA floratelluriana00rafi).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Rafinesque, C. S. (Constantine Samuel), 1783-1840 Barnhart, John Hendley, 1871-1949",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flora_Telluriana_%28IA_floratelluriana00rafi%29.pdf/page1-500px-Flora_Telluriana_%28IA_floratelluriana00rafi%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Flora_Telluriana_(IA_floratelluriana00rafi).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/bead-lily__1.jpg"
+   },
+   {
+    "title": "File:Handbook of the wild and cultivated flowering plants (IA handbookofwildcu00darl).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "Darling, Chester Arthur",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Handbook_of_the_wild_and_cultivated_flowering_plants_%28IA_handbookofwildcu00darl%29.pdf/page1-500px-Handbook_of_the_wild_and_cultivated_flowering_plants_%28IA_handbookofwildcu00darl%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Handbook_of_the_wild_and_cultivated_flowering_plants_(IA_handbookofwildcu00darl).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/bead-lily__2.jpg"
+   },
+   {
+    "title": "File:Botanical gazette. (IA mobot31753002217260).pdf",
+    "sc": -72,
+    "lic": "Public domain",
+    "artist": "Arthur, Joseph Charles, Barnes, Charles Reid, Coulter, John Merle, Coulter, M. S. University of Chicago.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Botanical_gazette._%28IA_mobot31753002217260%29.pdf/page1-500px-Botanical_gazette._%28IA_mobot31753002217260%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Botanical_gazette._(IA_mobot31753002217260).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/bead-lily__3.jpg"
+   }
+  ]
+ },
+ "banana-slug": {
+  "anchor": "Banana slug",
+  "subject": "Ariolimax columbianus",
+  "cand": [
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/banana-slug__0.jpg"
+   },
+   {
+    "title": "File:Adolphe Millot mollusques-pour tous.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Adolphe Millot",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Adolphe_Millot_mollusques-pour_tous.jpg/500px-Adolphe_Millot_mollusques-pour_tous.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Adolphe_Millot_mollusques-pour_tous.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/banana-slug__1.jpg"
+   },
+   {
+    "title": "File:Greatbarrierreef00kent 0629.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "William Saville-Kent",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Greatbarrierreef00kent_0629.jpg/500px-Greatbarrierreef00kent_0629.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Greatbarrierreef00kent_0629.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/banana-slug__2.jpg"
+   },
+   {
+    "title": "File:Haeckel Acephala.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Ernst Haeckel",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Haeckel_Acephala.jpg/500px-Haeckel_Acephala.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Haeckel_Acephala.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/banana-slug__3.jpg"
+   }
+  ]
+ },
+ "varied-thrush": {
+  "anchor": "Varied thrush",
+  "subject": "Ixoreus naevius",
+  "cand": [
+   {
+    "title": "File:369 I. Mountain Mocking bird - 2. Varied Thrush.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/369_I._Mountain_Mocking_bird_-_2._Varied_Thrush.jpg/500px-369_I._Mountain_Mocking_bird_-_2._Varied_Thrush.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:369_I._Mountain_Mocking_bird_-_2._Varied_Thrush.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/varied-thrush__0.jpg"
+   },
+   {
+    "title": "File:A first book upon the birds of Oregon and Washington; a pocket guide and pupil's assistant in a study of most of the land birds and a few of the water birds of these states (1901) (14749007571).jpg",
+    "sc": 19,
+    "lic": "No restrictions",
+    "artist": "Lord, William Rogers, 1847-1916",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/A_first_book_upon_the_birds_of_Oregon_and_Washington%3B_a_pocket_guide_and_pupil%27s_assistant_in_a_study_of_most_of_the_land_birds_and_a_few_of_the_water_birds_of_these_states_%281901%29_%2814749007571%29.jpg/500px-thumbnail.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:A_first_book_upon_the_birds_of_Oregon_and_Washington;_a_pocket_guide_and_pupil%27s_assistant_in_a_study_of_most_of_the_land_birds_and_a_few_of_the_water_birds_of_these_states_(1901)_(14749007571).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/varied-thrush__1.jpg"
+   },
+   {
+    "title": "File:Stebbins Guide to Birds 014 Varied Thrush.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Cyril Adelbert Stebbins",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Stebbins_Guide_to_Birds_014_Varied_Thrush.jpg/500px-Stebbins_Guide_to_Birds_014_Varied_Thrush.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Stebbins_Guide_to_Birds_014_Varied_Thrush.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/varied-thrush__2.jpg"
+   },
+   {
+    "title": "File:The birds of America (Pl. 143) (8572285484).jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Audubon, John James; Bowen, John T.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_birds_of_America_%28Pl._143%29_%288572285484%29.jpg/500px-The_birds_of_America_%28Pl._143%29_%288572285484%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_birds_of_America_(Pl._143)_(8572285484).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/varied-thrush__3.jpg"
+   }
+  ]
+ },
+ "pacific-wren": {
+  "anchor": "Pacific wren",
+  "subject": "Troglodytes",
+  "cand": [
+   {
+    "title": "File:\"At Labrador,\" manuscript by John James Audubon, 1833.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%22At_Labrador%2C%22_manuscript_by_John_James_Audubon%2C_1833.jpg/500px-%22At_Labrador%2C%22_manuscript_by_John_James_Audubon%2C_1833.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:%22At_Labrador,%22_manuscript_by_John_James_Audubon,_1833.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pacific-wren__0.jpg"
+   },
+   {
+    "title": "File:Audubon polar-bear.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Audubon_polar-bear.jpg/500px-Audubon_polar-bear.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Audubon_polar-bear.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pacific-wren__1.jpg"
+   },
+   {
+    "title": "File:John Gould.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "T.H. Maguire (1821–1895)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/John_Gould.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_Gould.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pacific-wren__2.jpg"
+   },
+   {
+    "title": "File:John James Audubon 1826.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John Syme",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/John_James_Audubon_1826.jpg/500px-John_James_Audubon_1826.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_James_Audubon_1826.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pacific-wren__3.jpg"
+   }
+  ]
+ },
+ "wandering-salamander": {
+  "anchor": "Wandering salamander",
+  "subject": "Aneides",
+  "cand": [
+   {
+    "title": "File:Biographical and historical memoirs of Arkansas - illustration 1.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png/500px-Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/wandering-salamander__0.jpg"
+   },
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/wandering-salamander__1.jpg"
+   },
+   {
+    "title": "File:Illustration from Our Island Saints - M. Dibdin Spooner.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Minnie Dibdin Spooner",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg/500px-Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/wandering-salamander__2.jpg"
+   },
+   {
+    "title": "File:Illustration from The Samovar Girl.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Stockton Mulford",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Illustration_from_The_Samovar_Girl.jpg/500px-Illustration_from_The_Samovar_Girl.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Samovar_Girl.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/wandering-salamander__3.jpg"
+   }
+  ]
+ },
+ "douglas-fir": {
+  "anchor": "Douglas-fir",
+  "subject": "Pseudotsuga menziesii",
+  "cand": [
+   {
+    "title": "File:Pseudotsuga glauca closedcones.jpg",
+    "sc": 9,
+    "lic": "Public domain",
+    "artist": "Dave Powell, USDA Forest Service",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pseudotsuga_glauca_closedcones.jpg/500px-Pseudotsuga_glauca_closedcones.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Pseudotsuga_glauca_closedcones.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/douglas-fir__0.jpg"
+   },
+   {
+    "title": "File:Aberrant cones in western white pine (IA aberrantconesinw86bing).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "Bingham, Richard T",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Aberrant_cones_in_western_white_pine_%28IA_aberrantconesinw86bing%29.pdf/page1-500px-Aberrant_cones_in_western_white_pine_%28IA_aberrantconesinw86bing%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Aberrant_cones_in_western_white_pine_(IA_aberrantconesinw86bing).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/douglas-fir__1.jpg"
+   },
+   {
+    "title": "File:Effect of western spruce budworm on douglas-fir cone production in western Montana (IA effectofwesterns308chri).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "Chrisman, Allen B. cn Blake, George M. (George Marston), 1932- cn Shearer, Raymond C. cn Intermountain Forest and Range Experiment Station (",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Effect_of_western_spruce_budworm_on_douglas-fir_cone_production_in_western_Montana_%28IA_effectofwesterns308chri%29.pdf/page1-500px-Effect_of_western_spruce_budworm_on_douglas-fir_cone_production_in_western_Montana_%28IA_effectofwesterns308chri%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Effect_of_western_spruce_budworm_on_douglas-fir_cone_production_in_western_Montana_(IA_effectofwesterns308chri).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/douglas-fir__2.jpg"
+   },
+   {
+    "title": "File:Fire ecology of the forest habitat types of eastern Idaho and western Wyoming (IA CAT92991181).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "Bradley, Anne F Fischer, William C Noste, Nonan V Intermountain Research Station (Ogden, Utah)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Fire_ecology_of_the_forest_habitat_types_of_eastern_Idaho_and_western_Wyoming_%28IA_CAT92991181%29.pdf/page1-500px-Fire_ecology_of_the_forest_habitat_types_of_eastern_Idaho_and_western_Wyoming_%28IA_CAT92991181%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Fire_ecology_of_the_forest_habitat_types_of_eastern_Idaho_and_western_Wyoming_(IA_CAT92991181).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/douglas-fir__3.jpg"
+   }
+  ]
+ },
+ "western-hemlock": {
+  "anchor": "Western hemlock",
+  "subject": "Tsuga heterophylla",
+  "cand": [
+   {
+    "title": "File:Tsuga heterophylla silva of north america 1898.jpg",
+    "sc": 31,
+    "lic": "Public domain",
+    "artist": "C. E. Faxon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tsuga_heterophylla_silva_of_north_america_1898.jpg/500px-Tsuga_heterophylla_silva_of_north_america_1898.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Tsuga_heterophylla_silva_of_north_america_1898.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/western-hemlock__0.jpg"
+   },
+   {
+    "title": "File:Forest flora of Japan. Notes on the forest flora of Japan (IA cu31924090116884).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Sargent, Charles Sprague, 1841-1927",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Forest_flora_of_Japan._Notes_on_the_forest_flora_of_Japan_%28IA_cu31924090116884%29.pdf/page1-500px-Forest_flora_of_Japan._Notes_on_the_forest_flora_of_Japan_%28IA_cu31924090116884%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Forest_flora_of_Japan._Notes_on_the_forest_flora_of_Japan_(IA_cu31924090116884).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/western-hemlock__1.jpg"
+   },
+   {
+    "title": "File:Forest flora of Japan. Notes on the forest flora of Japan; (IA forestfloraofjap00sargrich).pdf",
+    "sc": -29,
+    "lic": "Public domain",
+    "artist": "Sargent, Charles Sprague, 1841-1927",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Forest_flora_of_Japan._Notes_on_the_forest_flora_of_Japan%3B_%28IA_forestfloraofjap00sargrich%29.pdf/page1-500px-Forest_flora_of_Japan._Notes_on_the_forest_flora_of_Japan%3B_%28IA_forestfloraofjap00sargrich%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Forest_flora_of_Japan._Notes_on_the_forest_flora_of_Japan;_(IA_forestfloraofjap00sargrich).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/western-hemlock__2.jpg"
+   },
+   {
+    "title": "File:A Manual of the North American Gymnosperms (1907) (IA manualofnorthame00penh).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "David Pearce Penhallow",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/A_Manual_of_the_North_American_Gymnosperms_%281907%29_%28IA_manualofnorthame00penh%29.pdf/page1-500px-A_Manual_of_the_North_American_Gymnosperms_%281907%29_%28IA_manualofnorthame00penh%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:A_Manual_of_the_North_American_Gymnosperms_(1907)_(IA_manualofnorthame00penh).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/western-hemlock__3.jpg"
+   }
+  ]
+ },
+ "sitka-spruce": {
+  "anchor": "Sitka spruce",
+  "subject": "Picea sitchensis",
+  "cand": [
+   {
+    "title": "File:President Biden with President Lula da Silva 2023.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "The White House",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/President_Biden_with_President_Lula_da_Silva_2023.jpg/500px-President_Biden_with_President_Lula_da_Silva_2023.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:President_Biden_with_President_Lula_da_Silva_2023.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/sitka-spruce__0.jpg"
+   },
+   {
+    "title": "File:Lula da Silva, 1949 (1949-retrato-com-irmã-garanhuns).png",
+    "sc": -10,
+    "lic": "Public domain",
+    "artist": "Unknown photographer",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.png/500px-Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Lula_da_Silva,_1949_(1949-retrato-com-irm%C3%A3-garanhuns).png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/sitka-spruce__1.jpg"
+   },
+   {
+    "title": "File:Luiz Inácio Lula da Silva in SignWriting.svg",
+    "sc": -52,
+    "lic": "CC0",
+    "artist": "JnpoJuwan",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Luiz_In%C3%A1cio_Lula_da_Silva_in_SignWriting.svg/500px-Luiz_In%C3%A1cio_Lula_da_Silva_in_SignWriting.svg.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Luiz_In%C3%A1cio_Lula_da_Silva_in_SignWriting.svg",
+    "mime": "image/svg+xml",
+    "cam": false,
+    "file": "cand/sitka-spruce__2.jpg"
+   },
+   {
+    "title": "File:Lula da Silva, 1949 (1949-retrato-com-irmã-garanhuns).jpg",
+    "sc": -65,
+    "lic": "Public domain",
+    "artist": "Unknown photographer",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.jpg/500px-Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Lula_da_Silva,_1949_(1949-retrato-com-irm%C3%A3-garanhuns).jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/sitka-spruce__3.jpg"
+   }
+  ]
+ },
+ "grand-fir": {
+  "anchor": "Grand fir",
+  "subject": "Abies grandis",
+  "cand": [
+   {
+    "title": "File:President Biden with President Lula da Silva 2023.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "The White House",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/President_Biden_with_President_Lula_da_Silva_2023.jpg/500px-President_Biden_with_President_Lula_da_Silva_2023.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:President_Biden_with_President_Lula_da_Silva_2023.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/grand-fir__0.jpg"
+   },
+   {
+    "title": "File:Lula da Silva, 1949 (1949-retrato-com-irmã-garanhuns).png",
+    "sc": -10,
+    "lic": "Public domain",
+    "artist": "Unknown photographer",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.png/500px-Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Lula_da_Silva,_1949_(1949-retrato-com-irm%C3%A3-garanhuns).png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/grand-fir__1.jpg"
+   },
+   {
+    "title": "File:Luiz Inácio Lula da Silva in SignWriting.svg",
+    "sc": -52,
+    "lic": "CC0",
+    "artist": "JnpoJuwan",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Luiz_In%C3%A1cio_Lula_da_Silva_in_SignWriting.svg/500px-Luiz_In%C3%A1cio_Lula_da_Silva_in_SignWriting.svg.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Luiz_In%C3%A1cio_Lula_da_Silva_in_SignWriting.svg",
+    "mime": "image/svg+xml",
+    "cam": false,
+    "file": "cand/grand-fir__2.jpg"
+   },
+   {
+    "title": "File:Lula da Silva, 1949 (1949-retrato-com-irmã-garanhuns).jpg",
+    "sc": -65,
+    "lic": "Public domain",
+    "artist": "Unknown photographer",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.jpg/500px-Lula_da_Silva%2C_1949_%281949-retrato-com-irm%C3%A3-garanhuns%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Lula_da_Silva,_1949_(1949-retrato-com-irm%C3%A3-garanhuns).jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/grand-fir__3.jpg"
+   }
+  ]
+ },
+ "port-orford-cedar": {
+  "anchor": "Port Orford cedar",
+  "subject": "Chamaecyparis lawsoniana",
+  "cand": [
+   {
+    "title": "File:Lawson's Cypress, Six Rivers National Forest, Klamath, California 1.jpg",
+    "sc": -18,
+    "lic": "CC0",
+    "artist": "jonleebotany",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lawson%27s_Cypress%2C_Six_Rivers_National_Forest%2C_Klamath%2C_California_1.jpg/500px-Lawson%27s_Cypress%2C_Six_Rivers_National_Forest%2C_Klamath%2C_California_1.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Lawson%27s_Cypress,_Six_Rivers_National_Forest,_Klamath,_California_1.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/port-orford-cedar__0.jpg"
+   },
+   {
+    "title": "File:Chamaecyparis lawsoniana seeds.jpg",
+    "sc": -44,
+    "lic": "Public domain",
+    "artist": "Steve Hurst @ USDA-NRCS PLANTS Database",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Chamaecyparis_lawsoniana_seeds.jpg/500px-Chamaecyparis_lawsoniana_seeds.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Chamaecyparis_lawsoniana_seeds.jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/port-orford-cedar__1.jpg"
+   }
+  ]
+ },
+ "madrone": {
+  "anchor": "Tanoak · madrone · California bay",
+  "subject": "Arbutus menziesii",
+  "cand": [
+   {
+    "title": "File:Edwards' botanical register, or, Ornamental flower-garden and shrubbery .. (1829-1847) (20984933960).jpg",
+    "sc": 27,
+    "lic": "No restrictions",
+    "artist": "Edwards, Sydenham, 1769?-1819; Lindley, John, 1799-1865",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edwards%27_botanical_register%2C_or%2C_Ornamental_flower-garden_and_shrubbery_.._%281829-1847%29_%2820984933960%29.jpg/500px-Edwards%27_botanical_register%2C_or%2C_Ornamental_flower-garden_and_shrubbery_.._%281829-1847%29_%2820984933960%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Edwards%27_botanical_register,_or,_Ornamental_flower-garden_and_shrubbery_.._(1829-1847)_(20984933960).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/madrone__0.jpg"
+   },
+   {
+    "title": "File:The North American sylva, or, A description of the forest trees of the United States, Canada, and Nova Scotia, not described in the work of F. Andrew Michaux (microform) - and containing all the (20011136803).jpg",
+    "sc": 19,
+    "lic": "No restrictions",
+    "artist": "Nuttall, Thomas, 1786-1859; Michaux, François-André, 1770-1855. The North American sylva, or, A description of the forest trees of the Unite",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/The_North_American_sylva%2C_or%2C_A_description_of_the_forest_trees_of_the_United_States%2C_Canada%2C_and_Nova_Scotia%2C_not_described_in_the_work_of_F._Andrew_Michaux_%28microform%29_-_and_containing_all_the_%2820011136803%29.jpg/500px-thumbnail.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_North_American_sylva,_or,_A_description_of_the_forest_trees_of_the_United_States,_Canada,_and_Nova_Scotia,_not_described_in_the_work_of_F._Andrew_Michaux_(microform)_-_and_containing_all_the_(20011136803).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/madrone__1.jpg"
+   },
+   {
+    "title": "File:Grevillea (IA grevillea1418unse).pdf",
+    "sc": -25,
+    "lic": "Public domain",
+    "artist": "Internet Archive identifier : grevillea1418unse https://archive.org/download/grevillea1418unse/grevillea1418unse.pdf",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Grevillea_%28IA_grevillea1418unse%29.pdf/page1-500px-Grevillea_%28IA_grevillea1418unse%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Grevillea_(IA_grevillea1418unse).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/madrone__2.jpg"
+   },
+   {
+    "title": "File:The Florist and horticultural journal (IA floristhorticult31854phil).pdf",
+    "sc": -25,
+    "lic": "Public domain",
+    "artist": "Internet Archive identifier : floristhorticult31854phil https://archive.org/download/floristhorticult31854phil/floristhorticult31854phil.pdf",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Florist_and_horticultural_journal_%28IA_floristhorticult31854phil%29.pdf/page1-500px-The_Florist_and_horticultural_journal_%28IA_floristhorticult31854phil%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_Florist_and_horticultural_journal_(IA_floristhorticult31854phil).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/madrone__3.jpg"
+   }
+  ]
+ },
+ "rhododendron": {
+  "anchor": "Pacific rhododendron",
+  "subject": "Rhododendron macrophyllum",
+  "cand": [
+   {
+    "title": "File:The California horticulturist and floral magazine (1870) (14783184285).jpg",
+    "sc": 19,
+    "lic": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/The_California_horticulturist_and_floral_magazine_%281870%29_%2814783184285%29.jpg/500px-The_California_horticulturist_and_floral_magazine_%281870%29_%2814783184285%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_California_horticulturist_and_floral_magazine_(1870)_(14783184285).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/rhododendron__0.jpg"
+   },
+   {
+    "title": "File:The Beauties of the state of Washington - a book for tourists (1915) (14589561829).jpg",
+    "sc": -18,
+    "lic": "No restrictions",
+    "artist": "Giles, Harry F; Washington (State). Bureau of Statistics and Immigration",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Beauties_of_the_state_of_Washington_-_a_book_for_tourists_%281915%29_%2814589561829%29.jpg/500px-The_Beauties_of_the_state_of_Washington_-_a_book_for_tourists_%281915%29_%2814589561829%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_Beauties_of_the_state_of_Washington_-_a_book_for_tourists_(1915)_(14589561829).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/rhododendron__1.jpg"
+   },
+   {
+    "title": "File:A classification of forest environments in the South Umpqua basin (IA CAT92272849).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "Minore, Don. cn Pacific Northwest Forest and Range Experiment Station (Portland, Or.)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_classification_of_forest_environments_in_the_South_Umpqua_basin_%28IA_CAT92272849%29.pdf/page1-500px-A_classification_of_forest_environments_in_the_South_Umpqua_basin_%28IA_CAT92272849%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:A_classification_of_forest_environments_in_the_South_Umpqua_basin_(IA_CAT92272849).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/rhododendron__2.jpg"
+   },
+   {
+    "title": "File:Management of wildlife and fish habitats in forests of western Oregon and Washington (IA CAT86865121002).pdf",
+    "sc": -37,
+    "lic": "Public domain",
+    "artist": "Internet Archive identifier : CAT86865121002 https://archive.org/download/CAT86865121002/CAT86865121002.pdf",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Management_of_wildlife_and_fish_habitats_in_forests_of_western_Oregon_and_Washington_%28IA_CAT86865121002%29.pdf/page1-500px-Management_of_wildlife_and_fish_habitats_in_forests_of_western_Oregon_and_Washington_%28IA_CAT86865121002%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Management_of_wildlife_and_fish_habitats_in_forests_of_western_Oregon_and_Washington_(IA_CAT86865121002).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/rhododendron__3.jpg"
+   }
+  ]
+ },
+ "huckleberry": {
+  "anchor": "Huckleberries, two ways",
+  "subject": "Vaccinium ovatum",
+  "cand": [
+   {
+    "title": "File:Botanical illustration by Rosa Fiveash.jpg",
+    "sc": 27,
+    "lic": "CC0",
+    "artist": "Rosa Fiveash",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Botanical_illustration_by_Rosa_Fiveash.jpg/500px-Botanical_illustration_by_Rosa_Fiveash.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Botanical_illustration_by_Rosa_Fiveash.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/huckleberry__0.jpg"
+   },
+   {
+    "title": "File:Botanical illustration by Una Weatherby (née Foster).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Una Leonora Forster",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Botanical_illustration_by_Una_Weatherby_%28n%C3%A9e_Foster%29.jpg/500px-Botanical_illustration_by_Una_Weatherby_%28n%C3%A9e_Foster%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Botanical_illustration_by_Una_Weatherby_(n%C3%A9e_Foster).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/huckleberry__1.jpg"
+   },
+   {
+    "title": "File:Illustration Cucubalus baccifer0 - clean.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Otto Wilhelm Thomé",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Illustration_Cucubalus_baccifer0_-_clean.jpg/500px-Illustration_Cucubalus_baccifer0_-_clean.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Cucubalus_baccifer0_-_clean.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/huckleberry__2.jpg"
+   },
+   {
+    "title": "File:Illustration Cydonia oblonga0 - clean.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Otto Wilhelm Thomé",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Illustration_Cydonia_oblonga0_-_clean.jpg/500px-Illustration_Cydonia_oblonga0_-_clean.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Cydonia_oblonga0_-_clean.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/huckleberry__3.jpg"
+   }
+  ]
+ },
+ "marbled-murrelet": {
+  "anchor": "Marbled murrelet",
+  "subject": "Brachyramphus marmoratus",
+  "cand": [
+   {
+    "title": "File:Gould - LROC - WAC.JPG",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "NASA / LRO_LROC_TEAM",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Gould_-_LROC_-_WAC.JPG/500px-Gould_-_LROC_-_WAC.JPG",
+    "src": "https://commons.wikimedia.org/wiki/File:Gould_-_LROC_-_WAC.JPG",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/marbled-murrelet__0.jpg"
+   },
+   {
+    "title": "File:John Gould.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "T.H. Maguire (1821–1895)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/John_Gould.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_Gould.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/marbled-murrelet__1.jpg"
+   },
+   {
+    "title": "File:John Gould 1875.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "Maull &amp; Fox",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/John_Gould_1875.jpg/500px-John_Gould_1875.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_Gould_1875.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/marbled-murrelet__2.jpg"
+   },
+   {
+    "title": "File:John Gould ILN.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "Unknown",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/John_Gould_ILN.jpg/500px-John_Gould_ILN.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_Gould_ILN.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/marbled-murrelet__3.jpg"
+   }
+  ]
+ },
+ "spotted-owl": {
+  "anchor": "Northern spotted owl",
+  "subject": "Strix occidentalis",
+  "cand": [
+   {
+    "title": "File:Mexican spotted owl (16388155641).jpg",
+    "sc": 7,
+    "lic": "Public domain",
+    "artist": "NPS Climate Change Response",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Mexican_spotted_owl_%2816388155641%29.jpg/500px-Mexican_spotted_owl_%2816388155641%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Mexican_spotted_owl_(16388155641).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/spotted-owl__0.jpg"
+   },
+   {
+    "title": "File:Spotted owl forest bird NPS Photo (22509631557).jpg",
+    "sc": 7,
+    "lic": "Public domain",
+    "artist": "Olympic National Park",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Spotted_owl_forest_bird_NPS_Photo_%2822509631557%29.jpg/500px-Spotted_owl_forest_bird_NPS_Photo_%2822509631557%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Spotted_owl_forest_bird_NPS_Photo_(22509631557).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/spotted-owl__1.jpg"
+   }
+  ]
+ },
+ "black-bear": {
+  "anchor": "Black bear &amp; black-tailed deer",
+  "subject": "Ursus americanus",
+  "cand": [
+   {
+    "title": "File:Black bear large.jpg",
+    "sc": 7,
+    "lic": "Public domain",
+    "artist": "Mike Bender/U.S. Fish and Wildlife Service",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Black_bear_large.jpg/500px-Black_bear_large.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Black_bear_large.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/black-bear__0.jpg"
+   }
+  ]
+ },
+ "marten": {
+  "anchor": "Humboldt marten &amp; fisher",
+  "subject": "Martes",
+  "cand": [
+   {
+    "title": "File:The quadrupeds of North America (Plate XLI) (6260953050).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Audubon, John James; Audubon, John Woodhouse; Bachman, John",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/The_quadrupeds_of_North_America_%28Plate_XLI%29_%286260953050%29.jpg/500px-The_quadrupeds_of_North_America_%28Plate_XLI%29_%286260953050%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_quadrupeds_of_North_America_(Plate_XLI)_(6260953050).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/marten__0.jpg"
+   },
+   {
+    "title": "File:Audubon and His Journals.djvu",
+    "sc": 11,
+    "lic": "Public domain",
+    "artist": "Audubon, John James, 1785-1851; Audubon, Maria Rebecca, 1843-1925; Coues, Elliott, 1842-1899",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Audubon_and_His_Journals.djvu/page1-500px-Audubon_and_His_Journals.djvu.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Audubon_and_His_Journals.djvu",
+    "mime": "image/vnd.djvu",
+    "cam": false,
+    "file": "cand/marten__1.jpg"
+   },
+   {
+    "title": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "sc": -10,
+    "lic": "CC0",
+    "artist": "Daria Yakovleva Minor edits made by Subsidiary account",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg/500px-Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/marten__2.jpg"
+   },
+   {
+    "title": "File:Audubon and his journals (IA audubonhisjourna01audu).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Audubon, John James, 1785-1851 Audubon, Maria Rebecca, 1843-1925 Coues, Elliott, 1842-1899",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Audubon_and_his_journals_%28IA_audubonhisjourna01audu%29.pdf/page1-500px-Audubon_and_his_journals_%28IA_audubonhisjourna01audu%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Audubon_and_his_journals_(IA_audubonhisjourna01audu).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/marten__3.jpg"
+   }
+  ]
+ },
+ "chinook-salmon": {
+  "anchor": "Chinook salmon",
+  "subject": "Oncorhynchus tshawytscha",
+  "cand": [
+   {
+    "title": "File:American food and game fishes (Plate (14)) BHL8308735.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Dugmore, A. Radclyffe; Evermann, Barton Warren; Jordan, David Starr",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/American_food_and_game_fishes_%28Plate_%2814%29%29_BHL8308735.jpg/500px-American_food_and_game_fishes_%28Plate_%2814%29%29_BHL8308735.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:American_food_and_game_fishes_(Plate_(14))_BHL8308735.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chinook-salmon__0.jpg"
+   },
+   {
+    "title": "File:American food and game fishes (Plate (15)) BHL8308755.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Dugmore, A. Radclyffe; Evermann, Barton Warren; Jordan, David Starr",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/American_food_and_game_fishes_%28Plate_%2815%29%29_BHL8308755.jpg/500px-American_food_and_game_fishes_%28Plate_%2815%29%29_BHL8308755.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:American_food_and_game_fishes_(Plate_(15))_BHL8308755.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chinook-salmon__1.jpg"
+   },
+   {
+    "title": "File:Oncorhynchus keta.jpeg",
+    "sc": 21,
+    "lic": "Public domain",
+    "artist": "NOAA",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Oncorhynchus_keta.jpeg/500px-Oncorhynchus_keta.jpeg",
+    "src": "https://commons.wikimedia.org/wiki/File:Oncorhynchus_keta.jpeg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chinook-salmon__2.jpg"
+   },
+   {
+    "title": "File:Oncorhynchus clarkii.jpg",
+    "sc": 20,
+    "lic": "Public domain",
+    "artist": "A. Hoen and Co.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Oncorhynchus_clarkii.jpg/500px-Oncorhynchus_clarkii.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Oncorhynchus_clarkii.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chinook-salmon__3.jpg"
+   }
+  ]
+ },
+ "coho-salmon": {
+  "anchor": "Coho salmon &amp; steelhead",
+  "subject": "Oncorhynchus kisutch",
+  "cand": [
+   {
+    "title": "File:Oncorhynchus keta.jpeg",
+    "sc": 21,
+    "lic": "Public domain",
+    "artist": "NOAA",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Oncorhynchus_keta.jpeg/500px-Oncorhynchus_keta.jpeg",
+    "src": "https://commons.wikimedia.org/wiki/File:Oncorhynchus_keta.jpeg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coho-salmon__0.jpg"
+   },
+   {
+    "title": "File:Coho Salmon, Adult Male.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "A. Hoen and Co.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Coho_Salmon%2C_Adult_Male.jpg/500px-Coho_Salmon%2C_Adult_Male.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Coho_Salmon,_Adult_Male.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coho-salmon__1.jpg"
+   },
+   {
+    "title": "File:PlateXXXI-Coho Salmon Adult Male.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "A. Hoen and Co.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/PlateXXXI-Coho_Salmon_Adult_Male.jpg/500px-PlateXXXI-Coho_Salmon_Adult_Male.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:PlateXXXI-Coho_Salmon_Adult_Male.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coho-salmon__2.jpg"
+   },
+   {
+    "title": "File:PlateXXXII-Coho Salmon Breeding Male.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "A. Hoen and Co.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/PlateXXXII-Coho_Salmon_Breeding_Male.jpg/500px-PlateXXXII-Coho_Salmon_Breeding_Male.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:PlateXXXII-Coho_Salmon_Breeding_Male.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coho-salmon__3.jpg"
+   }
+  ]
+ },
+ "pacific-lamprey": {
+  "anchor": "Pacific lamprey",
+  "subject": "Entosphenus tridentatus",
+  "cand": [
+   {
+    "title": "File:The fishes of Great Britain and Ireland (Plate CLXXIX) (6935031197).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Achilles, C.; Day, Francis; Mintern Bros.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/The_fishes_of_Great_Britain_and_Ireland_%28Plate_CLXXIX%29_%286935031197%29.jpg/500px-The_fishes_of_Great_Britain_and_Ireland_%28Plate_CLXXIX%29_%286935031197%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_fishes_of_Great_Britain_and_Ireland_(Plate_CLXXIX)_(6935031197).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pacific-lamprey__0.jpg"
+   },
+   {
+    "title": "File:The fishes of Great Britain and Ireland (Plate CLXXVIII) (6788918198).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Achilles, C.; Day, Francis; Mintern Bros.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_fishes_of_Great_Britain_and_Ireland_%28Plate_CLXXVIII%29_%286788918198%29.jpg/500px-The_fishes_of_Great_Britain_and_Ireland_%28Plate_CLXXVIII%29_%286788918198%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_fishes_of_Great_Britain_and_Ireland_(Plate_CLXXVIII)_(6788918198).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pacific-lamprey__1.jpg"
+   },
+   {
+    "title": "File:Petromyzon marinus.jpg",
+    "sc": 18,
+    "lic": "Public domain",
+    "artist": "Painting by Ellen Edmonson",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Petromyzon_marinus.jpg/500px-Petromyzon_marinus.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pacific-lamprey__2.jpg"
+   },
+   {
+    "title": "File:Petromyzon marinus-Mouth PZSL1851.png",
+    "sc": 7,
+    "lic": "Public domain",
+    "artist": "W.Wing",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Petromyzon_marinus-Mouth_PZSL1851.png/500px-Petromyzon_marinus-Mouth_PZSL1851.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Petromyzon_marinus-Mouth_PZSL1851.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/pacific-lamprey__3.jpg"
+   }
+  ]
+ },
+ "american-dipper": {
+  "anchor": "American dipper",
+  "subject": "Cinclus mexicanus",
+  "cand": [
+   {
+    "title": "File:Audubon polar-bear.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Audubon_polar-bear.jpg/500px-Audubon_polar-bear.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Audubon_polar-bear.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/american-dipper__0.jpg"
+   },
+   {
+    "title": "File:John James Audubon 1826.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John Syme",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/John_James_Audubon_1826.jpg/500px-John_James_Audubon_1826.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_James_Audubon_1826.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/american-dipper__1.jpg"
+   },
+   {
+    "title": "File:John James Audubon (Burroughs).djvu",
+    "sc": 11,
+    "lic": "Public domain",
+    "artist": "John Burroughs",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/John_James_Audubon_%28Burroughs%29.djvu/page1-500px-John_James_Audubon_%28Burroughs%29.djvu.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_James_Audubon_(Burroughs).djvu",
+    "mime": "image/vnd.djvu",
+    "cam": false,
+    "file": "cand/american-dipper__2.jpg"
+   },
+   {
+    "title": "File:MEMBERS OF THE NATIONAL AUDUBON SOCIETY WALK ACROSS A PORTION OF THE LILLIAN ANNETTE ROWE BIRD SANCTUARY AT GRAND... - NARA - 557207.jpg",
+    "sc": -10,
+    "lic": "Public domain",
+    "artist": "Patricia DuBose Duncan",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/MEMBERS_OF_THE_NATIONAL_AUDUBON_SOCIETY_WALK_ACROSS_A_PORTION_OF_THE_LILLIAN_ANNETTE_ROWE_BIRD_SANCTUARY_AT_GRAND..._-_NARA_-_557207.jpg/500px-MEMBERS_OF_THE_NATIONAL_AUDUBON_SOCIETY_WALK_ACROSS_A_PORTION_OF_THE_LILLIAN_ANNETTE_ROWE_BIRD_SANCTUARY_AT_GRAND..._-_NARA_-_557207.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:MEMBERS_OF_THE_NATIONAL_AUDUBON_SOCIETY_WALK_ACROSS_A_PORTION_OF_THE_LILLIAN_ANNETTE_ROWE_BIRD_SANCTUARY_AT_GRAND..._-_NARA_-_557207.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/american-dipper__3.jpg"
+   }
+  ]
+ },
+ "river-otter": {
+  "anchor": "River otter · osprey · kingfisher · merganser",
+  "subject": "Lontra canadensis",
+  "cand": [
+   {
+    "title": "File:The quadrupeds of North America (Plate I) (6260941848).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Audubon, John James; Audubon, John Woodhouse; Bachman, John",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_quadrupeds_of_North_America_%28Plate_I%29_%286260941848%29.jpg/500px-The_quadrupeds_of_North_America_%28Plate_I%29_%286260941848%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_quadrupeds_of_North_America_(Plate_I)_(6260941848).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/river-otter__0.jpg"
+   },
+   {
+    "title": "File:The quadrupeds of North America (Plate CVIII) (white background).jpg",
+    "sc": 25,
+    "lic": "Public domain",
+    "artist": "Audubon, John James; Audubon, John Woodhouse; Bachman, John",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/The_quadrupeds_of_North_America_%28Plate_CVIII%29_%28white_background%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_quadrupeds_of_North_America_(Plate_CVIII)_(white_background).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/river-otter__1.jpg"
+   },
+   {
+    "title": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "sc": -10,
+    "lic": "CC0",
+    "artist": "Daria Yakovleva Minor edits made by Subsidiary account",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg/500px-Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/river-otter__2.jpg"
+   },
+   {
+    "title": "File:The viviparous quadrupeds of North America (IA viviparousquadr2audu).pdf",
+    "sc": -25,
+    "lic": "Public domain",
+    "artist": "Audubon, John James,1785-1851 Bachman, John,1790-1874 Audubon, John Woodhouse,1812-1862 Audubon, Victor Gifford,1809-1860 Hitchcock, William",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/The_viviparous_quadrupeds_of_North_America_%28IA_viviparousquadr2audu%29.pdf/page1-500px-The_viviparous_quadrupeds_of_North_America_%28IA_viviparousquadr2audu%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_viviparous_quadrupeds_of_North_America_(IA_viviparousquadr2audu).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/river-otter__3.jpg"
+   }
+  ]
+ },
+ "giant-salamander": {
+  "anchor": "Pacific giant salamander",
+  "subject": "Dicamptodon",
+  "cand": [
+   {
+    "title": "File:Biographical and historical memoirs of Arkansas - illustration 1.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png/500px-Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/giant-salamander__0.jpg"
+   },
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/giant-salamander__1.jpg"
+   },
+   {
+    "title": "File:Illustration from Our Island Saints - M. Dibdin Spooner.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Minnie Dibdin Spooner",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg/500px-Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/giant-salamander__2.jpg"
+   },
+   {
+    "title": "File:Illustration from The Samovar Girl.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Stockton Mulford",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Illustration_from_The_Samovar_Girl.jpg/500px-Illustration_from_The_Samovar_Girl.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Samovar_Girl.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/giant-salamander__3.jpg"
+   }
+  ]
+ },
+ "roughskin-newt": {
+  "anchor": "Rough-skinned newt",
+  "subject": "Taricha granulosa",
+  "cand": [
+   {
+    "title": "File:Biographical and historical memoirs of Arkansas - illustration 1.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png/500px-Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/roughskin-newt__0.jpg"
+   },
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/roughskin-newt__1.jpg"
+   },
+   {
+    "title": "File:Illustration from Our Island Saints - M. Dibdin Spooner.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Minnie Dibdin Spooner",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg/500px-Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/roughskin-newt__2.jpg"
+   },
+   {
+    "title": "File:Illustration from The Samovar Girl.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Stockton Mulford",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Illustration_from_The_Samovar_Girl.jpg/500px-Illustration_from_The_Samovar_Girl.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Samovar_Girl.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/roughskin-newt__3.jpg"
+   }
+  ]
+ },
+ "red-alder": {
+  "anchor": "Red alder",
+  "subject": "Alnus rubra",
+  "cand": [
+   {
+    "title": "File:Alnus rubra plate 59.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Gustav Eisen and G. A. Mitchell",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Alnus_rubra_plate_59.jpg/500px-Alnus_rubra_plate_59.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Alnus_rubra_plate_59.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/red-alder__0.jpg"
+   },
+   {
+    "title": "File:Mitteilungen der Deutschen Dendrologischen Gesellschaft (1909) (14777802302).jpg",
+    "sc": 7,
+    "lic": "No restrictions",
+    "artist": "Deutsche Dendrologische Gesellschaft",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281909%29_%2814777802302%29.jpg/500px-Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281909%29_%2814777802302%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_(1909)_(14777802302).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/red-alder__1.jpg"
+   },
+   {
+    "title": "File:TheTreesOfGreatBritainAndIreland vol04B.djvu",
+    "sc": 3,
+    "lic": "Public domain",
+    "artist": "Henry John Elwes / Augustine Henry",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TheTreesOfGreatBritainAndIreland_vol04B.djvu/page1-500px-TheTreesOfGreatBritainAndIreland_vol04B.djvu.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:TheTreesOfGreatBritainAndIreland_vol04B.djvu",
+    "mime": "image/vnd.djvu",
+    "cam": false,
+    "file": "cand/red-alder__2.jpg"
+   },
+   {
+    "title": "File:A dictionary of English names of plants applied in England and among English-speaking people to cultivated and wild plants, trees, and shrubs (IA dictionaryofengl00mill).pdf",
+    "sc": -25,
+    "lic": "Public domain",
+    "artist": "Miller, William",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/A_dictionary_of_English_names_of_plants_applied_in_England_and_among_English-speaking_people_to_cultivated_and_wild_plants%2C_trees%2C_and_shrubs_%28IA_dictionaryofengl00mill%29.pdf/page1-500px-thumbnail.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:A_dictionary_of_English_names_of_plants_applied_in_England_and_among_English-speaking_people_to_cultivated_and_wild_plants,_trees,_and_shrubs_(IA_dictionaryofengl00mill).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/red-alder__3.jpg"
+   }
+  ]
+ },
+ "salmonberry": {
+  "anchor": "Salmonberry &amp; thimbleberry",
+  "subject": "Rubus spectabilis",
+  "cand": [
+   {
+    "title": "File:Rubus-spectabilis--beacon-food-forest--Seattle-USA--April-2022.jpg",
+    "sc": -44,
+    "lic": "CC0",
+    "artist": "Marco Downs",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rubus-spectabilis--beacon-food-forest--Seattle-USA--April-2022.jpg/500px-Rubus-spectabilis--beacon-food-forest--Seattle-USA--April-2022.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Rubus-spectabilis--beacon-food-forest--Seattle-USA--April-2022.jpg",
+    "mime": "image/jpeg",
+    "cam": true,
+    "file": "cand/salmonberry__0.jpg"
+   }
+  ]
+ },
+ "red-elderberry": {
+  "anchor": "Red elderberry",
+  "subject": "Sambucus racemosa",
+  "cand": [
+   {
+    "title": "File:The American midland naturalist (1909) (18158121001).jpg",
+    "sc": 19,
+    "lic": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/The_American_midland_naturalist_%281909%29_%2818158121001%29.jpg/500px-The_American_midland_naturalist_%281909%29_%2818158121001%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_American_midland_naturalist_(1909)_(18158121001).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/red-elderberry__0.jpg"
+   },
+   {
+    "title": "File:Österreichs allgemeine baumzucht (10421930416).jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Schmidt, Franz",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/%C3%96sterreichs_allgemeine_baumzucht_%2810421930416%29.jpg/500px-%C3%96sterreichs_allgemeine_baumzucht_%2810421930416%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:%C3%96sterreichs_allgemeine_baumzucht_(10421930416).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/red-elderberry__1.jpg"
+   },
+   {
+    "title": "File:Curtis's botanical magazine (IA mobot31753002721220).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Curtis, William,1746-1799 Bentham-Moxon Trust Royal Botanic Gardens, Kew Stanley Smith Horticultural Trust Curtis's botanical magazine dedic",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Curtis%27s_botanical_magazine_%28IA_mobot31753002721220%29.pdf/page1-500px-Curtis%27s_botanical_magazine_%28IA_mobot31753002721220%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Curtis%27s_botanical_magazine_(IA_mobot31753002721220).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/red-elderberry__2.jpg"
+   },
+   {
+    "title": "File:The botanical magazine = Shokubutsugaku zasshi (IA botanicalma1218871888toky).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Tokyo Shokubutsu Gakkai Nihon Shokubutsu Gakkai",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/The_botanical_magazine_%3D_Shokubutsugaku_zasshi_%28IA_botanicalma1218871888toky%29.pdf/page1-500px-The_botanical_magazine_%3D_Shokubutsugaku_zasshi_%28IA_botanicalma1218871888toky%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_botanical_magazine_%3D_Shokubutsugaku_zasshi_(IA_botanicalma1218871888toky).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/red-elderberry__3.jpg"
+   }
+  ]
+ },
+ "poison-oak": {
+  "anchor": "Poison oak &amp; stinging nettle",
+  "subject": "Toxicodendron diversilobum",
+  "cand": [
+   {
+    "title": "File:Garden and forest; a journal of horticulture, landscape art and forestry (1891) (14784111055).jpg",
+    "sc": 19,
+    "lic": "No restrictions",
+    "artist": "Sargent, Charles Sprague, 1841-1927",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Garden_and_forest%3B_a_journal_of_horticulture%2C_landscape_art_and_forestry_%281891%29_%2814784111055%29.jpg/500px-Garden_and_forest%3B_a_journal_of_horticulture%2C_landscape_art_and_forestry_%281891%29_%2814784111055%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Garden_and_forest;_a_journal_of_horticulture,_landscape_art_and_forestry_(1891)_(14784111055).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/poison-oak__0.jpg"
+   },
+   {
+    "title": "File:NSRW Poison-Oak.png",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/NSRW_Poison-Oak.png",
+    "src": "https://commons.wikimedia.org/wiki/File:NSRW_Poison-Oak.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/poison-oak__1.jpg"
+   },
+   {
+    "title": "File:Flora of Pasadena and vicinity (IA floraofpasadenav00mccl).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "McClatchie, Alfred James",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flora_of_Pasadena_and_vicinity_%28IA_floraofpasadenav00mccl%29.pdf/page1-500px-Flora_of_Pasadena_and_vicinity_%28IA_floraofpasadenav00mccl%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Flora_of_Pasadena_and_vicinity_(IA_floraofpasadenav00mccl).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/poison-oak__2.jpg"
+   },
+   {
+    "title": "File:Flora of the Santa Barbara Islands (IA floraofsantabarb00bran).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Brandegee, Townshend Stith, 1843-1925",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Flora_of_the_Santa_Barbara_Islands_%28IA_floraofsantabarb00bran%29.pdf/page1-500px-Flora_of_the_Santa_Barbara_Islands_%28IA_floraofsantabarb00bran%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Flora_of_the_Santa_Barbara_Islands_(IA_floraofsantabarb00bran).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/poison-oak__3.jpg"
+   }
+  ]
+ },
+ "pitcher-plant": {
+  "anchor": "California pitcher plant",
+  "subject": "Darlingtonia californica",
+  "cand": [
+   {
+    "title": "File:Darlingtonia Macfarlane illustration.jpg",
+    "sc": 29,
+    "lic": "Public domain",
+    "artist": "John Muirhead Macfarlane",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Darlingtonia_Macfarlane_illustration.jpg/500px-Darlingtonia_Macfarlane_illustration.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Darlingtonia_Macfarlane_illustration.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pitcher-plant__0.jpg"
+   },
+   {
+    "title": "File:Darlingtonia californica, by Mary Vaux Walcott.jpg",
+    "sc": 23,
+    "lic": "Public domain",
+    "artist": "Mary Vaux Walcott",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/10/Darlingtonia_californica%2C_by_Mary_Vaux_Walcott.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Darlingtonia_californica,_by_Mary_Vaux_Walcott.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pitcher-plant__1.jpg"
+   },
+   {
+    "title": "File:Brockhaus and Efron Encyclopedic Dictionary b40 660-4.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "painter from Brockhaus and Efron Encyclopedic Dictionary",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brockhaus_and_Efron_Encyclopedic_Dictionary_b40_660-4.jpg/500px-Brockhaus_and_Efron_Encyclopedic_Dictionary_b40_660-4.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Brockhaus_and_Efron_Encyclopedic_Dictionary_b40_660-4.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pitcher-plant__2.jpg"
+   },
+   {
+    "title": "File:Pitcher plants - Pflanzenleben.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "A.J.K. Marilaun &amp; A. von Hansen",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pitcher_plants_-_Pflanzenleben.jpg/500px-Pitcher_plants_-_Pflanzenleben.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Pitcher_plants_-_Pflanzenleben.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/pitcher-plant__3.jpg"
+   }
+  ]
+ },
+ "aleutian-goose": {
+  "anchor": "Aleutian cackling goose",
+  "subject": "Branta canadensis",
+  "cand": [
+   {
+    "title": "File:Bird-Lore-6-3 0139-color.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "William Dutcher / Louis Agassiz Fuertes",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bird-Lore-6-3_0139-color.jpg/500px-Bird-Lore-6-3_0139-color.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Bird-Lore-6-3_0139-color.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/aleutian-goose__0.jpg"
+   },
+   {
+    "title": "File:Audubon polar-bear.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Audubon_polar-bear.jpg/500px-Audubon_polar-bear.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Audubon_polar-bear.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/aleutian-goose__1.jpg"
+   },
+   {
+    "title": "File:John James Audubon 1826.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John Syme",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/John_James_Audubon_1826.jpg/500px-John_James_Audubon_1826.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_James_Audubon_1826.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/aleutian-goose__2.jpg"
+   },
+   {
+    "title": "File:Natchez MS in 1823 by Audubon.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Natchez_MS_in_1823_by_Audubon.jpg/500px-Natchez_MS_in_1823_by_Audubon.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Natchez_MS_in_1823_by_Audubon.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/aleutian-goose__3.jpg"
+   }
+  ]
+ },
+ "harrier": {
+  "anchor": "Waterfowl &amp; raptors",
+  "subject": "Circus cyaneus",
+  "cand": [
+   {
+    "title": "File:\"At Labrador,\" manuscript by John James Audubon, 1833.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%22At_Labrador%2C%22_manuscript_by_John_James_Audubon%2C_1833.jpg/500px-%22At_Labrador%2C%22_manuscript_by_John_James_Audubon%2C_1833.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:%22At_Labrador,%22_manuscript_by_John_James_Audubon,_1833.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/harrier__0.jpg"
+   },
+   {
+    "title": "File:Audubon polar-bear.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John James Audubon",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Audubon_polar-bear.jpg/500px-Audubon_polar-bear.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Audubon_polar-bear.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/harrier__1.jpg"
+   },
+   {
+    "title": "File:John Gould.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "T.H. Maguire (1821–1895)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/John_Gould.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_Gould.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/harrier__2.jpg"
+   },
+   {
+    "title": "File:John James Audubon 1826.jpg",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "John Syme",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/John_James_Audubon_1826.jpg/500px-John_James_Audubon_1826.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:John_James_Audubon_1826.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/harrier__3.jpg"
+   }
+  ]
+ },
+ "sand-verbena": {
+  "anchor": "Dune plants",
+  "subject": "Abronia latifolia",
+  "cand": [
+   {
+    "title": "File:Exotic flora (Plate 193) (9143197677).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Blackwood, William; Cadell, Thomas; Hooker, William Jackson; Swan, Joseph; Swan, Joseph",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Exotic_flora_%28Plate_193%29_%289143197677%29.jpg/500px-Exotic_flora_%28Plate_193%29_%289143197677%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Exotic_flora_(Plate_193)_(9143197677).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/sand-verbena__0.jpg"
+   },
+   {
+    "title": "File:Keramic studio (1912) (14764461065).jpg",
+    "sc": 19,
+    "lic": "No restrictions",
+    "artist": "Leonard, Anna B; Robineau, Adelaide Alsop, 1865?-1929",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Keramic_studio_%281912%29_%2814764461065%29.jpg/500px-Keramic_studio_%281912%29_%2814764461065%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Keramic_studio_(1912)_(14764461065).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/sand-verbena__1.jpg"
+   },
+   {
+    "title": "File:Curtis's botanical magazine. (IA mobot31753002721816).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Bentham-Moxon Trust. Curtis, William, Curtis's botanical magazine dedications, 1827-1927 : portraits and biographical notes. Royal Botanic G",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Curtis%27s_botanical_magazine._%28IA_mobot31753002721816%29.pdf/page1-500px-Curtis%27s_botanical_magazine._%28IA_mobot31753002721816%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Curtis%27s_botanical_magazine._(IA_mobot31753002721816).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/sand-verbena__2.jpg"
+   },
+   {
+    "title": "File:Sylloge fungorum omnium hucusque cognitorum (IA syllogefungorumo13sacc).pdf",
+    "sc": -25,
+    "lic": "Public domain",
+    "artist": "Saccardo, P. A. (Pier Andrea), 1845-1920 Trotter, Alessandro, 1874-1967",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sylloge_fungorum_omnium_hucusque_cognitorum_%28IA_syllogefungorumo13sacc%29.pdf/page1-500px-Sylloge_fungorum_omnium_hucusque_cognitorum_%28IA_syllogefungorumo13sacc%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Sylloge_fungorum_omnium_hucusque_cognitorum_(IA_syllogefungorumo13sacc).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/sand-verbena__3.jpg"
+   }
+  ]
+ },
+ "ochre-star": {
+  "anchor": "Ochre sea star",
+  "subject": "Pisaster ochraceus",
+  "cand": [
+   {
+    "title": "File:Biographical and historical memoirs of Arkansas - illustration 1.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png/500px-Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/ochre-star__0.jpg"
+   },
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/ochre-star__1.jpg"
+   },
+   {
+    "title": "File:Illustration from Our Island Saints - M. Dibdin Spooner.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Minnie Dibdin Spooner",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg/500px-Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/ochre-star__2.jpg"
+   },
+   {
+    "title": "File:Illustration from The Samovar Girl.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Stockton Mulford",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Illustration_from_The_Samovar_Girl.jpg/500px-Illustration_from_The_Samovar_Girl.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Samovar_Girl.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/ochre-star__3.jpg"
+   }
+  ]
+ },
+ "green-anemone": {
+  "anchor": "Giant green anemone",
+  "subject": "Anthopleura xanthogrammica",
+  "cand": [
+   {
+    "title": "File:Biographical and historical memoirs of Arkansas - illustration 1.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png/500px-Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/green-anemone__0.jpg"
+   },
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/green-anemone__1.jpg"
+   },
+   {
+    "title": "File:Illustration from Our Island Saints - M. Dibdin Spooner.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Minnie Dibdin Spooner",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg/500px-Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/green-anemone__2.jpg"
+   },
+   {
+    "title": "File:Illustration from The Samovar Girl.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Stockton Mulford",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Illustration_from_The_Samovar_Girl.jpg/500px-Illustration_from_The_Samovar_Girl.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Samovar_Girl.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/green-anemone__3.jpg"
+   }
+  ]
+ },
+ "chiton": {
+  "anchor": "Chitons, hermit crabs, sculpins",
+  "subject": "Cryptochiton stelleri",
+  "cand": [
+   {
+    "title": "File:Biographical and historical memoirs of Arkansas - illustration 1.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png/500px-Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Biographical_and_historical_memoirs_of_Arkansas_-_illustration_1.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/chiton__0.jpg"
+   },
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chiton__1.jpg"
+   },
+   {
+    "title": "File:Illustration from Our Island Saints - M. Dibdin Spooner.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Minnie Dibdin Spooner",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg/500px-Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_Our_Island_Saints_-_M._Dibdin_Spooner.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chiton__2.jpg"
+   },
+   {
+    "title": "File:Illustration from The Samovar Girl.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Stockton Mulford",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Illustration_from_The_Samovar_Girl.jpg/500px-Illustration_from_The_Samovar_Girl.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_from_The_Samovar_Girl.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chiton__3.jpg"
+   }
+  ]
+ },
+ "gray-whale": {
+  "anchor": "Gray whales",
+  "subject": "Eschrichtius robustus",
+  "cand": [
+   {
+    "title": "File:\"California Grays Among the Ice\" - Eschrichtius robustus 1874 art detail, from- The marine mammals of the north-western coast of North America (Plate V) BHL16226101 (cropped).jpg",
+    "sc": 31,
+    "lic": "Public domain",
+    "artist": "Scammon, Charles Melville",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/%22California_Grays_Among_the_Ice%22_-_Eschrichtius_robustus_1874_art_detail%2C_from-_The_marine_mammals_of_the_north-western_coast_of_North_America_%28Plate_V%29_BHL16226101_%28cropped%29.jpg/500px-thumbnail.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:%22California_Grays_Among_the_Ice%22_-_Eschrichtius_robustus_1874_art_detail,_from-_The_marine_mammals_of_the_north-western_coast_of_North_America_(Plate_V)_BHL16226101_(cropped).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/gray-whale__0.jpg"
+   },
+   {
+    "title": "File:Embryos of Eschrichtius robustus (illustrations) and outline of head showing spouthole in 1874 detail, from- The marine mammals of the north-western coast of North America (Plate III) BHL16226079 (cropped).jpg",
+    "sc": 31,
+    "lic": "Public domain",
+    "artist": "Scammon, Charles Melville",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Embryos_of_Eschrichtius_robustus_%28illustrations%29_and_outline_of_head_showing_spouthole_in_1874_detail%2C_from-_The_marine_mammals_of_the_north-western_coast_of_North_America_%28Plate_III%29_BHL16226079_%28cropped%29.jpg/500px-thumbnail.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Embryos_of_Eschrichtius_robustus_(illustrations)_and_outline_of_head_showing_spouthole_in_1874_detail,_from-_The_marine_mammals_of_the_north-western_coast_of_North_America_(Plate_III)_BHL16226079_(cropped).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/gray-whale__1.jpg"
+   },
+   {
+    "title": "File:Publication (Plate VI) (6969273592).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Field Columbian Museum.; Field Museum of Natural History.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Publication_%28Plate_VI%29_%286969273592%29.jpg/500px-Publication_%28Plate_VI%29_%286969273592%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Publication_(Plate_VI)_(6969273592).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/gray-whale__2.jpg"
+   },
+   {
+    "title": "File:Publication (Plate VII) (7115354381).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Field Columbian Museum.; Field Museum of Natural History.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Publication_%28Plate_VII%29_%287115354381%29.jpg/500px-Publication_%28Plate_VII%29_%287115354381%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Publication_(Plate_VII)_(7115354381).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/gray-whale__3.jpg"
+   }
+  ]
+ },
+ "chanterelle": {
+  "anchor": "Pacific golden chanterelle",
+  "subject": "Cantharellus",
+  "cand": [
+   {
+    "title": "File:Illustrations of British mycology (Plate 16) (9182726743).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Anna Maria Hussey",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Illustrations_of_British_mycology_%28Plate_16%29_%289182726743%29.jpg/500px-Illustrations_of_British_mycology_%28Plate_16%29_%289182726743%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrations_of_British_mycology_(Plate_16)_(9182726743).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chanterelle__0.jpg"
+   },
+   {
+    "title": "File:Illustrations of British mycology (Plate 37) (9182750291).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Anna Maria Hussey",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Illustrations_of_British_mycology_%28Plate_37%29_%289182750291%29.jpg/500px-Illustrations_of_British_mycology_%28Plate_37%29_%289182750291%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrations_of_British_mycology_(Plate_37)_(9182750291).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chanterelle__1.jpg"
+   },
+   {
+    "title": "File:Illustrationsofb08cookuoft 0213.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Ruth Ellen Berkeley",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Illustrationsofb08cookuoft_0213.jpg/500px-Illustrationsofb08cookuoft_0213.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrationsofb08cookuoft_0213.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chanterelle__2.jpg"
+   },
+   {
+    "title": "File:Lepiota Tenella Illustration.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Émile Boudier",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lepiota_Tenella_Illustration.jpg/500px-Lepiota_Tenella_Illustration.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Lepiota_Tenella_Illustration.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/chanterelle__3.jpg"
+   }
+  ]
+ },
+ "king-bolete": {
+  "anchor": "King bolete · matsutake · candy cap",
+  "subject": "Boletus edulis",
+  "cand": [
+   {
+    "title": "File:Coloured Figures of English Fungi or Mushrooms - t. 111.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "James Sowerby",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._111.png/500px-Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._111.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._111.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/king-bolete__0.jpg"
+   },
+   {
+    "title": "File:Coloured Figures of English Fungi or Mushrooms - t. 419.png",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "James Sowerby",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._419.png/500px-Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._419.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._419.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/king-bolete__1.jpg"
+   },
+   {
+    "title": "File:Illustrationsofb08cookuoft 0213.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Ruth Ellen Berkeley",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Illustrationsofb08cookuoft_0213.jpg/500px-Illustrationsofb08cookuoft_0213.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrationsofb08cookuoft_0213.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/king-bolete__2.jpg"
+   },
+   {
+    "title": "File:Lepiota Tenella Illustration.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Émile Boudier",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lepiota_Tenella_Illustration.jpg/500px-Lepiota_Tenella_Illustration.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Lepiota_Tenella_Illustration.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/king-bolete__3.jpg"
+   }
+  ]
+ },
+ "turkey-tail": {
+  "anchor": "Turkey tail &amp; artist's conk",
+  "subject": "Trametes versicolor",
+  "cand": [
+   {
+    "title": "File:The mushroom book (6289389622).jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Marshall, Nina L.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/The_mushroom_book_%286289389622%29.jpg/500px-The_mushroom_book_%286289389622%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_mushroom_book_(6289389622).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/turkey-tail__0.jpg"
+   },
+   {
+    "title": "File:Coloured Figures of English Fungi or Mushrooms - t. 368.png",
+    "sc": 15,
+    "lic": "Public domain",
+    "artist": "James Sowerby",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._368.png/500px-Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._368.png",
+    "src": "https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._368.png",
+    "mime": "image/png",
+    "cam": false,
+    "file": "cand/turkey-tail__1.jpg"
+   },
+   {
+    "title": "File:Deutschlands Flora in Abbildungen nach der Natur - mit Beschreibungen. 3. Abth. Die Pilze Deutschlands (IA deutschlandsflor45stur).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Dr. Friedrich Wilhelm Teophil Rostkovius (Stettin)",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Deutschlands_Flora_in_Abbildungen_nach_der_Natur_-_mit_Beschreibungen._3._Abth._Die_Pilze_Deutschlands_%28IA_deutschlandsflor45stur%29.pdf/page1-330px-Deutschlands_Flora_in_Abbildungen_nach_der_Natur_-_mit_Beschreibungen._3._Abth._Die_Pilze_Deutschlands_%28IA_deutschlandsflor45stur%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Deutschlands_Flora_in_Abbildungen_nach_der_Natur_-_mit_Beschreibungen._3._Abth._Die_Pilze_Deutschlands_(IA_deutschlandsflor45stur).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/turkey-tail__2.jpg"
+   },
+   {
+    "title": "File:Flora regni Borussici - flora des Königreichs Preussen oder Abbildung und Beschreibung der in Preussen wildwachsenden Pflanzen (IA floraregniboruss06diet).pdf",
+    "sc": -17,
+    "lic": "Public domain",
+    "artist": "Dietrich, Albert Gottfried, 1795-1856 Klotzsch, Fr. (Friedrich), 1805-1860 Ochmigke, Ludwig, publ",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flora_regni_Borussici_-_flora_des_K%C3%B6nigreichs_Preussen_oder_Abbildung_und_Beschreibung_der_in_Preussen_wildwachsenden_Pflanzen_%28IA_floraregniboruss06diet%29.pdf/page1-500px-Flora_regni_Borussici_-_flora_des_K%C3%B6nigreichs_Preussen_oder_Abbildung_und_Beschreibung_der_in_Preussen_wildwachsenden_Pflanzen_%28IA_floraregniboruss06diet%29.pdf.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Flora_regni_Borussici_-_flora_des_K%C3%B6nigreichs_Preussen_oder_Abbildung_und_Beschreibung_der_in_Preussen_wildwachsenden_Pflanzen_(IA_floraregniboruss06diet).pdf",
+    "mime": "application/pdf",
+    "cam": false,
+    "file": "cand/turkey-tail__3.jpg"
+   }
+  ]
+ },
+ "fly-agaric": {
+  "anchor": "Fly agaric",
+  "subject": "Amanita muscaria",
+  "cand": [
+   {
+    "title": "File:Illustrations of British mycology (Plate I) (8619405980)-cropped.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Anna Maria Hussey, file cropped and uploaded by Francisco Welter-Schultes",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Illustrations_of_British_mycology_%28Plate_I%29_%288619405980%29-cropped.jpg/500px-Illustrations_of_British_mycology_%28Plate_I%29_%288619405980%29-cropped.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrations_of_British_mycology_(Plate_I)_(8619405980)-cropped.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/fly-agaric__0.jpg"
+   },
+   {
+    "title": "File:Illustrations of British mycology (Plate I) (8619405980).jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Anna Maria Hussey",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Illustrations_of_British_mycology_%28Plate_I%29_%288619405980%29.jpg/500px-Illustrations_of_British_mycology_%28Plate_I%29_%288619405980%29.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrations_of_British_mycology_(Plate_I)_(8619405980).jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/fly-agaric__1.jpg"
+   },
+   {
+    "title": "File:Illustrationsofb08cookuoft 0213.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Ruth Ellen Berkeley",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Illustrationsofb08cookuoft_0213.jpg/500px-Illustrationsofb08cookuoft_0213.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrationsofb08cookuoft_0213.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/fly-agaric__2.jpg"
+   },
+   {
+    "title": "File:Lepiota Tenella Illustration.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Émile Boudier",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lepiota_Tenella_Illustration.jpg/500px-Lepiota_Tenella_Illustration.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Lepiota_Tenella_Illustration.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/fly-agaric__3.jpg"
+   }
+  ]
+ },
+ "death-cap": {
+  "anchor": "Death cap &amp; destroying angel",
+  "subject": "Amanita phalloides",
+  "cand": [
+   {
+    "title": "File:Illustration Punica granatum2.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Illustration_Punica_granatum2.jpg/500px-Illustration_Punica_granatum2.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustration_Punica_granatum2.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/death-cap__0.jpg"
+   },
+   {
+    "title": "File:Illustrationsofb08cookuoft 0213.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Ruth Ellen Berkeley",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Illustrationsofb08cookuoft_0213.jpg/500px-Illustrationsofb08cookuoft_0213.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Illustrationsofb08cookuoft_0213.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/death-cap__1.jpg"
+   },
+   {
+    "title": "File:Lepiota Tenella Illustration.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Émile Boudier",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lepiota_Tenella_Illustration.jpg/500px-Lepiota_Tenella_Illustration.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Lepiota_Tenella_Illustration.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/death-cap__2.jpg"
+   },
+   {
+    "title": "File:Plate I Fungi and how to know them.jpg",
+    "sc": 27,
+    "lic": "Public domain",
+    "artist": "Biodiversity Heritage Library",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Plate_I_Fungi_and_how_to_know_them.jpg/500px-Plate_I_Fungi_and_how_to_know_them.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:Plate_I_Fungi_and_how_to_know_them.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/death-cap__3.jpg"
+   }
+  ]
+ },
+ "coralroot": {
+  "anchor": "The flowers that pretend to be fungi",
+  "subject": "Corallorhiza maculata",
+  "cand": [
+   {
+    "title": "File:The Orchidaceae of Mexico and Guatemala (Tab. XIX) BHL769190.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Bateman, Jas.; Drake, S. A.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/The_Orchidaceae_of_Mexico_and_Guatemala_%28Tab._XIX%29_BHL769190.jpg/500px-The_Orchidaceae_of_Mexico_and_Guatemala_%28Tab._XIX%29_BHL769190.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_Orchidaceae_of_Mexico_and_Guatemala_(Tab._XIX)_BHL769190.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coralroot__0.jpg"
+   },
+   {
+    "title": "File:The Orchidaceae of Mexico and Guatemala (Tab. XX) BHL769193.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Bateman, Jas.; Drake, S. A.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Orchidaceae_of_Mexico_and_Guatemala_%28Tab._XX%29_BHL769193.jpg/500px-The_Orchidaceae_of_Mexico_and_Guatemala_%28Tab._XX%29_BHL769193.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_Orchidaceae_of_Mexico_and_Guatemala_(Tab._XX)_BHL769193.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coralroot__1.jpg"
+   },
+   {
+    "title": "File:The Orchidaceae of Mexico and Guatemala (Tab. XXXVI) BHL769234.jpg",
+    "sc": 19,
+    "lic": "Public domain",
+    "artist": "Bateman, Jas.; Drake, S. A.",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Orchidaceae_of_Mexico_and_Guatemala_%28Tab._XXXVI%29_BHL769234.jpg/500px-The_Orchidaceae_of_Mexico_and_Guatemala_%28Tab._XXXVI%29_BHL769234.jpg",
+    "src": "https://commons.wikimedia.org/wiki/File:The_Orchidaceae_of_Mexico_and_Guatemala_(Tab._XXXVI)_BHL769234.jpg",
+    "mime": "image/jpeg",
+    "cam": false,
+    "file": "cand/coralroot__2.jpg"
+   }
+  ]
+ }
+}
