@@ -1,0 +1,5 @@
+# Local Claude Code session config — never publish
+.claude/
+
+# macOS noise
+.DS_Store

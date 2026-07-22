@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hikes &amp; Day Trips — Jed Smith and the Del Norte Coast</title>
+<style>/*__LEAFLET_CSS__*/</style>
+<style>
+:root{
+  --paper:#F2EEE3; --paper2:#E9E1CC; --ink:#2A241C; --ink-soft:#5C523F;
+  --emerald:#14594E; --emerald-soft:#3E7A6C; --bark:#6B4A32; --barkD:#3B2A20; --madrone:#A8541A;
+  --rule:#D8CFB8; --glass:#EAF2EE;
+  --g-park:#2E7D4F; --g-city:#4A6FA5; --g-south:#1C7C8C; --g-upriver:#8C6D3F;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);font:17px/1.62 "Iowan Old Style",Georgia,serif}
+.wrap{max-width:920px;margin:0 auto;padding:0 24px 96px}
+a{color:var(--emerald)}
+a:focus-visible{outline:2px solid var(--emerald);outline-offset:2px}
+header{border-bottom:3px double var(--bark);padding:48px 0 24px}
+.eyebrow{font:600 12px/1 "Seravek","Avenir Next",sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--bark);margin-bottom:16px;display:flex;align-items:center;gap:10px}
+h1{font-size:clamp(30px,5.5vw,44px);line-height:1.1;font-weight:700}
+h1 em{font-style:italic;color:var(--emerald)}
+.standfirst{margin-top:14px;font-size:18px;line-height:1.55;color:var(--ink-soft);font-style:italic;max-width:64ch}
+#tripmap{height:520px;margin:26px 0 8px;border:1px solid var(--rule);box-shadow:0 4px 16px #0002;background:#E4EBDD}
+.maplegend{display:flex;flex-wrap:wrap;gap:14px;font:600 12px/1 "Seravek","Avenir Next",sans-serif;color:var(--ink-soft);margin-bottom:8px}
+.maplegend span{display:flex;align-items:center;gap:6px}
+.maplegend i{width:12px;height:12px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 3px #0006}
+.mapnote{font:12px/1.5 "Seravek","Avenir Next",sans-serif;color:var(--ink-soft);font-style:italic}
+section{margin-top:52px}
+.bearing{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:8px}
+.bearing .zno{font:600 13px/1 "SF Mono",Menlo,monospace;letter-spacing:.06em;white-space:nowrap}
+h2{font-size:26px;font-weight:700}
+.groupintro{font:14px/1.6 "Seravek","Avenir Next",sans-serif;color:var(--ink-soft);margin-bottom:16px}
+.trip{display:grid;grid-template-columns:1fr;gap:4px;background:#fff8;border:1px solid var(--rule);border-left:5px solid var(--emerald);padding:15px 18px;margin:10px 0;cursor:pointer}
+.trip:hover{background:#fff}
+.trip:focus-visible{outline:2px solid var(--emerald);outline-offset:2px}
+.trip h3{font:700 18px/1.3 "Iowan Old Style",Georgia,serif;color:var(--emerald)}
+.trip .stats{font:600 12px/1.6 "SF Mono",Menlo,monospace;color:var(--bark);text-transform:uppercase;letter-spacing:.03em}
+.trip p{font:14px/1.6 "Seravek","Avenir Next",sans-serif;margin-top:4px}
+.trip .tip{color:var(--ink-soft)}
+.trip .tip b{color:var(--madrone)}
+.plan{margin:26px 0 0;padding:16px 20px;background:var(--glass);border:1px solid var(--rule);border-left:4px solid var(--emerald);font:14px/1.65 "Seravek","Avenir Next",sans-serif}
+.plan .tag{display:block;font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--emerald);margin-bottom:7px}
+.plan ul{margin:4px 0 0 18px}
+.plan li{margin:5px 0}
+/* map markers & popups */
+.tpin{width:20px;height:20px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 1px 5px #0008;display:flex;align-items:center;justify-content:center}
+.leaflet-popup-content-wrapper{background:var(--paper);color:var(--ink);border-radius:6px;box-shadow:0 4px 18px #0007;font:13px/1.5 "Seravek","Avenir Next",sans-serif}
+.leaflet-popup-content{margin:13px 15px}
+.pp{max-width:100%}
+.pp h3{font:700 16px/1.25 "Iowan Old Style",Georgia,serif;color:var(--emerald)}
+.pp .meta{font:600 10.5px/1.7 "SF Mono",Menlo,monospace;color:var(--bark);text-transform:uppercase;letter-spacing:.04em}
+.pp p{margin:7px 0 0;font-size:13px}
+.pp .prec{margin-top:7px;font-size:11px;color:#7A7060;font-style:italic}
+.footer-nav{margin-top:72px;padding-top:20px;border-top:3px double var(--bark);font:600 14px/1.5 "Seravek","Avenir Next",sans-serif;display:flex;gap:22px;flex-wrap:wrap}
+@media print{.footer-nav{display:none}#tripmap{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#6B4A32" stroke-width="1.6"/><rect x="5" y="5" width="4" height="4" transform="rotate(45 7 7)" fill="#14594E"/></svg> Jedediah Smith Redwoods · Crescent City · the Del Norte Coast</div>
+  <h1>Hikes &amp; day trips: <em>thirty ways out the campground gate.</em></h1>
+  <p class="standfirst">Every trail in the park with its official mileage, plus the coast, the tidepools, the whale bluffs, and the upriver swimming holes — each with the one tip that makes it work. Click a card or a pin.</p>
+</header>
+
+<div id="tripmap" role="application" aria-label="Trips map"></div>
+<div class="maplegend">
+  <span><i style="background:var(--g-park)"></i> In the park</span>
+  <span><i style="background:var(--g-city)"></i> Crescent City ring</span>
+  <span><i style="background:var(--g-south)"></i> South on 101</span>
+  <span><i style="background:var(--g-upriver)"></i> Up 199</span>
+</div>
+<p class="mapnote">Pins mark trailheads and parking, not destinations; positions marked “approximate” in their popups follow signs on the ground. Drive times are from the campground.</p>
+
+<section id="park">
+  <div class="bearing"><span class="zno" style="color:var(--g-park)">RING 1</span><h2>In the park</h2></div>
+  <p class="groupintro">Official State Parks round-trip mileages. Dogs stay off trails; the big trailheads fill by mid-morning in July–August.</p>
+  <div id="cards-park"></div>
+</section>
+
+<section id="city">
+  <div class="bearing"><span class="zno" style="color:var(--g-city)">RING 2</span><h2>The Crescent City ring — about 20 minutes out</h2></div>
+  <p class="groupintro">Town, harbor, lighthouses, and the headlands. Everything here combines into an easy half-day loop.</p>
+  <div id="cards-city"></div>
+</section>
+
+<section id="south">
+  <div class="bearing"><span class="zno" style="color:var(--g-south)">RING 3</span><h2>South on 101 — coast and canyon</h2></div>
+  <p class="groupintro">Tidepools, whale bluffs, and the redwoods-to-the-sea hikes, 25–80 minutes down the coast.</p>
+  <div id="cards-south"></div>
+</section>
+
+<section id="upriver">
+  <div class="bearing"><span class="zno" style="color:var(--g-upriver)">RING 4</span><h2>Up 199 — the river road</h2></div>
+  <p class="groupintro">Swimming holes, serpentine botany, and the last store before Oregon.</p>
+  <div id="cards-upriver"></div>
+</section>
+
+<div class="plan"><span class="tag">Planning the day</span>
+  <ul>
+    <li><b>Fog runs the schedule:</b> summer mornings are often gray on the coast and sunny in Hiouchi — do forest and river mornings, coast afternoons; sunset from Pebble Beach or Radio Road.</li>
+    <li><b>Tides run the coast:</b> tidepooling and the Battery Point crossing both need a low tide — check a Crescent City tide table the night before.</li>
+    <li><b>No cell service</b> in most of the park and along Howland Hill Road — download or print before leaving Hiouchi; fuel up in Crescent City or Gasquet.</li>
+    <li><b>Sneaker waves are the real hazard</b> on every beach here: never turn your back on the ocean, keep children well up the beach.</li>
+    <li>Sites, showers, and your notes: <a href="Campground Map.html">Campground Map</a>. What you're seeing: <a href="Field Guide.html">Field Guide</a>. Why it's called that: <a href="History Report.html">History Report</a>.</li>
+  </ul>
+</div>
+
+<nav class="footer-nav">
+  <a href="Start Here.html">⟵ Start Here</a>
+  <a href="Field Guide.html">Field Guide</a>
+  <a href="Historical Map.html">Historical Map</a>
+  <a href="Campground Map.html">Campground Map</a>
+</nav>
+</div>
+
+<script>/*__LEAFLET_JS__*/</script>
+<script>
+var LAYERS={
+  park:__DATA_park__,
+  water:__DATA_water__,
+  rivers:__DATA_rivers__,
+  highways:__DATA_highways__,
+  trails:__DATA_trails__
+};
+var TRIPS=__DATA_trips__;
+var GCOLOR={park:'#2E7D4F',city:'#4A6FA5',south:'#1C7C8C',upriver:'#8C6D3F'};
+
+var map=L.map('tripmap',{zoomControl:true,scrollWheelZoom:false}).setView([41.72,-124.11],10);
+map.on('focus click',function(){map.scrollWheelZoom.enable()});
+map.on('blur',function(){map.scrollWheelZoom.disable()});
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery © Esri'}).addTo(map);
+L.geoJSON(LAYERS.water,{style:{color:'#5FA8C7',weight:1,fillColor:'#8FC7DC',fillOpacity:.45,interactive:false}}).addTo(map);
+L.geoJSON(LAYERS.rivers,{style:{color:'#2E86AB',weight:1.3,opacity:.8,interactive:false}}).addTo(map);
+L.geoJSON(LAYERS.park,{style:{color:'#14594E',weight:2,fillColor:'#2E7D4F',fillOpacity:.13,interactive:false}}).addTo(map);
+L.geoJSON(LAYERS.highways,{style:function(f){return {color:f.properties.cls==='hwy'?'#C9A227':'#CBBD8E',weight:f.properties.cls==='hwy'?2.2:1.1,opacity:.9,interactive:false}}}).addTo(map);
+L.geoJSON(LAYERS.trails,{style:{color:'#D98E5F',weight:1.4,dashArray:'5 4',opacity:.85},filter:function(f){return !f.properties.road}}).addTo(map)
+  .eachLayer(function(l){ if(l.feature.properties.name) l.bindTooltip(l.feature.properties.name,{sticky:true}); });
+
+var markers={};
+TRIPS.forEach(function(t){
+  var icon=L.divIcon({className:'',iconSize:[20,20],iconAnchor:[10,10],
+    html:'<div class="tpin" style="background:'+GCOLOR[t.group]+'"><svg width="8" height="8" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#fff" stroke-width="2.4"/></svg></div>'});
+  var m=L.marker([t.lat,t.lng],{icon:icon,title:t.name}).bindPopup(
+    '<div class="pp"><div class="meta">'+t.stats+'</div><h3>'+t.name+'</h3><p>'+t.why+'</p><p class="tip"><b>Tip:</b> '+t.tip+'</p>'+
+    '<div class="prec">'+(t.exact?'Trailhead/parking location from mapped data.':'Location approximate — follow signs on the ground.')+'</div></div>',
+    {maxWidth:360,minWidth:300});
+  m.addTo(map); markers[t.id]=m;
+});
+
+TRIPS.forEach(function(t){
+  var box=document.getElementById('cards-'+t.group);
+  if(!box) return;
+  var d=document.createElement('div');
+  d.className='trip'; d.tabIndex=0; d.style.borderLeftColor=GCOLOR[t.group];
+  d.innerHTML='<h3>'+t.name+'</h3><div class="stats">'+t.stats+(t.time?' · '+t.time:'')+'</div>'+
+    '<p>'+t.why+'</p><p class="tip"><b>Tip:</b> '+t.tip+'</p>';
+  function go(){
+    document.getElementById('tripmap').scrollIntoView({behavior:'smooth',block:'center'});
+    var m=markers[t.id];
+    map.flyTo(m.getLatLng(),Math.max(map.getZoom(),12),{duration:.6});
+    setTimeout(function(){m.openPopup();},650);
+  }
+  d.addEventListener('click',go);
+  d.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();go();} });
+  box.appendChild(d);
+});
+</script>
+</body>
+</html>

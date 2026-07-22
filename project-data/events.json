@@ -1,0 +1,624 @@
+[
+ {
+  "id": "t-deeptime",
+  "theme": "tolowa",
+  "title": "Chvn-su'lh-dvn \u2014 \u201cRed Elderberry Place\u201d",
+  "date": "8,000+ years of presence",
+  "year": -6000,
+  "lat": 41.79,
+  "lng": -124.09,
+  "precision": "locality",
+  "precisionNote": "Generalized to Hiouchi Flat \u2014 archaeological site locations are deliberately not pinpointed.",
+  "summary": "Radiocarbon dates put people in the Smith River basin more than 8,000 years ago \u2014 among the earliest dates known in northwest California. At Hiouchi Flat inside today's park, the Tolowa village Chvn-su'lh-dvn (\u201cRed Elderberry Place\u201d, site CA-DNO-26) holds the earliest excavated redwood plank house in northwestern California (~1,267 cal B.P.), and its people lived here continuously into the early 1900s. Hiouchi itself carries the Tolowa name Xaa-yuu-chit.",
+  "sources": [
+   {
+    "label": "Tushingham 2013 (CA DPR Publications in Cultural Heritage No. 30) \u2014 review, J. Cal. & Great Basin Anthropology",
+    "url": "https://www.academia.edu/34063115"
+   },
+   {
+    "label": "Del Norte County Historical Society",
+    "url": "https://delnortehistory.org/tolowa-dee-ni/"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "8000 BP"
+ },
+ {
+  "id": "t-taatdvn",
+  "theme": "tolowa",
+  "title": "Taa-'at-dvn \u2014 Tolowa center at Crescent Bay",
+  "date": "pre-contact era",
+  "year": 1700,
+  "lat": 41.746,
+  "lng": -124.201,
+  "precision": "locality",
+  "precisionNote": "Generalized to the Crescent City bayfront.",
+  "summary": "One of three major Tolowa Dee-ni' polity centers in California. Tolowa Dee-ni' aboriginal territory \u2014 Taa-laa-waa-dvn \u2014 runs roughly from Wilson Creek in the south to the Sixes River in Oregon, inland to the Applegate watershed: about 2.87 million acres organized into districts called yvtlh-'i~. Del Norte County is Dan'-taa-dvn, \u201cthe heart of the Dee-ni' world.\u201d",
+  "sources": [
+   {
+    "label": "Tolowa Dee-ni' Nation \u2014 Our History",
+    "url": "https://www.tolowa.gov"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "pre-1850"
+ },
+ {
+  "id": "t-yontocket",
+  "theme": "tolowa",
+  "title": "Yan'-daa-k'vt (Yontocket) \u2014 Center of the Tolowa World \u00b7 1853 massacre",
+  "date": "Fall 1853",
+  "year": 1853,
+  "lat": 41.9075,
+  "lng": -124.1989,
+  "precision": "locality",
+  "precisionNote": "GNIS locality \u201cYontocket\u201d near Yontocket Slough, Tolowa Dunes. The village site is treated respectfully as a locality, not an exact point.",
+  "contested": "Death toll contested: ~150 (settler/\u201cofficial\u201d estimates, understated) to 450\u2013600 (witness and Tolowa accounts). Figures are attributed, never averaged.",
+  "summary": "Yontocket was a major village and ceremonial center \u2014 the \u201cCenter of the Tolowa World,\u201d where peoples gathered at the solstices. In the fall of 1853, on the third night of a ten-night Nee-dash (world-renewal) ceremony held after the fall harvest, a militia of roughly 30\u201333 men raised in Crescent City attacked at dawn and burned the village. Reported death tolls range from about 150 (understated official estimates) to 450\u2013600 (witness and Tolowa accounts) \u2014 one of the deadliest massacres in California history. No perpetrator was ever prosecuted. The burned site became known as \u201cBurnt Ranch\u201d; survivors relocated to Howonquet. (Accounts saying \u201cspring 1853\u201d confuse the date a prospecting party left Crescent City with the massacre itself.)",
+  "sources": [
+   {
+    "label": "Madley, An American Genocide (Yale, 2016)",
+    "url": "https://en.wikipedia.org/wiki/Yontocket_massacre"
+   },
+   {
+    "label": "Del Norte County Historical Society",
+    "url": "https://delnortehistory.org/tolowa-dee-ni/"
+   }
+  ],
+  "context": false,
+  "tl": "1853"
+ },
+ {
+  "id": "t-achulet",
+  "theme": "tolowa",
+  "title": "'Ee-chuu-le' (Achulet) at Lake Earl \u00b7 1854 massacre",
+  "date": "1854",
+  "year": 1854,
+  "lat": 41.8257,
+  "lng": -124.1887,
+  "precision": "locality",
+  "precisionNote": "Locality by Lake Earl; village site generalized.",
+  "contested": "Death toll contested: the attackers' own count of 65 excluded victims lost in the lake \u2014 treat 65 as a floor; estimates run to 150.",
+  "summary": "'Ee-chuu-le' beside Lake Earl was one of the three Tolowa polity centers in California. In 1854 \u2014 no month is reliably documented \u2014 settlers attacked the village at dawn on the pretext of a suspected horse theft. The attackers themselves reported 65 killed, a count that excluded people whose bodies sank in Lake Earl; historians' estimates run as high as 150. Settlers later renamed the site \u201cPay Way\u201d after Old Pay Way, one of the few survivors.",
+  "sources": [
+   {
+    "label": "Norton, Genocide in Northwestern California (1979)",
+    "url": "https://en.wikipedia.org/wiki/Achulet_massacre"
+   },
+   {
+    "label": "Tolowa Dee-ni' Nation",
+    "url": "https://www.tolowa.gov"
+   }
+  ],
+  "context": false,
+  "tl": "1854"
+ },
+ {
+  "id": "t-howonquet",
+  "theme": "tolowa",
+  "title": "Howonquet \u2014 refuge and further violence",
+  "date": "1855",
+  "year": 1855,
+  "lat": 41.945,
+  "lng": -124.198,
+  "precision": "locality",
+  "precisionNote": "Locality at the Smith River mouth's north side (today's Smith River Rancheria area).",
+  "summary": "After Yontocket, survivors relocated north to Howonquet at the mouth of the Smith River \u2014 and violence followed: an 1855 attack there killed about 70 people. Attacks on the Tolowa continued for roughly seven years after 1853 (Chetko ~24 dead, Achulet 65\u2013150, Howonquet ~70, and others); cumulative death tolls in the hundreds are documented, with one synthesis (Norton 1979) counting over 900 across the period \u2014 a figure historians treat as an attributed estimate rather than a settled count.",
+  "sources": [
+   {
+    "label": "Norton (1979) via Wikipedia synthesis",
+    "url": "https://en.wikipedia.org/wiki/Tolowa"
+   },
+   {
+    "label": "Quartux Journal \u2014 Tolowa Dee-ni' chronology",
+    "url": "https://ndnhistoryresearch.com"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1855"
+ },
+ {
+  "id": "t-camplincoln",
+  "theme": "tolowa",
+  "title": "Camp Lincoln & the Smith River Reservation",
+  "date": "1862 \u2013 July 28, 1868",
+  "year": 1862,
+  "lat": 41.8199,
+  "lng": -124.1359,
+  "precision": "locality",
+  "precisionNote": "Camp Lincoln historic site (California Historical Landmark #545), northeast of Crescent City.",
+  "contested": "Reservation acreage is reported from ~17,000 acres (Tolowa Dee-ni' Nation) to ~44,000 acres (county historical society).",
+  "summary": "In 1862 the U.S. established the Smith River Reservation in northwest Del Norte County together with Camp Lincoln, a U.S. Army post \u2014 sources differ on whether the post primarily protected the Tolowa from settler violence or controlled them. The reservation's size is reported between ~17,000 and ~44,000 acres depending on the source. It was discontinued on July 28, 1868, two years after the 1866 death of the Xaa-wan'-k'wvt headman K'ay-lish. Tolowa people were removed repeatedly through this era \u2014 to the Klamath River Reservation (est. 1855) and, after the Rogue River Wars, to Oregon reservations including Siletz, in a multi-stage forced relocation spanning roughly 1856\u20131862. One historical-society account counts 1,834 people relocated to Oregon, out of a pre-contact population it puts above 10,000 (scholarly estimates vary widely).",
+  "sources": [
+   {
+    "label": "Del Norte County Historical Society",
+    "url": "https://delnortehistory.org/tolowa-dee-ni/"
+   },
+   {
+    "label": "CHL #545 Camp Lincoln",
+    "url": "https://www.hmdb.org"
+   }
+  ],
+  "context": false,
+  "tl": "1862"
+ },
+ {
+  "id": "t-today",
+  "theme": "tolowa",
+  "title": "The Tolowa Dee-ni' Nation today \u00b7 fire returns",
+  "date": "October 21, 2025",
+  "year": 2025,
+  "lat": 41.7817,
+  "lng": -124.1006,
+  "precision": "locality",
+  "precisionNote": "See-tr'ee-ghin-dvm-dvn (Peacock Bar area) \u2014 generalized.",
+  "summary": "The Tolowa Dee-ni' Nation today has more than 2,000 enrolled citizens and 950+ acres of tribal land, and is an active steward of this landscape. On October 21, 2025, the Nation and California State Parks returned cultural burning to See-tr'ee-ghin-dvm-dvn within the park \u2014 the first cultural burn there in generations (announced November 20, 2025). The Nation also consulted on the Grove of Titans project; the Tolowa word for redwood is K'vsh-chu.",
+  "sources": [
+   {
+    "label": "California State Parks news, 11/20/2025",
+    "url": "https://www.parks.ca.gov"
+   },
+   {
+    "label": "Tolowa Dee-ni' Nation",
+    "url": "https://www.tolowa.gov"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "2025"
+ },
+ {
+  "id": "s-landfall",
+  "theme": "smith",
+  "title": "Smith's brigade reaches the Pacific",
+  "date": "June 8, 1828",
+  "year": 1828,
+  "lat": 41.556,
+  "lng": -124.146,
+  "precision": "approximate",
+  "context": true,
+  "precisionNote": "Generally identified with the Wilson Creek mouth near Requa \u2014 in Del Norte County.",
+  "summary": "Jedediah Smith's 1828 party \u2014 Smith plus 17\u201319 hired men driving roughly 300+ horses and mules \u2014 had turned north at Red Bluff on April 10, 1828, aiming overland for Oregon. On June 8 they struck the Pacific, at a spot generally identified with the mouth of Wilson Creek near Requa, and began working slowly north along the coast through Tolowa country. Along the way the journals record repeated trade with coastal villages: mussels, fish, berries, and lamprey.",
+  "sources": [
+   {
+    "label": "Smith & Rogers journals (Dale 1918 / Sullivan 1934 eds.)",
+    "url": "https://user.xmission.com/~drudy/mtman/html/jedsmith.html"
+   },
+   {
+    "label": "Oregon-California Trails route reconstructions",
+    "url": "https://www.orww.org"
+   }
+  ],
+  "contested": null,
+  "tl": "Jun 1828"
+ },
+ {
+  "id": "s-discovery",
+  "theme": "smith",
+  "title": "June 19, 1828 \u2014 Smith first crosses \u201chis\u201d river",
+  "date": "June 19, 1828",
+  "year": 1828,
+  "lat": 41.8767,
+  "lng": -124.1953,
+  "precision": "approximate",
+  "precisionNote": "Scholarly route reconstruction (Sullivan 1934 / Morgan 1953) places the camp near Lake Earl; the journals name no modern places.",
+  "summary": "From a camp hemmed in by lakes and swamps near Lake Earl, Smith scouted ahead with two men and found a river about 80 yards wide emptying into a bay \u2014 the river that would later carry his name. He crossed and recrossed it \u201cwith great difficulty.\u201d This is the first recorded European-American crossing of the river. The journal itself never names it: the name \u201cSmith River\u201d was applied by others, after Smith's death in 1831.",
+  "sources": [
+   {
+    "label": "Smith's journal, June 19, 1828 (mtmen.org transcription)",
+    "url": "https://www.mtmen.org"
+   },
+   {
+    "label": "Sullivan (1934), Morgan (1953) route reconstructions",
+    "url": "https://www.jedediahsmithsociety.org"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "Jun 19 1828"
+ },
+ {
+  "id": "s-crossing",
+  "theme": "smith",
+  "title": "June 20, 1828 \u2014 the party fords the river; Tolowa traders arrive",
+  "date": "June 20, 1828",
+  "year": 1828,
+  "lat": 41.929,
+  "lng": -124.148,
+  "precision": "approximate",
+  "precisionNote": "Interpretive reconstruction near the present town of Smith River; no primary source gives coordinates.",
+  "summary": "The next day the full party forded the river \u2014 clerk Harrison Rogers recorded it at 60\u201370 yards wide and nearly swimming-depth (\u201cIt was deep fording\u201d) \u2014 and camped in a river-bottom prairie on the north bank. About 20 Tolowa people came to the camp by canoe and traded lamprey eels for beads: one of the earliest written records of the Tolowa at home on their river. On June 21 the party left the river heading north along a stony ridge \u2014 they never traveled upstream into the redwood forks where the park now stands.",
+  "sources": [
+   {
+    "label": "Rogers' second journal (Dale 1918)",
+    "url": "https://www.mtmen.org"
+   },
+   {
+    "label": "ORWW Coquelle Trails reconstructions",
+    "url": "https://www.orww.org"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "Jun 20 1828"
+ },
+ {
+  "id": "s-bigtrees",
+  "theme": "smith",
+  "title": "June 22, 1828 \u2014 \u201ctrees 10 to 15 feet in diameter\u201d",
+  "date": "June 22, 1828",
+  "year": 1828,
+  "lat": 41.85,
+  "lng": -124.15,
+  "precision": "locality",
+  "precisionNote": "Locality-level: northwestern Del Norte County, from itinerary context.",
+  "summary": "Working northwest back toward the ocean, Rogers recorded dense conifer forest with trees ten to fifteen feet in diameter \u2014 one of the earliest written descriptions of redwood-scale timber in this part of the coast, though he identified the giants as \u201chemlock and cedar.\u201d The 1828 party are the first non-Native people known to have entered these redwood forests \u2014 among them Peter Ranne, a Black man, and the first horses and mules ever brought through. (Ranne died with most of the party at the Umpqua three weeks later.)",
+  "sources": [
+   {
+    "label": "Rogers' journal, June 22, 1828",
+    "url": "https://www.mtmen.org"
+   },
+   {
+    "label": "ORWW expedition history",
+    "url": "https://www.orww.org"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "Jun 22 1828"
+ },
+ {
+  "id": "s-winchuck",
+  "theme": "smith",
+  "title": "June 23, 1828 \u2014 into Oregon",
+  "date": "June 23, 1828",
+  "year": 1828,
+  "lat": 42.003,
+  "lng": -124.207,
+  "precision": "locality",
+  "context": true,
+  "precisionNote": "Winchuck River mouth at the state line.",
+  "summary": "The party crossed into Oregon and camped on the north side of the Winchuck River. Their whole passage through the Smith River country spans roughly June 18\u201323, 1828 \u2014 five days that put this landscape into the written record for the first time.",
+  "sources": [
+   {
+    "label": "ORWW route reconstruction",
+    "url": "https://www.orww.org"
+   }
+  ],
+  "contested": null,
+  "tl": "Jun 23 1828"
+ },
+ {
+  "id": "s-umpqua",
+  "theme": "smith",
+  "title": "The Umpqua (Kelawatset) attack \u2014 the journals survive",
+  "date": "July 14, 1828",
+  "year": 1828,
+  "lat": 43.7377,
+  "lng": -124.1179,
+  "precision": "locality",
+  "context": true,
+  "precisionNote": "Near the Smith River (Oregon)\u2013Umpqua confluence by Reedsport \u2014 130 miles north of the park.",
+  "summary": "Three weeks after leaving present-day Del Norte County, the expedition was destroyed. On July 14, 1828, while Smith and two men were away scouting, Kelawatset (Lower Umpqua) attackers killed the rest of the party at their camp \u2014 about 15 men of roughly 19, including clerk Harrison Rogers. Survivor Arthur Black reached Fort Vancouver on August 8; Smith's group on August 10. A Hudson's Bay Company party buried 11 bodies at the site on October 28, 1828 and recovered property including Rogers' journals \u2014 the reason we can read the day-by-day record of the 1828 passage at all. Smith himself was killed by a Comanche party on the Cimarron on May 27, 1831; the river here was named for him after his death.",
+  "sources": [
+   {
+    "label": "Rogers' journals provenance (Dale 1918; Missouri Historical Society)",
+    "url": "https://www.mtmen.org"
+   },
+   {
+    "label": "Wikipedia: Jedediah Smith",
+    "url": "https://en.wikipedia.org/wiki/Jedediah_Smith"
+   }
+  ],
+  "contested": null,
+  "tl": "Jul 14 1828"
+ },
+ {
+  "id": "p-stout",
+  "theme": "park",
+  "title": "Stout Grove \u2014 the gift that made the park",
+  "date": "1929",
+  "year": 1929,
+  "lat": 41.7885,
+  "lng": -124.0844,
+  "precision": "exact",
+  "precisionNote": "Stout Memorial Grove, at the Mill Creek\u2013Smith River confluence.",
+  "summary": "The park began here: a roughly 44-acre old-growth grove at the Mill Creek\u2013Smith River confluence, donated in 1929 through Save the Redwoods League. Lumberman Frank D. Stout \u2014 president of the Del Norte Lumber Company \u2014 opened the arrangement intending to honor his late son Henry, but died before completing it; his widow Clara finished the gift and named it the Frank D. Stout Memorial Grove. It became the first dedicated grove in what is now Jedediah Smith Redwoods State Park: 300-foot trees that were never logged, reached today by the 0.5-mile Stout Grove Trail (and, in summer, the seasonal footbridge from the campground).",
+  "sources": [
+   {
+    "label": "NPS: Stout Grove",
+    "url": "https://www.nps.gov/places/stoutgrove.htm"
+   },
+   {
+    "label": "NPS Cultural Landscapes Inventory, Howland Hill Road",
+    "url": "https://www.npshistory.com"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1929"
+ },
+ {
+  "id": "p-tribute",
+  "theme": "park",
+  "title": "National Tribute Grove \u2014 5,000 acres for WWII service",
+  "date": "1939\u20131949",
+  "year": 1949,
+  "lat": 41.7889,
+  "lng": -124.1156,
+  "precision": "locality",
+  "precisionNote": "Grove spans a large area along Howland Hill Road; pin is a centroid.",
+  "summary": "Beginning with a 1939 Save the Redwoods League agreement to buy 500 acres of old-growth per year from the Del Norte Lumber Company, and a May 1944 Garden Club of America proposal to make it a living tribute, the 5,000+ acre National Tribute Grove was assembled parcel by parcel \u2014 boundaries surveyed by Frederick Law Olmsted Jr. \u2014 and completed in 1949 with a final Daughters of the American Revolution-funded purchase. It is dedicated to Americans who served in the Second World War, and its acquisition completed public ownership along Howland Hill Road.",
+  "sources": [
+   {
+    "label": "NPS Cultural Landscapes Inventory",
+    "url": "https://www.npshistory.com"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1949"
+ },
+ {
+  "id": "p-ccc",
+  "theme": "park",
+  "title": "The CCC builds the campground",
+  "date": "1930s",
+  "year": 1935,
+  "lat": 41.79492,
+  "lng": -124.085,
+  "precision": "exact",
+  "precisionNote": "The campground you're standing in.",
+  "summary": "The Civilian Conservation Corps did the park's first development in the 1930s: Company 1903, based at Camp Prairie Creek, built the entrance road, a custodian's residence, and the riverside campground itself \u2014 tables, stoves, cupboards, restrooms \u2014 plus a footbridge across the Smith to Stout Grove. That CCC bridge is gone (the river's floods took it); today's summer-only footbridge is its modern successor in spirit, installed each July\u2013September when the river allows.",
+  "sources": [
+   {
+    "label": "Living New Deal (citing Engbeck 2002)",
+    "url": "https://livingnewdeal.org"
+   },
+   {
+    "label": "Engbeck, State Parks of California / CCC history",
+    "url": "https://www.parks.ca.gov"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1930s"
+ },
+ {
+  "id": "p-howland",
+  "theme": "park",
+  "title": "Howland Hill Road \u2014 the myth and the record",
+  "date": "surveyed 1881 \u00b7 built 1887",
+  "year": 1887,
+  "lat": 41.7707,
+  "lng": -124.113,
+  "precision": "locality",
+  "precisionNote": "The historic road runs 5.9 miles; pin is at its NPS-documented corridor midpoint.",
+  "summary": "Visitor guides often call Howland Hill Road an 1850s stagecoach toll road. The record says otherwise: it was surveyed in 1881 by J. S. Howard and built in 1887 by the Christensen brothers as a free county road, connecting Crescent City to Horace Gasquet's 1881 toll road. The kernel of truth: the corridor traces 1850s pack trails \u2014 the Cold Springs Mountain Trail (in use by 1853) and Ben Kelsey's 1855 trail to the Yreka mines \u2014 but those were horse paths, not wagon roads. Named for the Howland family who ranched the hill from the 1860s, the road was bypassed when the Redwood Highway came through (Gasquet\u2013Kerby segment 1926; fully bypassed with the Hiouchi Bridge in June 1929) \u2014 which is why it survives as today's quiet scenic drive through the National Tribute Grove.",
+  "sources": [
+   {
+    "label": "NPS Cultural Landscapes Inventory, Howland Hill Road (period of significance 1887\u20131949)",
+    "url": "https://www.npshistory.com"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1887"
+ },
+ {
+  "id": "p-boyscout",
+  "theme": "park",
+  "title": "Boy Scout Tree & the Jack Breen Bridge",
+  "date": "1922\u20131950",
+  "year": 1950,
+  "lat": 41.76862,
+  "lng": -124.11015,
+  "precision": "approximate",
+  "precisionNote": "Pin at the Boy Scout Tree Trailhead on Howland Hill Road (mapped location); the tree itself is about 2.8 miles down the trail.",
+  "summary": "The double-trunked Boy Scout Tree was found by John \u201cJack\u201d Breen \u2014 Del Norte County sheriff from 1919 to 1935 and co-founder of Crescent City's Boy Scout Troop 10 in 1922 \u2014 and is named in his honor. In 1950 the Boy Scouts dedicated the Mill Creek bridge on Howland Hill Road to Breen; it remains the road's only contributing historic structure. Nearby groves carry their own donor histories: Metcalf Grove (1942) and the Simpson-Reed Grove, given in memory of timber executive Mark E. Reed.",
+  "sources": [
+   {
+    "label": "NPS Cultural Landscapes Inventory",
+    "url": "https://www.npshistory.com"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1950"
+ },
+ {
+  "id": "p-titans",
+  "theme": "park",
+  "title": "Grove of Titans \u2014 loved nearly to death, then saved",
+  "date": "leak ~2011 \u00b7 boardwalk May 2022",
+  "year": 2022,
+  "lat": 41.7784,
+  "lng": -124.1004,
+  "precision": "exact",
+  "precisionNote": "The grove itself \u2014 public since the May 2022 boardwalk. Park at the Grove of Titans lot on Howland Hill Road, walk in on the Mill Creek Trail, and stay on the boardwalk: the trampled roots are the whole reason it exists.",
+  "summary": "When GPS coordinates for this off-trail grove of colossal redwoods spread online around 2011, years of visitor trampling followed \u2014 a web of social trails that crushed understory and damaged the shallow root systems of some of the largest trees on Earth, eroding soil into coho and steelhead streams. The response, planned from 2018 with the Tolowa Dee-ni' Nation consulting: a $4 million project that realigned the 3-mile Mill Creek Trail and built a 1,300-foot elevated boardwalk through the grove, opened May 2022 \u2014 23,000+ crew hours, 128 tons of materials carried in by hand. Interpretive panels feature K'vsh-chu, the Tolowa word for redwood.",
+  "sources": [
+   {
+    "label": "CA State Parks release, May 23, 2022",
+    "url": "https://www.parks.ca.gov"
+   },
+   {
+    "label": "Save the Redwoods League",
+    "url": "https://www.savetheredwoods.org"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "2022"
+ },
+ {
+  "id": "r-undammed",
+  "theme": "river",
+  "title": "The last major undammed river in California",
+  "date": "Wild & Scenic Jan 19, 1981 \u00b7 NRA Nov 16, 1990",
+  "year": 1981,
+  "lat": 41.9361,
+  "lng": -124.2033,
+  "precision": "exact",
+  "precisionNote": "Pin at the river's mouth, 4 miles south of the Oregon line.",
+  "summary": "The Smith River \u2014 Xaa-wvn-taa-ghii~-li~ in the Tolowa language \u2014 flows undammed from its headwaters to the Pacific, the only major river system in California that does (per the National Wild & Scenic Rivers program and the California Legislature's own 2015 resolution). It gained federal Wild & Scenic status on January 19, 1981 by administrative designation (the 1990 statute's \u201c1990\u201d date is a printing error \u2014 the Federal Register citation it gives is from 1981), and on November 16, 1990 the Smith River NRA Act designated 300+ miles of the mainstem, forks, and tributaries while creating the 450-square-mile Smith River National Recreation Area. It remains a stronghold for threatened coho, plus Chinook and steelhead \u2014 a fishery the Tolowa have worked for well over a thousand years (salmon gear appears in the archaeology by ~1,250 years ago).",
+  "sources": [
+   {
+    "label": "Rivers.gov: Smith River",
+    "url": "https://rivers.gov/river/smith"
+   },
+   {
+    "label": "P.L. 101-612 (Nov 16, 1990)",
+    "url": "https://www.congress.gov"
+   },
+   {
+    "label": "CA Senate Joint Resolution 3 (2015)",
+    "url": "https://www.leginfo.ca.gov"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1981\u00b790"
+ },
+ {
+  "id": "f-gage",
+  "theme": "floods",
+  "title": "The river gauge that measured two great floods",
+  "date": "Dec 22, 1955 \u00b7 Dec 22, 1964",
+  "year": 1964,
+  "lat": 41.7915,
+  "lng": -124.0762,
+  "precision": "exact",
+  "precisionNote": "USGS gage 11532500, \u201cSmith River near Crescent City,\u201d just downstream of the park.",
+  "summary": "Twice in nine years \u2014 both times on December 22 \u2014 the Smith produced record floods here. The December 1955 flood crested at 3:30 a.m. on Dec 22 at 165,000 cfs, the record since gauging began in 1931. The 1964 \u201cChristmas flood\u201d shattered it: 228,000 cfs (138% of 1955), destroying the gauging station itself. USGS judged 1964 probably equal to or greater than the legendary winter flood of 1861\u201362. The 1964 flood wrecked ~15 miles of US-199 in the Middle Fork canyon (three bridges), damaged the US-101 Smith River bridge, and cut Crescent City's water supply from Dec 22 to Jan 4 \u2014 yet no lives were lost in the Smith basin. In the delta lowlands it flooded ~9,300 acres (1955: ~7,600 acres) around Lake Earl.",
+  "sources": [
+   {
+    "label": "USGS Prof. Papers 1866-D (1955) & 1866-A/B (1964)",
+    "url": "https://pubs.usgs.gov"
+   },
+   {
+    "label": "USGS NWIS station 11532500",
+    "url": "https://waterdata.usgs.gov/monitoring-location/11532500"
+   }
+  ],
+  "context": false,
+  "contested": null,
+  "tl": "1955\u00b764"
+ },
+ {
+  "id": "d-tsunami",
+  "theme": "delnorte",
+  "title": "Crescent City, March 1964 \u2014 tsunami",
+  "date": "March 27\u201328, 1964",
+  "year": 1964,
+  "lat": 41.7558,
+  "lng": -124.2026,
+  "precision": "locality",
+  "context": true,
+  "precisionNote": "Crescent City waterfront impact zone.",
+  "contested": "Deaths variously counted 10\u201313 depending on the area included; 11 is the commonly cited figure.",
+  "summary": "Nine months before the Christmas flood, the great Alaska earthquake (evening of March 27, 1964, Alaska time) sent a tsunami into Crescent City in the early hours of March 28. It killed 11 people (variously counted 10\u201313), injured two dozen, and destroyed or damaged about 29 blocks \u2014 over $14 million in damage, the deadliest tsunami event on the U.S. West Coast in recorded history. Written tsunami history here reaches back to the January 1700 Cascadia megathrust; the most recent damaging surge was the July 2025 Kamchatka earthquake tsunami. 1964 was Del Norte's annus horribilis: tsunami in March, record flood in December.",
+  "sources": [
+   {
+    "label": "Del Norte County Historical Society",
+    "url": "https://delnortehistory.org"
+   },
+   {
+    "label": "NOAA/USGS tsunami records",
+    "url": "https://www.ngdc.noaa.gov"
+   }
+  ],
+  "tl": "Mar 1964"
+ },
+ {
+  "id": "d-jonathan",
+  "theme": "delnorte",
+  "title": "Brother Jonathan, 1865 \u2014 the coast's deadliest wreck",
+  "date": "July 30, 1865",
+  "year": 1865,
+  "lat": 41.7507,
+  "lng": -124.21121,
+  "precision": "exact",
+  "context": true,
+  "precisionNote": "Pin at the Brother Jonathan Cemetery / Vista Point (CHL #541), 9th Street bluffs, Crescent City.",
+  "contested": "Sources vary on the toll: commonly cited ~225 dead of ~244 aboard (some accounts: 232 aboard, \u201cover 200\u201d dead).",
+  "summary": "The overloaded sidewheel steamer Brother Jonathan, carrying an Army payroll in gold, struck Dragon Rocks on St. George Reef about four miles off Point St. George on July 30, 1865. Nineteen people escaped in one lifeboat; over 200 died \u2014 commonly cited as 225 of 244 aboard, the deadliest shipwreck on the Pacific Coast to that time. Recovered victims lie in the Brother Jonathan Cemetery on the 9th Street bluffs. The wreck was finally located in 1993 and partly salvaged in 1996, gold and all.",
+  "sources": [
+   {
+    "label": "Del Norte County Historical Society",
+    "url": "https://delnortehistory.org"
+   },
+   {
+    "label": "CHL #541",
+    "url": "https://ohp.parks.ca.gov"
+   }
+  ],
+  "tl": "1865"
+ },
+ {
+  "id": "d-lighthouse",
+  "theme": "delnorte",
+  "title": "St. George Reef Lighthouse",
+  "date": "first lit October 20, 1892",
+  "year": 1892,
+  "lat": 41.83639,
+  "lng": -124.37583,
+  "precision": "exact",
+  "context": true,
+  "precisionNote": "On the reef six miles offshore \u2014 visible from Point St. George on clear days.",
+  "summary": "Built in answer to the Brother Jonathan disaster on the very reef that sank her, St. George Reef Light took a decade to construct (~$700,000 \u2014 among the most expensive lighthouses ever built in the U.S.) and was first lit on October 20, 1892. (Some local accounts say 1891 \u2014 that year the structure was essentially complete, but the light itself first shone in 1892.)",
+  "sources": [
+   {
+    "label": "USCG / lighthouse historian records",
+    "url": "https://en.wikipedia.org/wiki/St._George_Reef_Light"
+   }
+  ],
+  "contested": null,
+  "tl": "1892"
+ },
+ {
+  "id": "f-canyon",
+  "theme": "floods",
+  "title": "US-199 in the Middle Fork canyon \u2014 1964",
+  "date": "December 1964",
+  "year": 1964,
+  "lat": 41.846,
+  "lng": -123.968,
+  "precision": "locality",
+  "context": true,
+  "precisionNote": "Gasquet area; damage ran ~15 miles up the canyon toward Idlewild.",
+  "summary": "The December 1964 flood tore out roughly 15 miles of US-199 in the Middle Fork Smith canyon between Gasquet and Idlewild \u2014 about a mile and a half of roadway completely destroyed, plus three bridges. Storm totals exceeded 20 inches across the basin (27.61\u2033 at Elk Valley; 10.70\u2033 in 24 hours at Idlewild on Dec 22). In 1955's flood, Gasquet Ranger Station had recorded 12 inches in the peak storm \u2014 two-thirds of it in a single day.",
+  "sources": [
+   {
+    "label": "USGS flood reports",
+    "url": "https://pubs.usgs.gov"
+   }
+  ],
+  "contested": null,
+  "tl": "Dec 1964"
+ },
+ {
+  "id": "p-starwars",
+  "theme": "park",
+  "title": "Endor? The Star Wars story, checked",
+  "date": "1982 filming (Return of the Jedi)",
+  "year": 1983,
+  "lat": 40.4853,
+  "lng": -123.9061,
+  "precision": "locality",
+  "context": true,
+  "precisionNote": "Cheatham Grove, Grizzly Creek Redwoods SP \u2014 100 miles south. Pin marks where speeder-bike footage actually was shot.",
+  "summary": "Persistent lore says Return of the Jedi's Endor scenes were filmed in Jed Smith's groves. The checkable record (medium confidence \u2014 fan/expert research summarized by Save the Redwoods League) says otherwise: no confirmed filming inside this park. The Endor forest sets were mainly on private timberland near the town of Smith River (since logged); the speeder-chase Steadicam work was shot in Cheatham Grove at Grizzly Creek Redwoods State Park, with truck shots along the Avenue of the Giants. Enjoy the myth \u2014 the real Endor is gone, and Jed Smith looks the part anyway.",
+  "sources": [
+   {
+    "label": "Save the Redwoods League blog (M.D. Vaden comments)",
+    "url": "https://www.savetheredwoods.org"
+   }
+  ],
+  "contested": null,
+  "tl": "1982"
+ }
+]

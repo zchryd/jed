@@ -1,0 +1,1245 @@
+[
+ {
+  "id": "R1",
+  "votes": 3,
+  "category": "river",
+  "statement": "The Smith River is the only major river system in California that flows entirely undammed for its full length.",
+  "mappable": true,
+  "knownCoords": null,
+  "flags": [
+   "Congress's 1990 statute says only 'one of the last wholly intact' river systems \u2014 the California-specific superlative needs an independent authoritative source (e.g. CA DWR, American Rivers, CalTrout)."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://rivers.gov/river/smith",
+    "sourceQuality": "primary",
+    "quote": "The emerald-green Smith River flows freely and naturally, without a single dam for its entire length. It is the only major system in California to do so.",
+    "claim": "The Smith River has no dams anywhere along its entire length and is the only major river system in California that flows entirely undammed."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Smith_River_(California)",
+    "sourceQuality": "secondary",
+    "quote": "It is the only major California river never to have been dammed. ... The free-flowing nature of the river\u2014without a single dam along its entire length\u2014makes it especially prized among conservationists",
+    "claim": "The Smith River is the only major river in California that has never been dammed, flowing free along its entire length."
+   },
+   {
+    "sourceUrl": "https://nativefishsociety.org/learn/watersheds/smith-river",
+    "sourceQuality": "secondary",
+    "quote": "The large, free-flowing river\u2014without a single dam along its mainstem\u2014makes it especially prized among conservationists and is considered one of the crown jewels of the National Wild and Scenic River program.",
+    "claim": "The Smith River is California's only major un-dammed river system, with no dam along its mainstem, and is considered a crown jewel of the National Wild and Scenic River program."
+   },
+   {
+    "sourceUrl": "https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg3209.pdf",
+    "sourceQuality": "primary",
+    "quote": "the Smith River, undammed and free-flowing from its headwaters to the Pacific Ocean, represents one of the last wholly intact vestiges of an invaluable legacy of wild and scenic rivers",
+    "claim": "Congress's 1990 statutory findings describe the Smith River as undammed and free-flowing from its headwaters to the Pacific Ocean \u2014 but the statute calls it 'one of the last wholly intact' wild-river systems, not specifically 'California's last major undammed river'; that stronger California-specific superlative must be sourced elsewhere."
+   }
+  ]
+ },
+ {
+  "id": "R2",
+  "votes": 3,
+  "category": "river",
+  "statement": "The Smith River received federal Wild & Scenic designation on January 19, 1981 (administrative, by Interior Secretary Cecil Andrus under WSRA sec. 2(a)(ii), 46 Fed. Reg. 7483-84), and statutory designation of 300+ miles of the mainstem, forks, and tributaries on November 16, 1990 via the Smith River NRA Act (P.L. 101-612).",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "The enrolled statute misprints 'January 19, 1990' but cites 46 Fed. Reg. 7483-84, a 1981 volume. Confirm the Jan 19, 1981 date from the Federal Register or a reliable secondary account of the Andrus designation."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://rivers.gov/river/smith",
+    "sourceQuality": "primary",
+    "quote": "added to the National Wild and Scenic Rivers System in 1981 with an additional portion added in 1990",
+    "claim": "The Smith River was added to the federal National Wild and Scenic Rivers System in 1981, with an additional portion designated in 1990 (the page gives years only, not exact dates \u2014 exact dates need corroboration elsewhere, e.g., the January 19, 1981 Section 2(a)(ii) designation and the November 16, 1990 Smith River NRA Act)."
+   },
+   {
+    "sourceUrl": "https://rivers.gov/river/smith",
+    "sourceQuality": "primary",
+    "quote": "More than 300 miles of the Smith River drainage are designated wild and scenic",
+    "claim": "More than 300 miles of the Smith River drainage (mainstem plus forks and tributaries) carry federal Wild & Scenic designation."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Smith_River_(California)",
+    "sourceQuality": "secondary",
+    "quote": "Designated January 19, 1981",
+    "claim": "The Smith River received federal National Wild and Scenic River designation on January 19, 1981."
+   },
+   {
+    "sourceUrl": "https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg3209.pdf",
+    "sourceQuality": "primary",
+    "quote": "Section 3(a) of the Wild and Scenic Rivers Act (16 U.S.C. 1274) is amended by adding at the end thereof the following new paragraphs: \"( ) SMITH RIVER, CALIFORNIA.\u2014The segment from the confluence of the Middle Fork Smith River and the North Fork Smith River to the Six Rivers National Forest boundary, including the following segments of the mainstem and certain tributaries, to be administered by the Secretary of Agriculture in the following classes: \"(A) The segment from the confluence of the Middle Fork Smith River and the South Fork Smith River to the National Forest boundary, as a recreational river.",
+    "claim": "Federal statutory Wild & Scenic designation of the Smith River system dates to November 16, 1990: Section 10(b) of the Act amended Section 3(a) of the Wild and Scenic Rivers Act to designate the Smith River mainstem plus the Middle Fork, North Fork, Siskiyou Fork, and South Fork and dozens of named tributaries (including Myrtle Creek \u2014 scenic upper segment, wild lower segment to its Middle Fork confluence \u2014 Rowdy Creek, Patrick Creek, and Hurdygurdy Creek) in wild, scenic, and recreational classes, administered by the Secretary of Agriculture; the mainstem segment below the Middle Fork\u2013South Fork confluence to the National Forest boundary is classed 'recreational'."
+   },
+   {
+    "sourceUrl": "https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg3209.pdf",
+    "sourceQuality": "primary",
+    "quote": "Previous designations dated January 19, 1990, by the Secretary of the Interior (46 Fed. Reg. 7483-84) under section 2(a)(ii) of the Wild and Scenic Rivers Act (16 U.S.C. 1273) of rivers within the exterior boundary of the recreation area are superseded by this Act.",
+    "claim": "Before 1990 the Smith River already carried a federal Wild & Scenic designation made administratively by the Secretary of the Interior under WSRA section 2(a)(ii), which the 1990 Act superseded within the NRA boundary. CAUTION/FLAG: the enrolled statute as printed reads 'January 19, 1990,' but its own citation '46 Fed. Reg. 7483-84' is a 1981 Federal Register volume, matching Interior Secretary Cecil Andrus's well-documented January 19, 1981 designation of California's state wild-and-scenic rivers \u2014 the printed '1990' is almost certainly a typographical error for 1981; verified the '1990' reading in both the page image and the PDF text layer, so treat the correct historical date (Jan. 19, 1981) as needing confirmation from the Federal Register itself."
+   }
+  ]
+ },
+ {
+  "id": "R3",
+  "votes": 1,
+  "category": "river",
+  "statement": "The Smith River National Recreation Area (about 450 square miles) was established November 16, 1990 by P.L. 101-612 and is managed by Six Rivers National Forest.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://rivers.gov/river/smith",
+    "sourceQuality": "primary",
+    "quote": "located in the northwest corner of California and is managed by the Six Rivers National Forest ... encompasses more than 450-square-miles of densely forested mountains, pristine botanical areas, remote wilderness landscapes, high-mountain lakes, and steep, rocky canyons",
+    "claim": "The Smith River National Recreation Area, in the northwest corner of California, is managed by the Six Rivers National Forest and covers more than 450 square miles (page does not give its 1990 establishment date)."
+   },
+   {
+    "sourceUrl": "https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg3209.pdf",
+    "sourceQuality": "primary",
+    "quote": "For the purposes of ensuring the preservation, protection, enhancement, and interpretation for present and future generations of the Smith River watershed's outstanding wild and scenic rivers, ecological diversity, and recreation opportunities while providing for the wise use and sustained productivity of its natural resources, there is hereby established the Smith River National Recreation Area.",
+    "claim": "The Smith River National Recreation Area was established by Public Law 101-612, enacted November 16, 1990 (the 'Smith River National Recreation Area Act'), carved from and administered as part of the Six Rivers National Forest by the Secretary of Agriculture (USDA Forest Service), with boundaries per a map dated July 1990; about 20 acres of Interior-administered federal land were transferred to Agriculture."
+   }
+  ]
+ },
+ {
+  "id": "R4",
+  "votes": 1,
+  "category": "river",
+  "statement": "The Smith River's mainstem is about 25 miles long, formed by the Middle Fork\u2013North Fork confluence near Gasquet; the watershed is ~719 sq mi (mostly Del Norte County) and the river meets the Pacific about 4 miles south of the Oregon border at approx 41.936\u00b0N 124.203\u00b0W.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.9361,
+   "lng": -124.2033,
+   "label": "Smith River mouth"
+  },
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Smith_River_(California)",
+    "sourceQuality": "secondary",
+    "quote": "The river was named for the explorer Jedediah Smith. ... about 25.1 miles (40.4 km) long ... confluence of its Middle Fork and North Fork...near the community of Gasquet ... 719 square miles (1,860 km2) ... 41\u00b056\u203210\u2033N 124\u00b012\u203212\u2033W",
+    "claim": "The river was named for explorer Jedediah Smith; its main stem is about 25.1 miles long, formed by the confluence of the Middle Fork and North Fork near Gasquet, draining a 719-square-mile watershed, with its mouth at approximately 41\u00b056'10\"N 124\u00b012'12\"W."
+   },
+   {
+    "sourceUrl": "https://nativefishsociety.org/learn/watersheds/smith-river",
+    "sourceQuality": "secondary",
+    "quote": "The Smith River is a large watershed encompassing nearly 720 square miles, including about 630 in Del Norte County and the remaining in southern Oregon. The river flows into the Pacific Ocean just four miles south of the California/Oregon border.",
+    "claim": "The Smith River watershed encompasses nearly 720 square miles, about 630 of which are in Del Norte County, California, with the remainder in southern Oregon; the river enters the Pacific about four miles south of the California/Oregon border."
+   }
+  ]
+ },
+ {
+  "id": "R5",
+  "votes": 1,
+  "category": "river",
+  "statement": "The Smith River is a stronghold for threatened SONCC coho salmon and supports Chinook and steelhead runs; archaeology shows intensive salmon fishing on the river by about 1,250 years ago (net weights, harpoon tips).",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://nativefishsociety.org/learn/watersheds/smith-river",
+    "sourceQuality": "secondary",
+    "quote": "It can boast impressive runs of steelhead and Chinook, and is a stronghold for the endangered Southern Oregon-Northern California population of Coho salmon.",
+    "claim": "The Smith River is a stronghold for the endangered Southern Oregon-Northern California population of Coho salmon (state and federally listed as threatened) and supports runs of steelhead and Chinook."
+   },
+   {
+    "sourceUrl": "https://www.congress.gov/101/statute/STATUTE-104/STATUTE-104-Pg3209.pdf",
+    "sourceQuality": "primary",
+    "quote": "the Smith River watershed's scenic beauty, renowned anadromous fisheries, exceptional water quality, and abundant wildlife combine with its ready accessibility to offer exceptional opportunities for a wide range of recreational activities, including wilderness, water sports, fishing, hunting, camping, and sightseeing",
+    "claim": "Congress found in 1990 that the Smith River watershed has renowned anadromous fisheries (salmon/steelhead) and exceptional water quality, and the Act directs the Forest Service to improve the anadromous fishery, including stabilizing landslides and improving spawning and rearing habitat; a separate management-area provision singles out 'the Smith River, old growth redwoods, and California State Highway 199' as the scenic emphasis of the Middle Fork\u2013Highway 199 corridor."
+   },
+   {
+    "sourceUrl": "https://www.academia.edu/2537855/Archaeology_Ethnography_and_Tolowa_Heritage_at_Red_Elderberry_Place_Chvn_sulh_dvn_Jedediah_Smith_Redwoods_State_Park",
+    "sourceQuality": "primary",
+    "quote": "There was a significant increase in salmon bone, suggesting salmon intensification or storage by 1,250 B.P., consistent with the first evidence of specialized fishing gear such as net weights and concave-based harpoon tips.",
+    "claim": "Salmon fishing on the Smith River intensified by about 1,250 years ago: excavations found a significant increase in salmon bone by 1,250 B.P., coinciding with the first specialized fishing gear (net weights and concave-based harpoon tips) \u2014 deep-time evidence for the river's salmon fishery and Tolowa reliance on it."
+   }
+  ]
+ },
+ {
+  "id": "R6",
+  "votes": 3,
+  "category": "tolowa",
+  "statement": "The Tolowa name for the Smith River is xaa-wvn'-taa-ghii~-li~', nii~-li~'.",
+  "mappable": true,
+  "knownCoords": null,
+  "flags": [
+   "Single source (Wikipedia). Cross-check spelling/diacritics against Tolowa Dee-ni' Nation sources (tolowa.gov, Tolowa language materials). If the Nation's own spelling differs, prefer the Nation's."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Smith_River_(California)",
+    "sourceQuality": "secondary",
+    "quote": "Smith River (Tolowa language): xaa-wvn'-taa-ghii~-li~', nii~-li~'",
+    "claim": "The Tolowa language name for the Smith River is xaa-wvn'-taa-ghii~-li~', nii~-li~'."
+   }
+  ]
+ },
+ {
+  "id": "FL1",
+  "votes": 1,
+  "category": "floods",
+  "statement": "The December 1955 flood crested on the mainstem gage near Jed Smith park (Smith River near Crescent City) at 3:30 a.m. Dec 22, 1955 at 165,000 cfs (41.20 ft), then the record; ~7,600 acres of the delta flooded ~3 ft deep and 3,200 acres around Lake Earl.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.7916,
+   "lng": -124.0752,
+   "label": "USGS gage 11532500 (approx)"
+  },
+  "flags": [
+   "Confirm USGS gage 11532500 'Smith River near Crescent City' coordinates via NWIS."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://pubs.usgs.gov/wsp/1650a/report.pdf",
+    "sourceQuality": "primary",
+    "quote": "The flood of December 22 in the Smith River basin was the maximum recorded since 1931, when the mainstem of the river was first gaged. [Table 35:] Smith River near Crescent City, Calif. | 613 | 1931-55 | Oct. 29, 1950 | 39.51 | 152,000 | 248 | Dec. 22, 3:30 a.m. | 41.20 | 165,000 | 269",
+    "claim": "The December 1955 flood crested on the mainstem Smith River at the USGS gage 'Smith River near Crescent City' (drainage area 613 sq mi; this gage is the one on the mainstem near Hiouchi/Jedediah Smith park) at 3:30 a.m. on December 22, 1955, at gage height 41.20 ft with a peak discharge of 165,000 cfs \u2014 the maximum since mainstem gaging began in 1931, exceeding the previous known maximum of 152,000 cfs (39.51 ft) set October 29, 1950."
+   },
+   {
+    "sourceUrl": "https://pubs.usgs.gov/wsp/1650a/report.pdf",
+    "sourceQuality": "primary",
+    "quote": "It is estimated that 7,600 acres of pasture and agricultural land in the delta area were inundated to an average depth of about 3 feet. Floodwaters from the Smith River flowed into Lake Earl Slough and raised the elevation of Lake Earl so that 3,200 acres of land bordering the lake were flooded. ... Damage to roads and bridges was severe as a result of the rain and high water, which caused slides and washouts. The principal industrial damage was the inundation of lumber mills and the attendant loss of finished lumber and logs.",
+    "claim": "Local impacts of the December 1955 flood in Del Norte County: an estimated 7,600 acres of the Smith River delta were inundated to an average depth of about 3 feet; floodwater entering Lake Earl Slough flooded 3,200 acres around Lake Earl; road and bridge damage from slides and washouts was severe; lumber mills were inundated; and Weather Bureau flood warnings for the delta kept cattle losses to a minimum."
+   },
+   {
+    "sourceUrl": "https://pubs.usgs.gov/wsp/1650a/report.pdf",
+    "sourceQuality": "primary",
+    "quote": "The floods of December 1955-January 1956 rank among the greatest in north coastal California since the great winter floods of 1861-62. During the 2-month period a series of storms occurred; the greatest, on December 21-24 caused extremely high peak rates of runoff.",
+    "claim": "The December 1955-January 1956 floods rank among the greatest in north coastal California since the winter floods of 1861-62, with the December 21-24 storm producing the extreme peak runoff (this 1963 report necessarily makes no comparison with the later December 1964 flood)."
+   }
+  ]
+ },
+ {
+  "id": "FL2",
+  "votes": 1,
+  "category": "floods",
+  "statement": "The December 1964 'Christmas flood' peaked Dec 22, 1964 at 228,000 cfs (138% of 1955), destroyed the gaging station, wrecked ~15 miles of US-199 in the Middle Fork canyon (three bridges), damaged the US-101 Smith River bridge, flooded ~9,300 acres of the delta/Lake Earl lowlands, and cut Crescent City's water supply until Jan 4, 1965; no lives were lost in the Smith basin; USGS judged it probably \u2265 the 1861-62 flood.",
+  "mappable": true,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Smith_River_(California)",
+    "sourceQuality": "secondary",
+    "quote": "The all-time highest flow was 228,000 cubic feet per second (6,500 m3/s) on December 22, 1964, during the Christmas flood of 1964. [Gauge located] about 7 mi (11 km) east of Crescent City",
+    "claim": "The Smith River's all-time peak flow was 228,000 cubic feet per second on December 22, 1964, during the Christmas flood of 1964, measured at a gauge about 7 miles east of Crescent City (i.e., near Jedediah Smith Redwoods State Park/Hiouchi)."
+   },
+   {
+    "sourceUrl": "https://pubs.usgs.gov/publication/wsp1866A",
+    "sourceQuality": "primary",
+    "quote": "The peak discharge of 228,000 cfs December 22 at the gaging station on Smith River near Crescent City (site 610) was 138 percent of that in 1955, the previous maximum flow since 1931, and the magnitude was 1.9 times that of a flood having a recurrence interval of 50 years. The December 22 maximum flows of 41,100 cfs in the Middle Fork Smith River at Gasquet (site 608) and 162,000 cfs in South Fork Smith River near Crescent City (site 609) were correspondingly high, being 158 and 150 percent, respectively, of those in 1955. The December 1964 flood probably equaled or exceeded that of 1861.",
+    "claim": "The Smith River's December 1964 flood peak occurred on December 22, 1964: 228,000 cfs at the main-stem gaging station 'Smith River near Crescent City' (site 610), which was 138 percent of the December 1955 peak (the previous maximum since records began in 1931) and 1.9 times the 50-year flood; the same day the Middle Fork Smith River at Gasquet peaked at 41,100 cfs (158% of 1955) and the South Fork Smith River near Crescent City at 162,000 cfs (150% of 1955). USGS judged the 1964 flood 'probably equaled or exceeded that of 1861.' (Note: this source locates the main-stem gage only as 'near Crescent City'; its actual coordinates should be cross-checked via USGS NWIS station 11532500, which sits on the main stem near Jedediah Smith Redwoods State Park.)"
+   },
+   {
+    "sourceUrl": "https://pubs.usgs.gov/publication/wsp1866A",
+    "sourceQuality": "primary",
+    "quote": "The extreme floodflows destroyed the gaging station on Smith River near Crescent City. Floodwaters from the Smith River delta flowed through Talawa Slough to Lake Earl, north of Crescent City, and raised the lake level about 5 feet. About 9,300 acres of pastureland and agricultural land in the delta area and near Lake Earl was inundated.",
+    "claim": "The December 1964 flood destroyed the Smith River near Crescent City gaging station, and floodwaters from the Smith River delta flowed through Talawa Slough into Lake Earl (north of Crescent City), raising the lake about 5 feet and inundating about 9,300 acres of pasture and agricultural land in the delta/Lake Earl area \u2014 i.e., the river-mouth lowlands (the same delta area that holds Tolowa village sites such as Yontocket, though this source does not mention them)."
+   },
+   {
+    "sourceUrl": "https://pubs.usgs.gov/publication/wsp1866A",
+    "sourceQuality": "primary",
+    "quote": "About 15 miles of U.S. Highway 199 in the Middle Fork Smith River canyon between Gasquet and Idlewild was severely damaged ... three bridges were completely destroyed. The Smith River bridge on U.S. Highway 101 also was severely damaged.",
+    "claim": "The December 1964 flood severely damaged about 15 miles of U.S. Highway 199 in the Middle Fork Smith River canyon between Gasquet and Idlewild, completely destroying roughly 1.5 miles of roadway (OCR of the figure is partially garbled: 'l1/^', almost certainly 1\u00bd) and three bridges, and also severely damaged the U.S. Highway 101 bridge over the Smith River. Storm precipitation exceeded 20 inches over much of the basin, with 27.61 inches at Elk Valley, 27.05 inches at Idlewild, and a 10.70-inch 24-hour total at Idlewild on December 22."
+   },
+   {
+    "sourceUrl": "https://pubs.usgs.gov/publication/wsp1866A",
+    "sourceQuality": "primary",
+    "quote": "The Crescent City water supply was cut off December 22 by flooding of the main pumping plant on the Smith River; service was not restored until January 4. ... There was no loss of life in the Smith River basin.",
+    "claim": "Crescent City's water supply was cut off on December 22, 1964 when the flood inundated the city's main pumping plant on the Smith River, and service was not restored until January 4, 1965; despite the destruction, no lives were lost in the Smith River basin (Smith River basin flood damage nonetheless exceeded $7 million per the report's damage tables)."
+   },
+   {
+    "sourceUrl": "https://pubs.usgs.gov/publication/wsp1866A",
+    "sourceQuality": "primary",
+    "quote": "The loss of 47 lives and direct property damage of more than $430 million was attributable to the floods. ... Crests occurred on many major streams December 23, 1964, 9 years to the day after the great flood of December 23, 1955.",
+    "claim": "Region-wide, the December 1964 \u2013 January 1965 floods were caused by three storms between December 19 and January 31 (the December 19\u201323 storm being the greatest), killed 47 people and caused over $430 million in direct property damage across the Far Western States, with crests on many major streams on December 23, 1964 \u2014 nine years to the day after the great flood of December 23, 1955; on the Eel, Klamath, and Smith Rivers the peaks were about 1-1/3 times those of 1955 and of the winter floods of 1861-62. This fixes the key dates for both floods on the map: December 23, 1955 and December 21-23, 1964 (Smith River crest December 22)."
+   }
+  ]
+ },
+ {
+  "id": "FL3",
+  "votes": 3,
+  "category": "delnorte",
+  "statement": "The tsunami from the March 27-28, 1964 Alaska earthquake struck Crescent City, killing 11 people, destroying about 29 blocks, injuring two dozen, and causing $14M+ damage \u2014 the deadliest tsunami event in the recorded history of the contiguous U.S. west coast.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.7558,
+   "lng": -124.2026,
+   "label": "Crescent City waterfront"
+  },
+  "flags": [
+   "Death toll is variously reported 10-12 \u2014 confirm the accepted figure for Crescent City proper.",
+   "'29 blocks' is phrased 'destroyed' vs 'destroyed or damaged' in different sources \u2014 report the defensible phrasing.",
+   "Check the superlative ('worst on U.S. west coast in recorded history')."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://delnortehistory.org/tsunamis/",
+    "sourceQuality": "primary",
+    "quote": "March 28, 1964 ... killing 11 people",
+    "claim": "The tsunami generated by the 1964 Alaska (Good Friday) earthquake struck Crescent City on March 28, 1964, and killed 11 people there."
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/tsunamis/",
+    "sourceQuality": "primary",
+    "quote": "destroying 29 city blocks",
+    "claim": "The 1964 tsunami destroyed 29 city blocks in Crescent City. (Flag: some other authoritative accounts phrase this as 29 blocks 'destroyed or damaged'; this source states 'destroying' outright.)"
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/tsunamis/",
+    "sourceQuality": "primary",
+    "quote": "injuring 24 ... more than 14 million dollars damage",
+    "claim": "The 1964 tsunami injured 24 people and caused more than $14 million in damage in Crescent City/Del Norte County."
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/tsunamis/",
+    "sourceQuality": "primary",
+    "quote": "worst along the U S. west coast in recorded history",
+    "claim": "The 1964 Crescent City tsunami was the worst tsunami event along the U.S. west coast in recorded history."
+   }
+  ]
+ },
+ {
+  "id": "S1",
+  "votes": 2,
+  "category": "smith",
+  "statement": "Jedediah Smith's 1828 party \u2014 Smith plus 17-18 hired men driving roughly 300+ horses and mules \u2014 turned west/north at Red Bluff on April 10, 1828, aiming for Oregon, the decision that routed the first American overland expedition through the redwood coast.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "Herd size varies ~250-330 across sources; give the defensible range."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "http://www.orww.org/Coquelle_Trails/History_1826-1875/2_Smith_1828.html",
+    "sourceQuality": "secondary",
+    "quote": "By late December 1827, Smith had hired seventeen men and began to journey up the Sacramento River Valley with a herd of 330 California horses and mules he planned to sell once they returned to the Rocky Mountains (ibid.: 46-53).",
+    "claim": "The expedition consisted of seventeen hired men (plus Smith) driving a herd of about 330 California horses and mules, having started up the Sacramento Valley in late December 1827 with the goal of selling the herd back in the Rocky Mountains (note: other sources give ~300\u2013315 animals; the page itself elsewhere says 'more than 300')."
+   },
+   {
+    "sourceUrl": "http://www.orww.org/Coquelle_Trails/History_1826-1875/2_Smith_1828.html",
+    "sourceQuality": "secondary",
+    "quote": "When they reached present-day Red Bluff on April 10, 1828, Smith made the decision to turn west toward the Pacific, and then head north to Oregon and HBC Fort Vancouver; which was well-traveled from that point to the Rockies (ibid.: 53-79).",
+    "claim": "Smith made the decision to abandon an eastward Sierra crossing and instead turn west to the Pacific and north to Oregon at present-day Red Bluff, California (approx 40.18 N, 122.24 W) on April 10, 1828 \u2014 the decision that routed the expedition through the future Jedediah Smith Redwoods State Park area."
+   }
+  ]
+ },
+ {
+  "id": "S2",
+  "votes": 1,
+  "category": "smith",
+  "statement": "The party reached the Pacific on June 8, 1828 in present-day Humboldt County and worked north along the coast through late June.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://user.xmission.com/~drudy/mtman/html/jsmith/jedexped2.html",
+    "sourceQuality": "primary",
+    "quote": "June 8th North West 5 Miles and encamped on the shore of the Ocean at the mouth of a small creek where there was tolerable good grass. ... June 24th West North West 3 miles and encamped at the mouth of a river 50 yards wide rapid at the mouth but as it was high tide I could not cross.",
+    "claim": "The party reached the Pacific shore on June 8, 1828, camping at the mouth of a small creek, and then worked north along the coast through late June \u2014 fixing the party's passage through the present Del Norte County coastal strip to roughly June 8\u201324, 1828 (they camped June 24 at the mouth of a 50-yard-wide river they could not cross at high tide, generally identified as at or near the Oregon border)."
+   },
+   {
+    "sourceUrl": "http://www.orww.org/Coquelle_Trails/History_1826-1875/2_Smith_1828.html",
+    "sourceQuality": "secondary",
+    "quote": "After a few conflicts with local Indians, they reached the ocean on June 8 and headed north toward Oregon along the coast (ibid.: 97).",
+    "claim": "Jedediah Smith's 1828 party reached the Pacific Ocean on June 8, 1828 (in present-day Humboldt County, CA) and turned north along the coast toward Oregon \u2014 bracketing the start of their passage through the redwood coast toward the Del Norte County / Smith River area to mid-June 1828."
+   }
+  ]
+ },
+ {
+  "id": "S3",
+  "votes": 3,
+  "category": "smith",
+  "statement": "On June 19, 1828, from a camp blocked by lakes and swamps near Lake Earl north of present Crescent City, Smith (scouting with two men) found and first crossed the river that would later bear his name \u2014 the first recorded European-American crossing.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.8767,
+   "lng": -124.1953,
+   "label": "Lake Earl area (camp vicinity)"
+  },
+  "flags": [
+   "The journal names no modern places; the Lake Earl identification is a scholarly route reconstruction (Sullivan 1934, Morgan 1953). Verify the reconstruction is the accepted one and that June 19 is the right journal date for the discovery/first crossing."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://user.xmission.com/~drudy/mtman/html/jsmith/jedexped2.html",
+    "sourceQuality": "primary",
+    "quote": "June 19th Remained at the same camp because I did not wish to move until I knew whether I could find grass for my horses. I took two men and struck East across the ridge following an indian trail 2 1/2 Miles when I struck a river 80 yards wide coming from ESE. I crossed Leaving the Men on the bank and found the river so rapid that my horse fell and, it was with great difficulty that I got him out. I went 1/2 Mile up the river & recrossed having the same difficulty as before. ... From the high ground I could easily see that what the men had taken for a Lake was a bay of the Ocean.",
+    "claim": "Smith's journal entry for June 19, 1828 records that, from a coastal camp beside what his men had taken for a lake (a lagoon he then recognized as 'a bay of the Ocean' \u2014 the entry historians identify with the Lake Earl area north of present Crescent City), he struck east across a ridge along an Indian trail 2.5 miles and hit a river 80 yards wide flowing from the ESE, crossing and recrossing it with great difficulty \u2014 the first recorded European-American crossing of the river later named the Smith River. The journal itself gives no modern place names; the identification is interpretive."
+   },
+   {
+    "sourceUrl": "http://mtmen.org/mtman/html/rogers/",
+    "sourceQuality": "primary",
+    "quote": "He started early in company with two of the men, and returned about 12 o.c., and says that he can pass on in a N.E. direction very well as far as he went; he discovered another small river heading in the mountain east of the ocean, and emptying into a bay west about 2 1/2 or 3 miles wide.",
+    "claim": "On Thursday, June 19, 1828, Jedediah Smith, scouting northeast with two men from a camp that was blocked by swamps and lakes (placed near Lake Earl / north of present Crescent City in standard route reconstructions), discovered a small river emptying westward into a bay about 2.5-3 miles wide \u2014 the river later named the Smith River. The journal itself never names the river; the identification is a later scholarly reconstruction, so the map should not imply Smith named it himself."
+   }
+  ]
+ },
+ {
+  "id": "S4",
+  "votes": 3,
+  "category": "smith",
+  "statement": "On June 20, 1828 the full party forded the river (~60-100 yards wide, nearly swimming depth) near the present town of Smith River and camped in a river-bottom prairie, where about 20 Tolowa people came by canoe and traded lamprey eels for beads.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.93,
+   "lng": -124.15,
+   "label": "lower Smith River crossing (reconstructed)"
+  },
+  "flags": [
+   "Crossing-site coordinates are interpretive route reconstruction \u2014 verify against the standard reconstructions and label as approximate."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://user.xmission.com/~drudy/mtman/html/jsmith/jedexped2.html",
+    "sourceQuality": "primary",
+    "quote": "June 20th East 2 1/2 Miles & encamped on the North bank of the river which I had discovered the day before. It was deep fording. My camp was in a small prairae of good grass. Several men sent hunting. June 21st North N E 6 Miles. Leaving the river on account of the brush and traveling along a ridge stony and covered with small brush but verry little timber.",
+    "claim": "On June 20, 1828 the full party moved east 2.5 miles and forded the newly found river ('It was deep fording'), camping on its NORTH bank in a small prairie; on June 21 they left the river heading NNE along a stony ridge because of brush \u2014 i.e., Smith's documented route crossed the lower river and turned away north, and the journal records no travel upstream toward the redwood forks where Jedediah Smith Redwoods State Park now sits."
+   },
+   {
+    "sourceUrl": "http://mtmen.org/mtman/html/rogers/",
+    "sourceQuality": "primary",
+    "quote": "forded the river that Capt. Smith discovered yesterday, which was nearly swimming and from 60 to 70 yards wide, and enc. on the east side, in a bottom pararie that contained about 15 or 20 acres of good grass and clover. About 20 Inds. came to camp in their canoes, and brought lamprey eels for sale; the men bought a number from them for beeds.",
+    "claim": "On Friday, June 20, 1828, Smith's party forded that river \u2014 about 60-70 yards wide and nearly swimming depth \u2014 and camped on its east side in a small bottom prairie, where about 20 Indians (Tolowa, by location \u2014 the lower Smith River near the present town of Smith River, roughly 41.93 N, 124.15 W per route reconstructions) came to camp in canoes to trade lamprey eels for beads. This is the dated crossing of the river that now bears Smith's name."
+   }
+  ]
+ },
+ {
+  "id": "S5",
+  "votes": 2,
+  "category": "smith",
+  "statement": "On June 22, 1828, expedition clerk Harrison Rogers recorded conifers 10-15 feet in diameter in northwestern Del Norte County \u2014 among the earliest written descriptions of redwood-scale trees, though he called them hemlock and cedar.",
+  "mappable": true,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "http://mtmen.org/mtman/html/rogers/",
+    "sourceQuality": "primary",
+    "quote": "Timber, hemlock and ceadar, of considerable size, and very thick on the ground; some trees from 10 to 15 feet in diamitar.",
+    "claim": "On Sunday, June 22, 1828, traveling northwest back toward the ocean north of the river crossing (northwestern Del Norte County), clerk Harrison Rogers recorded dense conifer forest with trees 10 to 15 feet in diameter \u2014 an early (June 1828) written description of redwood-scale timber in this area, though he identified the trees as hemlock and cedar, not redwood."
+   }
+  ]
+ },
+ {
+  "id": "S6",
+  "votes": 1,
+  "category": "smith",
+  "statement": "The party crossed into Oregon on June 23, 1828, camping on the north side of the Winchuck River \u2014 so the expedition's whole passage through the Smith River country spans roughly June 18-23, 1828.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 42.002,
+   "lng": -124.208,
+   "label": "Winchuck River mouth area"
+  },
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "http://www.orww.org/Coquelle_Trails/History_1826-1875/2_Smith_1828.html",
+    "sourceQuality": "secondary",
+    "quote": "Smith reached Oregon on June 23, camping on the north side of Winchuck River.",
+    "claim": "Smith's party crossed into Oregon on June 23, 1828, camping on the north side of the Winchuck River (just north of the California\u2013Oregon border, approx 42.00 N, 124.21 W) \u2014 meaning the party had traversed and left the Smith River / Del Norte County area by that date, pinning the Smith River crossing to roughly June 18\u201322, 1828."
+   }
+  ]
+ },
+ {
+  "id": "S7",
+  "votes": 3,
+  "category": "smith",
+  "statement": "Smith's 1828 expedition included the first non-Native people known to enter the redwood belt of far-northern California \u2014 among them Peter Ranne, a Black man \u2014 and the first horses and mules brought into these forests.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "Single-source superlative. Check standard Smith scholarship (Morgan, Brooks, Sullivan; NPS/park interpretive material) for the 'first' claims and Peter Ranne's presence on the 1828 leg."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "http://www.orww.org/Coquelle_Trails/History_1826-1875/2_Smith_1828.html",
+    "sourceQuality": "secondary",
+    "quote": "Smith\u2019s expedition included the first white people, black man, horses, and mules known to enter the redwoods.",
+    "claim": "Smith's 1828 expedition is credited as including the first white people, the first Black man (Peter Ranne, not named on this page), and the first horses and mules known to enter the redwood forests \u2014 a key namesake fact for the park."
+   }
+  ]
+ },
+ {
+  "id": "S8",
+  "votes": 3,
+  "category": "smith",
+  "statement": "On July 14, 1828, while Smith and two men were away scouting, Umpqua (Kuitsh) attackers killed the rest of the party at their Umpqua River camp in Oregon \u2014 about 15 men including clerk Harrison Rogers. Survivor Arthur Black reached Fort Vancouver Aug 8, Smith's group Aug 10; a Hudson's Bay recovery party buried 11 bodies at the site Oct 28, 1828 and recovered property including Rogers's journals.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "Death toll wording is ambiguous across sources (14? 15? of 19?) \u2014 give the accepted count.",
+   "Confirm July 14, 1828 as the accepted date."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://user.xmission.com/~drudy/mtman/html/jsmith/jedexped2.html",
+    "sourceQuality": "primary",
+    "quote": "My preparations being made I left the Depo on the 13th July 1827 with eighteen men and such supplies as I needed. ... July 3d 5 Miles N N West. At 2 Miles from camp I came to a river 200 yards wide which although the tide was low was deep and apparently a considerable River. ... [Last entry July 3rd]",
+    "claim": "The surviving second-expedition journal transcribed here opens with Smith leaving the depot on July 13, 1827 with eighteen men and breaks off with the entry of July 3, 1828 (at a 200-yard-wide river, identified by historians as the Rogue) \u2014 eleven days before the July 14, 1828 Umpqua massacre, so this primary source covers the approach but not the massacre, its survivors, or how the Smith River later got its name."
+   },
+   {
+    "sourceUrl": "http://mtmen.org/mtman/html/rogers/",
+    "sourceQuality": "primary",
+    "quote": "He was killed in 1828, when most of Smith's party was massacred on the Umpqua River in Oregon. Smith, who escaped the massacre, returned to the Umpquas some months later with a party of the Hudson's Bay Company. He was able to recover some of his property, including the fragmentary remains of two of Roger's journals.",
+    "claim": "Rogers was killed in 1828 when most of Smith's party was massacred on the Umpqua River in Oregon; Smith escaped, returned months later with a Hudson's Bay Company party, and recovered property including the fragmentary remains of Rogers' two journals, now held by the Missouri Historical Society. The site gives only the year 1828, not the traditional July 14 date, so the exact day must be sourced elsewhere."
+   },
+   {
+    "sourceUrl": "http://mtmen.org/mtman/html/rogers/",
+    "sourceQuality": "primary",
+    "quote": "These journals were first published in: The Ashley-Smith explorations and the discovery of a central route to the Pacific, 1822-1829, with the original journals, ed. by Harrison Clifford Dale. Cleveland : The Arthur H. Clark company, 1918.",
+    "claim": "The Second Journal of Harrison G. Rogers covers May 10, 1828 through July 13, 1828 \u2014 its final entry (Sunday, July 13, 1828, on an Umpqua-area bay in Oregon) is the day before the traditionally dated massacre \u2014 and the journals were first published in Harrison Clifford Dale's 'The Ashley-Smith Explorations and the Discovery of a Central Route to the Pacific, 1822-1829' (Arthur H. Clark Co., Cleveland, 1918), establishing the provenance chain for all quoted 1828 route details."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jedediah_Smith",
+    "sourceQuality": "secondary",
+    "quote": "On July 14, 1828, while Smith, John Turner and Richard Leland were scouting a trail north, his group was attacked in its camp on the Umpqua River.",
+    "claim": "On July 14, 1828, while Smith, John Turner, and Richard Leland were away scouting a trail north, the rest of the expedition was attacked in its camp on the Umpqua River in Oregon (the Umpqua massacre); survivor Arthur Black reached Fort Vancouver on August 8, 1828, and Smith's group arrived August 10, 1828."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jedediah_Smith",
+    "sourceQuality": "secondary",
+    "quote": "On October 28, they reached it and found 11 decomposed bodies, which they buried.",
+    "claim": "A Hudson's Bay Company recovery party reached the Umpqua massacre site on October 28, 1828, and found and buried 11 decomposed bodies; the article separately says 4 unaccounted-for men were later confirmed dead, implying roughly 15 killed \u2014 the article's total death toll wording is ambiguous, so the count should be cross-checked (note: the oft-quoted '10 men, including Silas Gobel, were killed' line refers to the August 1827 Mojave attack on the Colorado River, not the Umpqua)."
+   }
+  ]
+ },
+ {
+  "id": "S9",
+  "votes": 2,
+  "category": "smith",
+  "statement": "The river was named for Jedediah Smith by others after his passage \u2014 his surviving journals never name it, and he did not name it himself.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "Check when/by whom the name 'Smith River' was first applied if quickly findable; otherwise confirm the negative claims."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "http://mtmen.org/mtman/html/rogers/",
+    "sourceQuality": "primary",
+    "quote": "He started early in company with two of the men, and returned about 12 o.c., and says that he can pass on in a N.E. direction very well as far as he went; he discovered another small river heading in the mountain east of the ocean, and emptying into a bay west about 2 1/2 or 3 miles wide.",
+    "claim": "On Thursday, June 19, 1828, Jedediah Smith, scouting northeast with two men from a camp that was blocked by swamps and lakes (placed near Lake Earl / north of present Crescent City in standard route reconstructions), discovered a small river emptying westward into a bay about 2.5-3 miles wide \u2014 the river later named the Smith River. The journal itself never names the river; the identification is a later scholarly reconstruction, so the map should not imply Smith named it himself."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jedediah_Smith",
+    "sourceQuality": "secondary",
+    "quote": "Smith's exploration of northwestern California and southern Oregon resulted in two rivers, the Smith River (California) and Smith River (Oregon) being named for him.",
+    "claim": "The Smith River (California) and the Smith River (Oregon) were both named for Jedediah Smith as a result of his exploration of northwestern California and southern Oregon; the article gives no date or mechanism for the naming, and it does not state when or where his party crossed the California Smith River in present-day Del Norte County."
+   }
+  ]
+ },
+ {
+  "id": "S10",
+  "votes": 1,
+  "category": "smith",
+  "statement": "Jedediah Smith was killed by a Comanche party on the Cimarron River route on May 27, 1831, scouting for water; his body was never recovered.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jedediah_Smith",
+    "sourceQuality": "secondary",
+    "quote": "On May 27, 1831, while searching for water...Smith disappeared...he had been killed during an encounter with a Comanche defense party\u2013 his body was never recovered.",
+    "claim": "Jedediah Smith was killed by a Comanche party on May 27, 1831, while scouting for water near Lower Spring south of present-day Ulysses, Grant County, Kansas; his body was never recovered."
+   }
+  ]
+ },
+ {
+  "id": "T1",
+  "votes": 1,
+  "category": "tolowa",
+  "statement": "Radiocarbon evidence puts people in the Smith River basin more than 8,000 years ago \u2014 among the earliest dates in northwest California \u2014 with sites in and around what is now Jedediah Smith Redwoods State Park serving as camps from 9,000-5,000 cal B.P.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://delnortehistory.org/tolowa/",
+    "sourceQuality": "secondary",
+    "quote": "Archeology dates Dee-ni' civilization to be present for 8,000 to 12,000 years. ... At Xaa-yuu-chit (Hiouchi) California, in 2003 mvn' were carbon dated conservatively at six-thousand (6,000) B.C.E.",
+    "claim": "Archaeology dates Tolowa Dee-ni' presence in the area to 8,000\u201312,000 years, and at Xaa-yuu-chit (Hiouchi) \u2014 the Tolowa name for the community adjacent to Jedediah Smith Redwoods State Park \u2014 material carbon-dated in 2003 was conservatively dated to 6,000 B.C.E. (~8,000 years ago)."
+   },
+   {
+    "sourceUrl": "https://www.academia.edu/2537855/Archaeology_Ethnography_and_Tolowa_Heritage_at_Red_Elderberry_Place_Chvn_sulh_dvn_Jedediah_Smith_Redwoods_State_Park",
+    "sourceQuality": "primary",
+    "quote": "Four sites were used as temporary camps during the Early Period (9,000-5,000 cal B.P.), as determined by five calibrated radiocarbon dates greater than 5,000 years, including two dates of more than 8,000 years which are among the earliest archaeological radiocarbon dates reported from northwest California.",
+    "claim": "Radiocarbon evidence shows human occupation of the Smith River Basin (sites in and around Jedediah Smith Redwoods State Park) beginning more than 8,000 years ago: four sites served as temporary camps in the Early Period (9,000\u20135,000 cal B.P.), with five calibrated dates older than 5,000 years, two of them exceeding 8,000 years \u2014 among the earliest archaeological radiocarbon dates reported from northwest California."
+   }
+  ]
+ },
+ {
+  "id": "T2",
+  "votes": 2,
+  "category": "tolowa",
+  "statement": "The Tolowa village Chvn-su'lh-dvn ('Red Elderberry Place', site CA-DNO-26) at Hiouchi Flat inside today's park holds the earliest excavated redwood plank house in northwestern California (~1,267 B.P.) and was occupied into the early 20th century; Hiouchi itself carries the Tolowa name Xaa-yuu-chit.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.79,
+   "lng": -124.09,
+   "label": "Hiouchi Flat (approximate \u2014 site location deliberately generalized)"
+  },
+  "flags": [
+   "Keep coordinates generalized to Hiouchi Flat \u2014 archaeological site locations should not be pinpointed publicly."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.academia.edu/2537855/Archaeology_Ethnography_and_Tolowa_Heritage_at_Red_Elderberry_Place_Chvn_sulh_dvn_Jedediah_Smith_Redwoods_State_Park",
+    "sourceQuality": "primary",
+    "quote": "Shannon Tushingham provides an overview of archaeological research conducted under her direction about nine miles inland from the coast, in Jedediah Smith Redwood State Park and the Hiouchi Flat area of Redwood National and State Park. This is the traditional territory of the Upriver or Ge-Deeni' Tolowa. \u2026 only a small portion of one site had been previously recorded, the ethnographic village of Ch\u028an-su'lh-d\u028an, Athabascan for Red Elderberry Place (CA-DNO-26).",
+    "claim": "The archaeological site at the heart of Tushingham's 2013 monograph (California DPR Publications in Cultural Heritage No. 30) is the ethnographic Tolowa village Chvn-su'lh-dvn, Athabascan for 'Red Elderberry Place' (site CA-DNO-26), located at the Hiouchi Flat area within Jedediah Smith Redwoods State Park, about nine miles inland from the coast, in the traditional territory of the Upriver or Ge-Deeni' Tolowa. (Map placement: Hiouchi Flat, near Hiouchi, CA, approx. 41.79 N, -124.09 W \u2014 coordinates inferred from place name, not stated in source. Quote is from Rick Minor's peer-reviewed review of the volume, J. California and Great Basin Anthropology 35(1) 2015, used because the academia.edu copy is bot-blocked.)"
+   },
+   {
+    "sourceUrl": "https://www.academia.edu/2537855/Archaeology_Ethnography_and_Tolowa_Heritage_at_Red_Elderberry_Place_Chvn_sulh_dvn_Jedediah_Smith_Redwoods_State_Park",
+    "sourceQuality": "primary",
+    "quote": "The Late Period (1,500 cal B.P.\u2013A.D. 1850), represented at four sites, is distinguished by four semi-subterranean redwood plank houses (three at CA-DNO-26, and one at CA-DNO-332) closely resembling those described in ethnographic accounts. The earliest excavated plank house in northwestern California, House 1 at Red Elderberry Place, has a mean pooled radiocarbon age of 1,267 B.P.",
+    "claim": "House 1 at Red Elderberry Place (CA-DNO-26) is the earliest excavated plank house in northwestern California, with a mean pooled radiocarbon age of 1,267 B.P.; the Late Period (1,500 cal B.P.\u2013A.D. 1850) at Smith River Basin sites is marked by four semi-subterranean redwood plank houses (three at CA-DNO-26, one at CA-DNO-332) closely resembling those in Tolowa ethnographic accounts."
+   },
+   {
+    "sourceUrl": "https://www.academia.edu/2537855/Archaeology_Ethnography_and_Tolowa_Heritage_at_Red_Elderberry_Place_Chvn_sulh_dvn_Jedediah_Smith_Redwoods_State_Park",
+    "sourceQuality": "primary",
+    "quote": "The Contact Period (A.D. 1850-1902), limited to a small area at CA-DNO-26, is mainly represented by a heavily burned semi-subterranean sweathouse dating from AD 1850-1890. The associated assemblage is like that of the Late Period, but with the addition of historically available materials such as square nails, shotgun shells, flaked glass tools and modified flakes, and items of personal adornment including buttons.",
+    "claim": "Tolowa occupation at Chvn-su'lh-dvn continued into the twentieth century: the Contact Period there is defined as A.D. 1850\u20131902 and is chiefly represented by a heavily burned semi-subterranean sweathouse dating from A.D. 1850\u20131890, with an artifact assemblage including square nails, shotgun shells, flaked glass tools, and buttons. (The review does not state the cause of the burning \u2014 do not attribute it without corroboration.)"
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/tolowa/",
+    "sourceQuality": "secondary",
+    "quote": "Archeology dates Dee-ni' civilization to be present for 8,000 to 12,000 years. ... At Xaa-yuu-chit (Hiouchi) California, in 2003 mvn' were carbon dated conservatively at six-thousand (6,000) B.C.E.",
+    "claim": "Archaeology dates Tolowa Dee-ni' presence in the area to 8,000\u201312,000 years, and at Xaa-yuu-chit (Hiouchi) \u2014 the Tolowa name for the community adjacent to Jedediah Smith Redwoods State Park \u2014 material carbon-dated in 2003 was conservatively dated to 6,000 B.C.E. (~8,000 years ago)."
+   }
+  ]
+ },
+ {
+  "id": "T3",
+  "votes": 1,
+  "category": "tolowa",
+  "statement": "Tolowa Dee-ni' aboriginal territory (Taa-laa-waa-dvn) spans roughly Wilson Creek to the Sixes River and inland to the Applegate watershed \u2014 about 2.87 million acres including the whole Smith River corridor; Del Norte County is Dan'-taa-dvn; the territory was organized into eleven districts (yvtlh-'i~).",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.tolowa.gov/246/OUR-LANDS",
+    "sourceQuality": "primary",
+    "quote": "The aboriginal territory of the Nation encompasses the area of Daa-ghestlh-ts'a' (Wilson Creek) to the South, Ts'aa-xwii-chit (Sixes River) to the North, East to Taa-xuu-me' (Applegate watershed) in the Coastal Range, and West to the Pacific Ocean horizon.",
+    "claim": "The Tolowa Dee-ni' aboriginal territory (Taa-laa-waa-dvn) is bounded by Wilson Creek (Daa-ghestlh-ts'a') on the south, the Sixes River (Ts'aa-xwii-chit) on the north, the Applegate watershed (Taa-xuu-me') in the Coastal Range on the east, and the Pacific Ocean horizon on the west \u2014 a span that encompasses the entire Smith River corridor and the present-day Jedediah Smith Redwoods State Park area."
+   },
+   {
+    "sourceUrl": "https://www.tolowa.gov/246/OUR-LANDS",
+    "sourceQuality": "primary",
+    "quote": "Dan'-taa-dvn (Del Norte County) is located in the heart of Taa-laa-waa-dvn (Tolowa Aboriginal Territory) on the most northwestern corner of present-day California.",
+    "claim": "Del Norte County is known in the Tolowa language as Dan'-taa-dvn and sits in the heart of Tolowa aboriginal territory in the far northwestern corner of California \u2014 a primary-source attestation of Tolowa place names usable on a visitor-facing map."
+   },
+   {
+    "sourceUrl": "https://www.tolowa.gov/246/OUR-LANDS",
+    "sourceQuality": "primary",
+    "quote": "over one hundred (100) miles of coastal shoreline and approximately 2.87 million square acres of land and an undefined acreage of marine waters in northern California and southern Oregon",
+    "claim": "Tolowa aboriginal territory covers more than 100 miles of coastline and roughly 2.87 million acres of land spanning northern California and southern Oregon, plus marine waters."
+   },
+   {
+    "sourceUrl": "https://www.tolowa.gov/246/OUR-LANDS",
+    "sourceQuality": "primary",
+    "quote": "eleven (11) traditional districts, known as Yvtlh-'i~",
+    "claim": "The territory was traditionally organized into eleven districts called Yvtlh-'i~, each governed by headmen (xvsh-xay-yu')."
+   }
+  ]
+ },
+ {
+  "id": "T4",
+  "votes": 2,
+  "category": "tolowa",
+  "statement": "The Tolowa had three major polity centers in California, each a named village: Taa-'at-dvn at Crescent Bay, 'Ee-chuu-le' at Lake Earl lagoon, and Yan'-daa-k'vt (Yontocket) near the Smith River mouth \u2014 Yontocket described as the 'Center of the Tolowa World.'",
+  "mappable": true,
+  "knownCoords": null,
+  "flags": [
+   "Return approximate coordinates for each of the three village sites (generalized to the named locality, not exact site points)."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://delnortehistory.org/tolowa/",
+    "sourceQuality": "secondary",
+    "quote": "Three major polity capitols in California: Taa-'at-dvn (Crescent Bay), 'Ee-chuu-le' (Lagoon at Lake Earl), and Yan'-daa-k'vt (Yontocket).",
+    "claim": "The Tolowa Dee-ni' had three major polity capitols in California, each a mappable named village site: Taa-'at-dvn at Crescent Bay (Crescent City area), 'Ee-chuu-le' at the lagoon at Lake Earl, and Yan'-daa-k'vt at Yontocket near the Smith River mouth; other named settlements included Big Flat, Cushing Creek, Elk Creek, Gasquet, Lake Earl, and Pebble Beach. The page gives no Tolowa-language name for the Smith River itself."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yontoket_massacre",
+    "sourceQuality": "secondary",
+    "quote": "The attack happened \"on the third night of the ten night gatherings\" ... Yontocket, the \"Center of the Tolowa World\" ... tribes met \"at both the Summer and the Winter solstices.\"",
+    "claim": "The attack was carried out by a 33-man militia company organized by American citizens of Crescent City, striking on the third night of a ten-night Needash (feather dance) gathering after fall harvest, when Chetko, Pistol River, Tolowa, Tututni, and Rogue River people had assembled at Yontocket \u2014 described as the 'Center of the Tolowa World' where tribes met at the solstices."
+   }
+  ]
+ },
+ {
+  "id": "T5",
+  "votes": 3,
+  "category": "tolowa",
+  "statement": "In fall 1853, during the third night of a Needash gathering at Yontocket that had drawn Tolowa and neighboring peoples, a ~33-man militia raised in Crescent City attacked and burned the village, killing a contested toll reported from ~150 (official estimates) to 450-600 (witness and Tolowa accounts); the site became known as Burnt Ranch, no perpetrator was ever prosecuted, and survivors relocated to Howonquet.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.9403,
+   "lng": -124.1946,
+   "label": "Yontocket (Yontocket Slough, Tolowa Dunes area) \u2014 approximate"
+  },
+  "flags": [
+   "Season is inconsistent across tertiary sources (spring vs after fall harvest). Check Madley 'An American Genocide' (2016) and other scholarship for the accepted dating (fall 1853 vs spring 1853 vs winter 1853-54?).",
+   "Death toll MUST be reported as a contested range with attributions, never averaged.",
+   "delnortehistory.org calls it 'second-largest single mass killing of Indians in American history' \u2014 treat as contested, attribute if used.",
+   "Confirm approximate Yontocket location (Yontocket Slough, GNIS)."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yontoket_massacre",
+    "sourceQuality": "secondary",
+    "quote": "Yontocket (Tolowa: yan'-daa-k'vt), located on the south side of Smith River ... Became known as \"Burnt Ranch\" after the village was burned",
+    "claim": "The Yontoket massacre took place in 1853 at the Tolowa village of Yontocket (Tolowa: yan'-daa-k'vt), located on the south side of the Smith River near Crescent City, and the burned village site was afterward known as 'Burnt Ranch'. NOTE an internal inconsistency to verify: the article dates it to spring 1853 while describing the attacked ceremony as one 'held after fall harvest' \u2014 the season is uncertain and other scholarship should be checked."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yontoket_massacre",
+    "sourceQuality": "secondary",
+    "quote": "One Tolowa man reported: \"more than 450 people were killed\" ... Official estimates: \"only 150 lives lost\" ... Tolowa sources: \"600 people were massacred\" ... \"So many victims were incinerated, submerged, or have floated away that the attackers could not obtain a complete body count.\"",
+    "claim": "The death toll is contested across sources: 'official estimates' put it at about 150, a Tolowa witness said more than 450 were killed, Tolowa sources say 600, and the article summarizes 'as many as 450 to 500' recorded dead \u2014 with a complete body count impossible because many victims were burned or lost in the slough. These conflicting figures should be flagged, not averaged, on the map."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yontoket_massacre",
+    "sourceQuality": "secondary",
+    "quote": "The attack happened \"on the third night of the ten night gatherings\" ... Yontocket, the \"Center of the Tolowa World\" ... tribes met \"at both the Summer and the Winter solstices.\"",
+    "claim": "The attack was carried out by a 33-man militia company organized by American citizens of Crescent City, striking on the third night of a ten-night Needash (feather dance) gathering after fall harvest, when Chetko, Pistol River, Tolowa, Tututni, and Rogue River people had assembled at Yontocket \u2014 described as the 'Center of the Tolowa World' where tribes met at the solstices."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yontoket_massacre",
+    "sourceQuality": "secondary",
+    "quote": "There are no records that any of the perpetrators were ever held accountable. ... Survivors forced to move to Howonquet (north of Smith River)",
+    "claim": "No perpetrator of the Yontoket massacre was ever held accountable, and survivors were forced to relocate to Howonquet, north of the Smith River."
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/tolowa/",
+    "sourceQuality": "secondary",
+    "quote": "The Yan'-daa-k'vt Massacre in 1853 near the mouth of the Smith River is the second largest single mass killings of Indians in American history.",
+    "claim": "The 1853 Yontocket (Yan'-daa-k'vt) massacre took place near the mouth of the Smith River, and the Historical Society characterizes it as the second-largest single mass killing of Indians in American history; the page gives no death toll, and this superlative ranking should be treated as contested. The page does not mention the 1854 Achulet massacre at all."
+   }
+  ]
+ },
+ {
+  "id": "T6",
+  "votes": 3,
+  "category": "tolowa",
+  "statement": "In 1854, settlers attacked the Tolowa village of 'Ee-chuu-le' (Achulet) beside Lake Earl at dawn, killing a contested toll of 65-150 people (the attackers' own count of 65 excluded victims lost in the lake); the pretext was a suspected horse theft, and settlers later renamed the site after a survivor, 'Old Pay Way.'",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.8257,
+   "lng": -124.1887,
+   "label": "Achulet / Ee-chuu-le, Lake Earl \u2014 approximate"
+  },
+  "flags": [
+   "Find month/day if scholarship gives one (some accounts say winter/early 1854).",
+   "Death toll must stay a contested range with attributions.",
+   "Confirm village-site coordinates are appropriately generalized."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Achulet_massacre",
+    "sourceQuality": "secondary",
+    "quote": "The Achulet Massacre refers to the 1854 massacre ... near Lake Earl in [what is now Del Norte County], California. Coordinates: 41\u00b049\u203232\u2033N 124\u00b011\u203219\u2033W (41.8256693\u00b0N 124.1886932\u00b0W).",
+    "claim": "The Achulet massacre took place in 1854 at the Tolowa village of Achulet (Tolowa name: 'Ee-chuu-le') near Lake Earl in present-day Del Norte County, California, at approximately 41.8257\u00b0N, 124.1887\u00b0W. Note: the article gives only the year \u2014 no month or day \u2014 so a precise date for the map must come from another source."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Achulet_massacre",
+    "sourceQuality": "secondary",
+    "quote": "The attackers reported killing 65 Indians, but this tally did not include victims whose bodies sank in the lake.",
+    "claim": "The death toll is contested and given as a range of 65\u2013150 Tolowa killed; the attackers themselves reported 65 killed, but that count excluded victims whose bodies sank in Lake Earl. (Research question specifically asks to flag contested death-toll figures \u2014 this is one.)"
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Achulet_massacre",
+    "sourceQuality": "secondary",
+    "quote": "An Indian was suspected of stealing the horse of a white man.",
+    "claim": "The perpetrators were European-American settlers ('armed whites'), and the stated pretext for the attack on the village's men, women, and children was suspicion that an Indian had stolen a white man's horse."
+   },
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Achulet_massacre",
+    "sourceQuality": "secondary",
+    "quote": "the settlers renamed the village as Pay Way, after Old Pay Way, one of the few Tolowa survivors",
+    "claim": "After the massacre, settlers renamed the village 'Pay Way,' after Old Pay Way, described as one of the few Tolowa survivors \u2014 a place-name detail usable on a historical map."
+   }
+  ]
+ },
+ {
+  "id": "T7",
+  "votes": 3,
+  "category": "tolowa",
+  "statement": "Attacks on the Tolowa continued for roughly seven years after Yontocket \u2014 including at Chetko, Smith Creek, Howonquet, and Stundossun \u2014 with scholarly accounts (Norton 1979; Madley 2016) putting total Tolowa deaths in the hundreds (one summary: ~902 across the period).",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "Cross-check the event list and the ~902 figure against Madley (2016) appendices; report what the scholarship actually supports and flag the rest.",
+   "Determine whether 'Stundossun' duplicates the 1854 Lake Earl (Achulet) event or is distinct."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yontoket_massacre",
+    "sourceQuality": "secondary",
+    "quote": "Related massacres within 7 years: Chetko Massacre: 24 dead; Smith Creek Massacre: 7 dead; Howonquet Massacre: 70 dead; Stundossun Massacre: 300 dead; Total Tolowa deaths (7 years): 902",
+    "claim": "Within roughly seven years of Yontoket, further attacks on the Tolowa included the Chetko massacre (24 dead), Smith Creek massacre (7 dead), Howonquet massacre (70 dead), and Stundossun massacre (300 dead), for a claimed total of 902 Tolowa deaths in that period \u2014 figures the article attributes to sources including Jack Norton (1979) and Benjamin Madley (2017), and which warrant cross-checking. Notably, the article does not use the name 'Achulet' for the 1854 massacre; Stundossun may be the same or a distinct event."
+   }
+  ]
+ },
+ {
+  "id": "T8",
+  "votes": 3,
+  "category": "tolowa",
+  "statement": "In 1862 the U.S. established the ~44,000-acre Smith River Reservation in northwest Del Norte County together with Camp Lincoln (a U.S. Army post northwest of Crescent City); the reservation was discontinued in 1868, two years after the death of Xaa-wan'-k'wvt headman K'ay-lish in 1866.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.7995,
+   "lng": -124.1595,
+   "label": "Camp Lincoln historic site (approx, CHL #545)"
+  },
+  "flags": [
+   "Camp Lincoln's establishment is usually dated September 1862 \u2014 confirm date, purpose (sources differ: protecting settlers vs protecting/controlling Tolowa), and the CHL #545 location on Kings Valley Road.",
+   "Confirm reservation acreage and 1868 discontinuation."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://delnortehistory.org/tolowa/",
+    "sourceQuality": "secondary",
+    "quote": "In 1862 Congress honored the intents approved under the Xaa-wan'-k'wvt Treaty and established the 44,000-acre Smith River Reservation. It covered two and a one-quarter townships in the northwest quarter of Del Norte County and established Camp Lincoln to protect Tolowa lives from further settler depredations. ... the valuable lands of the Smith River Reservation were retracted by the U.S. Government in 1868.",
+    "claim": "In 1862 Congress established the 44,000-acre Smith River Reservation (covering roughly two and a quarter townships in the northwest quarter of Del Norte County) along with Camp Lincoln, which the page says was created to protect Tolowa lives from settler depredations; the reservation was retracted by the U.S. Government in 1868, following the 1866 death of Xaa-wan'-k'wvt headman K'ay-lish."
+   }
+  ]
+ },
+ {
+  "id": "T9",
+  "votes": 3,
+  "category": "tolowa",
+  "statement": "Tolowa survivors were forcibly removed repeatedly \u2014 to the Klamath River reservation and, after the Rogue River Wars, to Oregon reservations (including Siletz) around 1860 \u2014 with one historical-society account putting 1,834 people relocated out of a pre-contact Dee-ni' population it states exceeded 10,000.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "Population and removal figures vary widely in scholarship (pre-contact estimates ~2,400-10,000). Report the range and attribute; do not present 10,000 as consensus."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Achulet_massacre",
+    "sourceQuality": "secondary",
+    "quote": "Tolowa relocated to 'Klamath Concentration Camp' and later 'Indian reservations in Oregon in 1860' after the Rogue River Wars",
+    "claim": "Surviving Tolowa were subsequently removed: relocated to the Klamath reservation (which the article calls the 'Klamath Concentration Camp') and then to Indian reservations in Oregon in 1860, following the Rogue River Wars \u2014 relevant to the forced-removals thread of the research question."
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/tolowa/",
+    "sourceQuality": "secondary",
+    "quote": "And 1,834 survivors were forcibly relocated to concentration camps in Oregon, including to what is now known as the Siletz Reservation in the Central Coastal Range. ... The historic Dee-ni' population exceeded 10,000.",
+    "claim": "After the massacres and reservation period, 1,834 Tolowa survivors were forcibly relocated to camps in Oregon, including what is now the Siletz Reservation, out of a historic Dee-ni' population the page states exceeded 10,000."
+   }
+  ]
+ },
+ {
+  "id": "T10",
+  "votes": 1,
+  "category": "tolowa",
+  "statement": "The Tolowa Dee-ni' Nation today has more than 2,000 enrolled citizens and 950+ acres of tribal land, and remains active in the park \u2014 including returning cultural burning to See-tr'ee-ghin-dvm-dvn within the park area with California State Parks in November 2025.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.tolowa.gov/246/OUR-LANDS",
+    "sourceQuality": "primary",
+    "quote": "Today the Tolowa Dee-ni' Nation consists of over 950 acres of tribal-owned land and has over 2,000 Tribal Citizens.",
+    "claim": "As of the page's writing, the Tolowa Dee-ni' Nation holds over 950 acres of tribal-owned land and has more than 2,000 enrolled citizens \u2014 directly answering the 'Tolowa Dee-ni' Nation today' portion of the research question."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/?page_id=413",
+    "sourceQuality": "primary",
+    "quote": "Tolowa Dee-ni' Nation and California State Parks Return Cultural Burning to See-tr'ee-ghin-dvm-dvn",
+    "claim": "On or about November 20, 2025, the Tolowa Dee-ni' Nation and California State Parks returned cultural burning to a place within the park area bearing the Tolowa name See-tr'ee-ghin-dvm-dvn \u2014 evidence of the Nation's active present-day role and a Tolowa place name for the map (news item dated 11/20/25)."
+   }
+  ]
+ },
+ {
+  "id": "P1",
+  "votes": 3,
+  "category": "park",
+  "statement": "Jedediah Smith Redwoods State Park began with the 1929 gift of the roughly 44-acre Stout Grove at the Mill Creek-Smith River confluence: lumberman Frank D. Stout arranged the donation with Save the Redwoods League but died before completing it, and his widow Clara completed the gift, naming it the Frank D. Stout Memorial Grove.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.7885,
+   "lng": -124.0844,
+   "label": "Stout Memorial Grove"
+  },
+  "flags": [
+   "NPS says Clara donated as memorial to her husband; the NPS cultural-landscape inventory says Frank initiated it intending to honor his son Henry and Clara completed it. Reconcile and state the accurate story.",
+   "CLI says Stout Grove was re-dedicated in 1963 to WWII servicemen \u2014 check this (possible confusion with National Tribute Grove).",
+   "Confirm 1929 as the park-founding donation year and 'first dedicated grove.'"
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.nps.gov/places/stoutgrove.htm",
+    "sourceQuality": "primary",
+    "quote": "In 1929, Clara W. Stout, widow of lumberman Frank D. Stout, donated this tract of old-growth redwood forest to Save the Redwoods League.",
+    "claim": "In 1929, Clara W. Stout, widow of lumberman Frank D. Stout, donated the Stout Grove tract of old-growth redwood forest to Save the Redwoods League (as a memorial to her late husband)."
+   },
+   {
+    "sourceUrl": "https://www.nps.gov/places/stoutgrove.htm",
+    "sourceQuality": "primary",
+    "quote": "Stout Grove then became the first dedicated grove in Jedediah Smith Redwoods State Park.",
+    "claim": "Stout Grove became the first dedicated grove in Jedediah Smith Redwoods State Park."
+   },
+   {
+    "sourceUrl": "https://www.nps.gov/places/stoutgrove.htm",
+    "sourceQuality": "primary",
+    "quote": "This majestic 44-acre grove of old-growth redwoods is a popular summer destination for those willing to take on the challenge of getting there. The trail is a short 0.5 mile (0.8 km) in length and the grove is on the edge of the beautiful Smith River.",
+    "claim": "Stout Memorial Grove is a 44-acre old-growth redwood grove located on the edge of the Smith River, reached by a 0.5-mile (0.8 km) trail."
+   },
+   {
+    "sourceUrl": "https://www.npshistory.com/publications/redw/cli-howland-hill-road.pdf",
+    "sourceQuality": "primary",
+    "quote": "The donation of the Frank D. Stout Memorial Grove to the State of California in 1929 holds special significance in that it marked the creation of Jedediah Smith Redwoods State Park ... Frank Stout, President of Del Norte Lumber Company, expressed his interest in donating \"a small but beautiful tract of redwood of about 45 acres, in Del Norte County, California, located at the junction of Mill Creek and Smith River.\" ... While it was Frank Stout's intention to name the grove after his late son, Henry L. Stout, Mr. Stout died shortly after contacting the Save the Redwoods League, and when his wife resumed the donation process, she requested that the grove be named after her late husband, Frank. D. Stout.",
+    "claim": "Stout Grove: donated to the State of California in 1929, marking the creation of Jedediah Smith Redwoods State Park. Donor was Frank Stout, President of the Del Norte Lumber Company (working with Save the Redwoods League), who described it as about 45 acres 'located at the junction of Mill Creek and Smith River' (approx. 41.79 N, 124.08 W). Nuance often garbled elsewhere: Frank Stout intended to name it for his late son Henry L. Stout, but died shortly after contacting the League, and his wife completed the donation, naming it the Frank D. Stout Memorial Grove. In 1963 Stout Grove was officially re-dedicated to men who served in World War II."
+   }
+  ]
+ },
+ {
+  "id": "P3",
+  "votes": 2,
+  "category": "park",
+  "statement": "The 5,000+ acre National Tribute Grove along Howland Hill Road \u2014 dedicated 1949 to Americans who served in WWII \u2014 was assembled through a 1939 Save the Redwoods League purchase agreement with Del Norte Lumber Co. (500 acres/year), proposed as a tribute by the Garden Club of America in May 1944, surveyed by Frederick Law Olmsted Jr., and completed with a final 1949 DAR-funded purchase.",
+  "mappable": true,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.npshistory.com/publications/redw/cli-howland-hill-road.pdf",
+    "sourceQuality": "primary",
+    "quote": "In 1939, the Save the Redwoods League entered into a purchase agreement with the Del Norte Lumber Company to gradually acquire old-growth stands within the park. The agreement allowed 500 acres to be purchased each year for 10 years from the company's extensive holdings. The resulting grove is the National Tribute Grove, a 5,000-acre redwood grove dedicated to the men and women who have served in the U. S. Armed Forces. ... The Garden Club of America proposed dedicating a large redwood grove within Jedediah Smith Redwoods State Park in May 1944 ... The area was surveyed by prominent landscape architect Frederick Law Olmsted, Jr.",
+    "claim": "National Tribute Grove: Save the Redwoods League entered a purchase agreement with Del Norte Lumber Company in 1939 to buy 500 acres of old-growth per year for 10 years; the Garden Club of America proposed the WWII tribute grove in May 1944 with an initial $5,000 donation; boundaries were surveyed by landscape architect Frederick Law Olmsted, Jr.; the final 500-acre purchase came in 1949 with Daughters of the American Revolution funds, and the 5,000+ acre grove \u2014 dedicated to those who served in the U.S. Armed Forces in WWII \u2014 was dedicated in 1949, completing public ownership along Howland Hill Road. Its dedication monument was placed near the park entrance visible from Highway 199. (Note: the research question calls it 500 acres; the CLI says the 1949 purchase was the final 500-acre unit of a 5,000-acre grove.)"
+   }
+  ]
+ },
+ {
+  "id": "P4",
+  "votes": 1,
+  "category": "park",
+  "statement": "The park protects about 10,000 acres of old-growth redwood 9 miles east of Crescent City on US-199, jointly managed since 1994 by California State Parks and the NPS as part of Redwood National and State Parks, which together protect 45% of California's remaining old-growth redwoods.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.parks.ca.gov/?page_id=413",
+    "sourceQuality": "primary",
+    "quote": "This park protects 10,000 acres of primeval redwood groves, a lush undergrowth of rhododendrons and azaleas",
+    "claim": "Jedediah Smith Redwoods State Park protects 10,000 acres, described by California State Parks as primeval (old-growth) redwood groves with undergrowth of rhododendrons and azaleas."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/?page_id=413",
+    "sourceQuality": "primary",
+    "quote": "The park is located 9 miles east of Crescent City on Highway 199",
+    "claim": "The park is located 9 miles east of Crescent City on Highway 199 (US-199), placing it near Hiouchi in Del Norte County \u2014 a locating fact usable for map placement."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/?page_id=413",
+    "sourceQuality": "primary",
+    "quote": "Redwood National and State Parks protect 45 percent of California's remaining old-growth redwoods\u2014an area almost four times the size of Manhattan Island",
+    "claim": "Redwood National and State Parks (of which Jedediah Smith is a unit) protect 45 percent of California's remaining old-growth redwoods, an area the agency compares to almost four times the size of Manhattan Island."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/?page_id=413",
+    "sourceQuality": "primary",
+    "quote": "Jedediah Smith Redwoods State Park's 10,000 acres are managed cooperatively by the National Park Service and California State Parks",
+    "claim": "The park's 10,000 acres are managed cooperatively by the National Park Service and California State Parks (the joint RNSP management arrangement)."
+   }
+  ]
+ },
+ {
+  "id": "P5",
+  "votes": 2,
+  "category": "park",
+  "statement": "The Civilian Conservation Corps developed the park in the 1930s: CCC Company 1903 (based at Camp Prairie Creek) built the entrance road, a custodian's residence, and the riverside campground \u2014 tables, stoves, restrooms \u2014 plus a footbridge over the Smith River to Stout Grove (the ancestor of today's seasonal summer footbridge).",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.79492,
+   "lng": -124.085,
+   "label": "Jed Smith campground (CCC-built)"
+  },
+  "flags": [
+   "Engbeck (2002) pp. 21-22 is the cited authority \u2014 pin down years if findable (1933-1941 window)."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://livingnewdeal.org/sites/jedediah-smith-redwoods-state-park-campground-crescent-city-ca/",
+    "sourceQuality": "secondary",
+    "quote": "The Civilian Conservation Corps (CCC) did the initial development of Jedediah Smith Redwoods State Park in the 1930s.",
+    "claim": "The Civilian Conservation Corps performed the initial development of Jedediah Smith Redwoods State Park in the 1930s (the page gives no year more precise than the decade; its cited source, Engbeck 2002, covers CCC work 1933-1941)."
+   },
+   {
+    "sourceUrl": "https://livingnewdeal.org/sites/jedediah-smith-redwoods-state-park-campground-crescent-city-ca/",
+    "sourceQuality": "secondary",
+    "quote": "CCC Company 1903, of Camp Prairie Creek, built a new entrance road and a park custodian's residence.",
+    "claim": "CCC Company 1903, based at Camp Prairie Creek, built the park's new entrance road and a park custodian's residence."
+   },
+   {
+    "sourceUrl": "https://livingnewdeal.org/sites/jedediah-smith-redwoods-state-park-campground-crescent-city-ca/",
+    "sourceQuality": "secondary",
+    "quote": "They built a campground near the Smith River with a footbridge over the river, connecting the campground with the ancient redwoods of the Stout Grove. The campground included tables, stoves, cupboards, and restrooms.",
+    "claim": "The CCC built the campground near the Smith River \u2014 including tables, stoves, cupboards, and restrooms \u2014 with a footbridge over the river connecting the campground to Stout Grove."
+   },
+   {
+    "sourceUrl": "https://livingnewdeal.org/sites/jedediah-smith-redwoods-state-park-campground-crescent-city-ca/",
+    "sourceQuality": "secondary",
+    "quote": "The major CCC contribution was the Jedediah Smith campground, which is just off state highway 199 west of the village of Hiouchi.",
+    "claim": "The CCC-built Jedediah Smith campground is located just off US/state highway 199 west of the village of Hiouchi; the page lists its coordinates as 41.79492, -124.085 (Del Norte County) and marks the site as partially extant and still in use."
+   },
+   {
+    "sourceUrl": "https://livingnewdeal.org/sites/jedediah-smith-redwoods-state-park-campground-crescent-city-ca/",
+    "sourceQuality": "secondary",
+    "quote": "Joseph H. Engbeck, Jr. By the People, For the People: The Work of the Civilian Conservation Corps in California State Parks, 1933-1941. Sacramento: California State Parks. 2002. pp. 21-22.",
+    "claim": "The page's account of the CCC work is documented in Joseph H. Engbeck, Jr.'s California State Parks history of the CCC, at pages 21-22 \u2014 a checkable authoritative source for precise construction dates."
+   }
+  ]
+ },
+ {
+  "id": "P6",
+  "votes": 2,
+  "category": "park",
+  "statement": "Howland Hill Road is NOT an 1850s toll road: it was surveyed in 1881 and built as a free county road in 1887 by the Christensen brothers, connecting Crescent City to Horace Gasquet's 1881 toll road; the kernel of truth is that its corridor traces 1850s pack trails (the Cold Springs Mountain Trail, in use by 1853, and Ben Kelsey's 1855 trail). It was bypassed by the Redwood Highway (US-199) in 1926 and named for the Howland family who ranched there from the 1860s.",
+  "mappable": true,
+  "knownCoords": null,
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.npshistory.com/publications/redw/cli-howland-hill-road.pdf",
+    "sourceQuality": "primary",
+    "quote": "Howland Hill Road was initially surveyed in 1881 and based, in least in part, on older trails leading through the forest between Crescent City and the interior of the state and north to Oregon. ... Work on the road did not begin until seven years later when in 1887 the BOS hired brothers Nels and Soren O. Christensen to construct (as opposed to improve) a seven-mile-long road from Crescent City to the south fork of Smith River. ... Howland Hill Road is historically significant at the local level for the period beginning in 1887 and ending in 1949.",
+    "claim": "Howland Hill Road was NOT built in the 1850s and was not itself a toll road: it was surveyed in 1881 (by J. S. Howard) and constructed in 1887 by brothers Nels and Soren O. Christensen under hire of the Del Norte County Board of Supervisors, as a free public road linking Crescent City to Horace Gasquet's 1881 toll road (Gasquet to Waldo, Oregon); its National Register period of significance is 1887-1949. The road is 5.9 miles long, running from ~2 miles east of Crescent City to the eastern park boundary west of Douglas Park (west-end UTM 10N 404683E 4623565N, NAD83). It was bypassed when the Redwood Highway/US-199 was completed (1926 in the CLI chronology; the significance statement inconsistently says 1929) and 'largely unused' by 1932. This refutes the common visitor-guide claim that Howland Hill Road originated as an 1850s wagon/toll road."
+   },
+   {
+    "sourceUrl": "https://www.npshistory.com/publications/redw/cli-howland-hill-road.pdf",
+    "sourceQuality": "primary",
+    "quote": "The Cold Springs Mountain Trail was in use between Crescent City and Sailor Diggings in southwest Oregon as early as 1853. The trail left the coast and, according to local trail historian Jerry Rohde, passed over Howland Hill into the Mill Creek basin and crossed Mill Creek, then crossed the Smith River at Catchings Ferry. ... In 1855 Ben Kelsey under subscription from citizens from the area worked to improve his trail. ... Both of these trails consisted of little more than a horse or foot path cleared of brush.",
+    "claim": "The road corridor does trace 1850s pack trails, which is the kernel of truth in the '1850s road' claim: the Cold Springs Mountain Trail was in use between Crescent City and Sailor Diggings (southwest Oregon) as early as 1853, passing over Howland Hill into the Mill Creek basin and crossing the Smith River at Catchings Ferry; the Kelsey Trail (improved by Ben Kelsey in 1855 by citizen subscription, connecting Crescent City to Yreka-area mines) ran just south of today's road alignment, crossing Mill Creek near the Nickerson Ranch site; the Kelsey Trail fell into disuse in 1909. These were horse/foot paths, not wagon roads. Howland Hill itself was named for the Eli and Mary Howland family, who settled a ranch there in the 1860s."
+   }
+  ]
+ },
+ {
+  "id": "P7",
+  "votes": 2,
+  "category": "park",
+  "statement": "The double-trunked Boy Scout Tree was found by John 'Jack' Breen \u2014 Del Norte County sheriff 1919-1935 and co-founder of Crescent City's Boy Scout Troop 10 in 1922 \u2014 and in 1950 the Boy Scouts dedicated the Mill Creek bridge on Howland Hill Road to him (Jack Breen Memorial Bridge).",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.7823,
+   "lng": -124.1108,
+   "label": "Boy Scout Tree Trailhead (approx)"
+  },
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.npshistory.com/publications/redw/cli-howland-hill-road.pdf",
+    "sourceQuality": "primary",
+    "quote": "In 1950, the bridge over Mill Creek located near the trailhead to the Boy Scout Tree was dedicated to Jack Breen, a local sheriff who helped establish the Boy Scouts in Crescent City (Del Norte Triplicate 2007). Breen was also famous for locating the double-trunk specimen redwood tree. ... Breen was elected Del Norte County sheriff in 1919 and held the position until 1935. In 1922, Breen and a few local men started Boy Scouts of America Troop 10.",
+    "claim": "Boy Scout Tree and Jack Breen Bridge: the double-trunk Boy Scout Tree was located by John 'Jack' Breen, Del Norte County sheriff from 1919 to 1935, who co-founded Boy Scouts of America Troop 10 in Crescent City in 1922; in 1950 the Boy Scouts dedicated the Mill Creek bridge on Howland Hill Road (near the Boy Scout Tree trailhead) to Breen \u2014 it is the road's only contributing structure per the SHPO. Related grove facts from the same document: the Metcalf Grove was donated in 1942 by Mr. and Mrs. Jesse H. Metcalf of Rhode Island, and the Simpson-Reed Grove was presented by Simpson Timber Company in memory of Mark E. Reed, its president from 1914 to 1955."
+   }
+  ]
+ },
+ {
+  "id": "P8",
+  "votes": 1,
+  "category": "park",
+  "statement": "The Grove of Titans, whose off-trail location spread online (GPS coordinates posted around 2011), suffered two decades of root-zone trampling until a $4M project \u2014 1,300-foot elevated boardwalk, realigned 3-mile Mill Creek Trail, ADA parking on Howland Hill Road \u2014 opened in May 2022, built with 23,000+ crew hours and 128 tons of hand-carried materials, developed in consultation with the Tolowa Dee-ni' Nation (whose word for redwood is K'vsh-chu).",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.7808,
+   "lng": -124.0862,
+   "label": "Grove of Titans boardwalk via Mill Creek Trail (trailhead area)"
+  },
+  "flags": [],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/project/grove-of-titans/",
+    "sourceQuality": "primary",
+    "quote": "around 2011, a social-media post provided GPS coordinates for the grove\u2014an off-trail location in Jedediah Smith Redwoods State Park.",
+    "claim": "The Grove of Titans' off-trail location in Jedediah Smith Redwoods State Park became publicly known around 2011, when a social-media post revealed its GPS coordinates. (Note: the page does not address the grove's original discovery \u2014 often cited as 1998 \u2014 only the coordinate leak.)"
+   },
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/project/grove-of-titans/",
+    "sourceQuality": "primary",
+    "quote": "Damaged the ancient redwoods' shallow root systems ... Eroded soil and litter into the streams, impacting coho and steelhead spawning habitat",
+    "claim": "After the location leaked, visitor trampling created unofficial trails that damaged the ancient redwoods' shallow root systems and eroded soil into streams, harming coho and steelhead spawning habitat."
+   },
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/project/grove-of-titans/",
+    "sourceQuality": "primary",
+    "quote": "1,300-foot elevated boardwalk ... 3-mile Mill Creek Trail ... More than 23,000 hours of work by trail crews ... [opened] May 2022 ... $4 million",
+    "claim": "The protective-access project \u2014 planned collaboratively beginning in 2018 by Save the Redwoods League, California State Parks, Redwood Parks Conservancy, and the National Park Service \u2014 built a 1,300-foot elevated boardwalk, realigned the 3-mile Mill Creek Trail, and added ADA-accessible parking and restrooms; it opened to the public in May 2022 at a cost of $4 million after more than 23,000 hours of trail-crew work."
+   },
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/project/grove-of-titans/",
+    "sourceQuality": "primary",
+    "quote": "Standing tall within the ancestral lands of the Tolowa Dee-ni' Nation",
+    "claim": "The Grove of Titans stands within the ancestral lands of the Tolowa Dee-ni' Nation; interpretive panels at the site were developed in consultation with the Nation, including Tolowa linguist and historian Loren Me'-lash-ne Bommelyn, and feature the Tolowa word for redwood, K'vsh-chu."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/NewsRelease/1089",
+    "sourceQuality": "primary",
+    "quote": "Park visitors are invited year-round to explore the new 1,300-foot-long boardwalk through the Grove of Titans, which is accessible from the newly realigned Mill Creek Trail. ... New services and amenities have been added nearby along Howland Hill Road, including ADA-accessible parking and restrooms.",
+    "claim": "The Grove of Titans Trail Project was announced complete on May 23, 2022, opening a new 1,300-foot-long elevated boardwalk through the Grove of Titans, reached via the newly realigned Mill Creek Trail, with new ADA-accessible parking and restrooms along Howland Hill Road in Jedediah Smith Redwoods State Park, Del Norte County (grove/trailhead area approx. 41.78 N, 124.08 W \u2014 coordinates are my map approximation, not stated in the source)."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/NewsRelease/1089",
+    "sourceQuality": "primary",
+    "quote": "Social media and unofficial promotion of the grove's off-trail location led to a dramatic increase in visitation over the last 20 years. ... A complex web of unplanned social trails formed over the years. This brought meandering foot traffic directly through the grove, which destroyed understory plants and damaged the trees' shallow root systems.",
+    "claim": "The boardwalk was built in response to roughly two decades of visitor trampling: social media and unofficial promotion of the grove's off-trail location drove a dramatic visitation increase over the ~20 years before 2022, creating a web of unplanned social trails that destroyed understory plants and damaged the redwoods' shallow root systems. (The release gives no discovery date for the grove \u2014 the oft-cited 1998 discovery is NOT confirmed here.)"
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/NewsRelease/1089",
+    "sourceQuality": "primary",
+    "quote": "The cost of the Mill Creek Trail realignment, Grove of Titans boardwalk, associated new visitor amenities and grove restoration was approximately $4 million. ... Save the Redwoods League supporters contributed more than $2 million toward the project, including a generous challenge grant from Josie Merck of Connecticut.",
+    "claim": "The project (Mill Creek Trail realignment, boardwalk, visitor amenities, grove restoration) cost approximately $4 million, with Save the Redwoods League supporters contributing more than $2 million (including a challenge grant from Josie Merck), $875,000 from the California Natural Resources Agency via the Prop 68 bond act of 2018, over $900,000 in-kind from partners, and $205,000 from Redwood Parks Conservancy donors; planning was announced in 2018."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/NewsRelease/1089",
+    "sourceQuality": "primary",
+    "quote": "In total, trail crews spent more than 23,000 hours to realign the 3-mile Mill Creek Trail and build the new elevated walkway. To minimize construction impact on the sensitive habitat, the crews also hand-carried close to 128 tons of construction materials and tools to the site.",
+    "claim": "Trail crews spent more than 23,000 hours realigning the 3-mile Mill Creek Trail and building the elevated walkway, and hand-carried close to 128 tons of construction materials and tools to the site to minimize impact on the sensitive old-growth habitat."
+   },
+   {
+    "sourceUrl": "https://www.parks.ca.gov/NewsRelease/1089",
+    "sourceQuality": "primary",
+    "quote": "Grove of Titans is within Tolowa Dee-ni' Nation ancestral territories. It is also part of Jedediah Smith Redwoods State Park within Redwood National and State Parks (RNSP) in Del Norte County, California. ... Tolowa Dee-ni' maintain our responsibility as the original stewards of the Grove of Titans through a government-to-government relationship with the Redwood National and State Parks.",
+    "claim": "The Grove of Titans lies within Tolowa Dee-ni' Nation ancestral territory; the Nation collaborated on the trail project, interpretation was developed in consultation with the Nation, and its Tribal Council states it maintains stewardship of the grove through a government-to-government relationship with Redwood National and State Parks."
+   }
+  ]
+ },
+ {
+  "id": "P9",
+  "votes": 2,
+  "category": "park",
+  "statement": "Despite persistent visitor lore, there is no confirmed Return of the Jedi filming location inside Jedediah Smith Redwoods State Park: the Endor scenes were shot mainly on private timberland (since logged) and at other parks \u2014 the speeder-chase Steadicam work in Cheatham Grove (Grizzly Creek Redwoods SP) and truck shots along the Avenue of the Giants.",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "Sources are a League blog + expert comment. Check whether any official/production source confirms private-timberland Endor sets near Smith River town in Del Norte County; report at the confidence the sources support."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/explore/star-wars-return-of-the-jedediah-smith-redwoods/",
+    "sourceQuality": "blog",
+    "quote": "Jedediah Smith Redwoods State Park. Many people speculate that filming was done here \u2014 perhaps near Stout Grove? You'll have to use the force to figure it out the next time you visit.",
+    "claim": "Save the Redwoods League does NOT assert that Return of the Jedi was filmed in Jedediah Smith Redwoods State Park; it frames the Jed Smith/Stout Grove connection only as popular speculation. (Note: live URL now returns 404; content retrieved from the 2025-12-04 Wayback Machine snapshot.)"
+   },
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/explore/star-wars-return-of-the-jedediah-smith-redwoods/",
+    "sourceQuality": "blog",
+    "quote": "Dedicated Star Wars fans and redwoods aficionados alike have put some admirable effort into trying to figure out where each Endor scene took place. Unfortunately, much of the filming was apparently done on private land, where the redwoods have since been cut.",
+    "claim": "Much of the Endor filming for Return of the Jedi was done on private timberland (not in the parks), and those redwoods have since been logged \u2014 hedged with 'apparently' by the author."
+   },
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/explore/star-wars-return-of-the-jedediah-smith-redwoods/",
+    "sourceQuality": "blog",
+    "quote": "There was no filming at Jedediah Smith Redwoods for the movie, but there was in another stand of Coast Redwoods.",
+    "claim": "A reader comment (May 22, 2014) by redwoods researcher M. D. Vaden \u2014 whom the article's author thanks in a postscript for 'Star Wars and redwoods expertise' \u2014 flatly states there was NO Return of the Jedi filming at Jedediah Smith Redwoods State Park, directly contradicting the common visitor claim."
+   },
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/explore/star-wars-return-of-the-jedediah-smith-redwoods/",
+    "sourceQuality": "blog",
+    "quote": "Humboldt Redwoods State Park. Some of the scenes for the speeder bike chase sequence were filmed from the back of a truck driving down the Avenue of the Giants.",
+    "claim": "Some speeder-bike chase scenes were filmed from a truck driving down the Avenue of the Giants in Humboldt Redwoods State Park (i.e., Endor footage from a different park ~100 miles south of Jed Smith)."
+   },
+   {
+    "sourceUrl": "https://www.savetheredwoods.org/explore/star-wars-return-of-the-jedediah-smith-redwoods/",
+    "sourceQuality": "blog",
+    "quote": "Grizzly Creek Redwoods State Park. A long time ago in a galaxy not too far away, the steadycam shots of the speeder bike race are said to have been filmed here. Explore the leisurely trail through Cheatham Grove with your whole family.",
+    "claim": "The Steadicam shots of the speeder-bike chase are said to have been filmed in Cheatham Grove at Grizzly Creek Redwoods State Park (hedged as 'are said to have been')."
+   }
+  ]
+ },
+ {
+  "id": "D1",
+  "votes": 3,
+  "category": "delnorte",
+  "statement": "The sidewheel steamer Brother Jonathan struck Dragon Rocks in St. George Reef, ~4 miles off Point St. George, on July 30, 1865, in the deadliest shipwreck to that date on the Pacific coast: only 19 of those aboard survived in one lifeboat and over 200 died (commonly cited: ~225 of ~244). Recovered victims lie in Crescent City's Brother Jonathan Cemetery at 9th Street; the wreck \u2014 carrying an Army payroll in gold \u2014 was located in 1993 and partly salvaged in 1996.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.7645,
+   "lng": -124.2038,
+   "label": "Brother Jonathan Cemetery/Vista Point"
+  },
+  "flags": [
+   "Passenger/death counts vary (244 aboard/225 dead is common; some say 232 aboard). Give the defensible figure with attribution.",
+   "Confirm 'deadliest Pacific coast shipwreck up to that time' superlative."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://delnortehistory.org/the-ss-brother-jonathan/",
+    "sourceQuality": "primary",
+    "quote": "the overloaded ship impaled on one of the many jagged rocks in the Dragon Channel of St. George Reef ... four miles off Point St. George, just north of Crescent City",
+    "claim": "The SS Brother Jonathan wrecked on July 30, 1865, when the overloaded ship struck a jagged rock in the Dragon Channel of St. George Reef, about four miles off Point St. George just north of Crescent City, after its captain turned back toward Crescent City in gale-force winds."
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/the-ss-brother-jonathan/",
+    "sourceQuality": "primary",
+    "quote": "With the loss of over 200 lives ... Only nineteen people survived",
+    "claim": "More than 200 people died in the wreck and only nineteen survived \u2014 8 passengers and 11 crew who escaped in a single lifeboat. Note the page deliberately hedges the death toll as 'over 200' rather than giving a precise figure (other sources commonly cite 225 dead of 244 aboard), so the exact toll should be flagged as approximate."
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/the-ss-brother-jonathan/",
+    "sourceQuality": "primary",
+    "quote": "Brother Jonathan 'cemetery' on the ocean bluffs at the end of 9th St.",
+    "claim": "Recovered victims were buried in the Brother Jonathan cemetery on the ocean bluffs at the end of 9th Street in Crescent City, where 28 headstones remain \u2014 a precisely mappable visitor site (the present-day Brother Jonathan Cemetery/Vista Point at 9th St and Pebble Beach Dr)."
+   },
+   {
+    "sourceUrl": "https://delnortehistory.org/the-ss-brother-jonathan/",
+    "sourceQuality": "primary",
+    "quote": "an army payroll in newly-minted gold coin ... One $5 Liberty-head gold piece was given to the Museum",
+    "claim": "The ship was carrying an army payroll in newly minted gold coin when it sank; the wreck was salvaged in the early 1990s, and one $5 Liberty-head gold piece from the recovery was given to the Del Norte County Historical Society museum. (Other accounts date the wreck's rediscovery to 1993 and the main gold recovery to 1996, consistent with but more specific than the page's 'early 1990's'.)"
+   }
+  ]
+ },
+ {
+  "id": "D2",
+  "votes": 3,
+  "category": "delnorte",
+  "statement": "St. George Reef Lighthouse \u2014 built on the reef that sank the Brother Jonathan, one of the most expensive U.S. lighthouses ever constructed \u2014 was first lit on October 20, 1892.",
+  "mappable": true,
+  "knownCoords": {
+   "lat": 41.8365,
+   "lng": -124.3757,
+   "label": "St. George Reef Lighthouse"
+  },
+  "flags": [
+   "delnortehistory.org says lit 1891; USCG/NPS accounts say first lit October 20, 1892. Resolve from authoritative lighthouse records and state the correct date."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://delnortehistory.org/the-ss-brother-jonathan/",
+    "sourceQuality": "primary",
+    "quote": "lit in 1891 to warn mariners away from the Dragon Rocks of St. George Reef",
+    "claim": "St. George Reef Lighthouse was built in response to the disaster and, according to this page, was lit in 1891 to warn mariners away from the Dragon Rocks of St. George Reef. CAUTION: this 1891 date conflicts with the widely cited first-lighting date of October 20, 1892 (USCG/NPS accounts); treat the year as contested and verify before mapping."
+   }
+  ]
+ },
+ {
+  "id": "D3",
+  "votes": 1,
+  "category": "delnorte",
+  "statement": "Written tsunami history for the Del Norte coast reaches back to the January 1700 Cascadia megathrust event, with the most recent damaging tsunami surges in the 2010s (delnortehistory.org notes an event affecting the area as recently as 2016).",
+  "mappable": false,
+  "knownCoords": null,
+  "flags": [
+   "2016 as 'most recent' may be superseded (e.g. 2011 Tohoku damage was major; check what the 2016 reference is)."
+  ],
+  "evidence": [
+   {
+    "sourceUrl": "https://delnortehistory.org/tsunamis/",
+    "sourceQuality": "primary",
+    "quote": "written historical records extend back to 1700 ... the most recent event occurred in 2016",
+    "claim": "Written historical records of tsunamis affecting the Del Norte County area extend back to 1700 (the Cascadia event), and the most recent tsunami event affecting the area occurred in 2016."
+   }
+  ]
+ }
+]

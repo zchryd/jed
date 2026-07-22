@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Historical Map — Jedediah Smith Redwoods &amp; the Smith River Country</title>
+<style>/*__LEAFLET_CSS__*/</style>
+<style>
+:root{
+  --paper:#F2EEE3; --ink:#2A241C; --bark:#3B2A20; --bark2:#57402F;
+  --emerald:#14594E; --emerald-soft:#58A08F; --madrone:#A8541A; --rule:#D8CFB8;
+  --t-tolowa:#4A6FA5; --t-smith:#8C6D3F; --t-park:#2E7D4F; --t-river:#1C7C8C; --t-floods:#4AA3C0; --t-delnorte:#757068;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{font:14px/1.5 "Seravek","Avenir Next","Helvetica Neue",sans-serif;color:var(--ink);display:flex;overflow:hidden}
+#panel{width:340px;min-width:340px;background:var(--bark);color:#EFE7D8;display:flex;flex-direction:column;z-index:1000;box-shadow:2px 0 12px #0006}
+#map{flex:1;background:var(--paper)}
+.phead{padding:18px 18px 14px;border-bottom:1px solid #ffffff22}
+.phead .eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#C9B896;display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.phead h1{font:700 21px/1.2 "Iowan Old Style",Georgia,serif;color:#F5EFE0}
+.phead p{margin-top:6px;font-size:12px;color:#CFC4AC}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:12px 18px;border-bottom:1px solid #ffffff22}
+.chip{font:600 11px/1 "Seravek","Avenir Next",sans-serif;letter-spacing:.04em;padding:7px 10px;border-radius:999px;
+  border:1.5px solid #ffffff44;background:transparent;color:#EFE7D8;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--chipc,#EFE7D8);border-color:var(--chipc,#EFE7D8);color:#20160F}
+.chip:focus-visible{outline:2px solid #fff;outline-offset:1px}
+#tl{flex:1;overflow-y:auto;padding:6px 0}
+.ev{display:grid;grid-template-columns:70px 1fr;gap:10px;padding:9px 18px;cursor:pointer;border-left:3px solid transparent}
+.ev:hover{background:#ffffff14}
+.ev:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+.ev .yr{font:700 12px/1.5 "SF Mono",Menlo,monospace;color:#C9B896;text-align:right;white-space:nowrap}
+.ev .tt{font-size:13px;line-height:1.35;color:#F0EADB}
+.ev .th{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.ev.hidden{display:none}
+.pfoot{padding:12px 18px;border-top:1px solid #ffffff22;font-size:11px;color:#B8AD94}
+.pfoot .bases{display:flex;gap:6px;margin-bottom:10px}
+.bbtn{flex:1;font:600 11px/1 "Seravek",sans-serif;padding:7px 0;border:1.5px solid #ffffff44;background:transparent;color:#EFE7D8;cursor:pointer;border-radius:4px}
+.bbtn[aria-pressed="true"]{background:#EFE7D8;color:#20160F;border-color:#EFE7D8}
+.pfoot a{color:#9FD0BF}
+/* markers */
+.pin{width:22px;height:22px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 1px 5px #0008;display:flex;align-items:center;justify-content:center}
+.pin svg{display:block}
+.pin.ctx{opacity:.82;width:18px;height:18px}
+/* popups */
+.leaflet-popup-content-wrapper{background:var(--paper);color:var(--ink);border-radius:6px;box-shadow:0 4px 18px #0007;font:13px/1.5 "Seravek","Avenir Next",sans-serif}
+.leaflet-popup-content{margin:14px 16px}
+.pp{max-width:100%}
+.pp h3{font:700 16px/1.25 "Iowan Old Style",Georgia,serif;color:var(--emerald);margin-bottom:2px}
+.pp .date{font:600 11px/1.6 "SF Mono",Menlo,monospace;color:var(--bark2);letter-spacing:.04em;text-transform:uppercase}
+.pp p{margin:8px 0 0;font-size:13px}
+.pp .contested{margin-top:8px;padding:8px 10px;border-left:3px solid var(--madrone);background:#F5EBDD;font-size:12px}
+.pp .contested b{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--madrone);margin-bottom:3px}
+.pp .prec{margin-top:8px;font-size:11px;color:#7A7060;font-style:italic}
+.pp .srcs{margin-top:8px;font-size:11px}
+.pp .srcs a{color:var(--emerald);display:block;margin-top:2px}
+#mobilebar{display:none}
+@media (max-width:760px){
+  body{flex-direction:column}
+  #panel{width:100%;min-width:0;max-height:45%;order:2}
+  #map{order:1;min-height:55%}
+}
+</style>
+</head>
+<body>
+<aside id="panel">
+  <div class="phead">
+    <div class="eyebrow"><svg width="12" height="12" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#C9B896" stroke-width="1.6"/><rect x="5" y="5" width="4" height="4" transform="rotate(45 7 7)" fill="#58A08F"/></svg> Where it happened</div>
+    <h1>Historical Map of the Smith River Country</h1>
+    <p>26 verified events, 8,000 years deep. Tap a pin or a timeline entry. Pale pins are the wider story beyond the park.</p>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Filter by theme"></div>
+  <div id="tl" role="list"></div>
+  <div class="pfoot">
+    <div class="bases" role="group" aria-label="Base map">
+      <button class="bbtn" data-base="img" aria-pressed="true">Imagery</button>
+      <button class="bbtn" data-base="topo" aria-pressed="false">Topo</button>
+      <button class="bbtn" data-base="plain" aria-pressed="false">Offline</button>
+    </div>
+    Pin positions marked <i>approximate</i> or <i>locality</i> are deliberately generalized — village and archaeological sites are not pinpointed. Full story &amp; sources: <a href="History Report.html">History Report</a>.
+  </div>
+</aside>
+<div id="map" role="application" aria-label="Historical map"></div>
+
+<script>/*__LEAFLET_JS__*/</script>
+<script>
+var LAYERS={
+  park:__DATA_park__,
+  water:__DATA_water__,
+  rivers:__DATA_rivers__,
+  highways:__DATA_highways__,
+  trails:__DATA_trails__,
+  pois:__DATA_pois__
+};
+var EVENTS=__DATA_events__;
+var THEMES={
+  tolowa:{label:"Tolowa Dee-ni'",c:"#4A6FA5"},
+  smith:{label:"1828 expedition",c:"#8C6D3F"},
+  park:{label:"Park & groves",c:"#2E7D4F"},
+  river:{label:"The river",c:"#1C7C8C"},
+  floods:{label:"Floods",c:"#4AA3C0"},
+  delnorte:{label:"Del Norte",c:"#757068"}
+};
+
+var map=L.map('map',{zoomControl:true}).setView([41.845,-124.11],11);
+var bases={
+  img:L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery © Esri'}),
+  topo:L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'USGS The National Map'}),
+  plain:null
+};
+bases.img.addTo(map);
+document.querySelectorAll('.bbtn').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.bbtn').forEach(function(x){x.setAttribute('aria-pressed','false')});
+    b.setAttribute('aria-pressed','true');
+    Object.keys(bases).forEach(function(k){ if(bases[k]&&map.hasLayer(bases[k])) map.removeLayer(bases[k]); });
+    var k=b.dataset.base;
+    if(bases[k]) bases[k].addTo(map);
+    document.getElementById('map').style.background = (k==='plain') ? '#E4EBDD' : '#F2EEE3';
+  });
+});
+
+/* reference layers */
+L.geoJSON(LAYERS.water,{style:{color:'#5FA8C7',weight:1,fillColor:'#8FC7DC',fillOpacity:.5,interactive:false}}).addTo(map);
+L.geoJSON(LAYERS.rivers,{style:{color:'#2E86AB',weight:1.4,opacity:.85,interactive:false}}).addTo(map);
+L.geoJSON(LAYERS.park,{style:{color:'#14594E',weight:2.2,fillColor:'#2E7D4F',fillOpacity:.14,interactive:false}}).addTo(map);
+L.geoJSON(LAYERS.highways,{style:function(f){return {color:f.properties.cls==='hwy'?'#C9A227':'#CBBd8E',weight:f.properties.cls==='hwy'?2.4:1.2,opacity:.9,interactive:false}}}).addTo(map);
+L.geoJSON(LAYERS.trails,{style:{color:'#8C5A3C',weight:1.4,dashArray:'5 4',opacity:.9},filter:function(f){return !f.properties.road}}).addTo(map)
+  .eachLayer(function(l){ if(l.feature.properties.name) l.bindTooltip(l.feature.properties.name,{sticky:true}); });
+L.geoJSON(LAYERS.pois,{pointToLayer:function(f,ll){
+  return L.circleMarker(ll,{radius:3.5,color:'#14594E',weight:1.5,fillColor:'#fff',fillOpacity:1});
+}}).addTo(map).eachLayer(function(l){ l.bindTooltip(l.feature.properties.name); });
+
+/* event pins */
+function pinIcon(ev){
+  var c=THEMES[ev.theme].c;
+  var cls='pin'+(ev.context?' ctx':'');
+  var star=ev.contested?'<circle cx="17" cy="5" r="4" fill="#A8541A" stroke="#fff" stroke-width="1.2"/>':'';
+  return L.divIcon({className:'',iconSize:ev.context?[18,18]:[22,22],iconAnchor:ev.context?[9,9]:[11,11],
+    html:'<div class="'+cls+'" style="background:'+c+'">'+
+      '<svg width="22" height="22" viewBox="0 0 22 22" style="position:absolute;left:-2.5px;top:-2.5px;overflow:visible">'+star+'</svg>'+
+      '<svg width="9" height="9" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#fff" stroke-width="2"/></svg></div>'});
+}
+function popupHtml(ev){
+  var h='<div class="pp"><div class="date">'+ev.date+'</div><h3>'+ev.title+'</h3><p>'+ev.summary+'</p>';
+  if(ev.contested) h+='<div class="contested"><b>Figures contested</b>'+ev.contested+'</div>';
+  h+='<div class="prec">Pin precision: '+ev.precision+' — '+ev.precisionNote+'</div>';
+  h+='<div class="srcs">'+ev.sources.map(function(s){return '<a href="'+s.url+'" target="_blank" rel="noopener">'+s.label+'</a>'}).join('')+'</div></div>';
+  return h;
+}
+var markers={};
+EVENTS.forEach(function(ev){
+  var m=L.marker([ev.lat,ev.lng],{icon:pinIcon(ev),title:ev.title}).bindPopup(popupHtml(ev),{maxWidth:380,minWidth:320});
+  m.addTo(map); markers[ev.id]=m;
+});
+
+/* timeline + chips */
+var active={}; Object.keys(THEMES).forEach(function(k){active[k]=true});
+var chipbox=document.getElementById('chips');
+Object.keys(THEMES).forEach(function(k){
+  var b=document.createElement('button');
+  b.className='chip'; b.style.setProperty('--chipc',THEMES[k].c);
+  b.textContent=THEMES[k].label; b.setAttribute('aria-pressed','true');
+  b.addEventListener('click',function(){
+    active[k]=!active[k]; b.setAttribute('aria-pressed',String(active[k])); refresh();
+  });
+  chipbox.appendChild(b);
+});
+var tl=document.getElementById('tl');
+EVENTS.slice().sort(function(a,b){return a.year-b.year}).forEach(function(ev){
+  var d=document.createElement('div');
+  d.className='ev'; d.setAttribute('role','listitem'); d.tabIndex=0; d.dataset.theme=ev.theme;
+  d.innerHTML='<span class="yr">'+ev.tl+'</span>'+
+    '<span class="tt"><span class="th" style="background:'+THEMES[ev.theme].c+'"></span>'+ev.title+'</span>';
+  function go(){ var m=markers[ev.id]; map.flyTo(m.getLatLng(), Math.max(map.getZoom(),12),{duration:.6}); m.openPopup(); }
+  d.addEventListener('click',go);
+  d.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();go();} });
+  tl.appendChild(d);
+});
+var qs=new URLSearchParams(location.search);
+var openId=qs.get('open');
+if(openId&&markers[openId]){
+  var m=markers[openId];
+  map.setView(m.getLatLng(),13);
+  setTimeout(function(){m.openPopup();},350);
+}
+function refresh(){
+  EVENTS.forEach(function(ev){
+    var on=active[ev.theme];
+    var m=markers[ev.id];
+    if(on&&!map.hasLayer(m)) m.addTo(map);
+    if(!on&&map.hasLayer(m)) map.removeLayer(m);
+  });
+  document.querySelectorAll('.ev').forEach(function(d){
+    d.classList.toggle('hidden',!active[d.dataset.theme]);
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,430 @@
+{
+ "rulings": [
+  {
+   "name": "Western Hemlock (Tsuga heterophylla)",
+   "verdict": "confirmed",
+   "ruling": "ID characters are accurate: drooping/feathery leader is a reliable distance ID, short flat needles of uneven lengths on a twig, cones under an inch. Species is a genuine shade-tolerant component of the region's redwood/Douglas-fir forests as an understory-to-canopy tree. Regionally correct; park-specific abundance is modest but the entry is sound. No official page needed for an ID entry."
+  },
+  {
+   "name": "Grand Fir (Abies grandis)",
+   "verdict": "confirmed",
+   "ruling": "ID accurate: flat glossy needles with two white bands beneath in a flat spray ('friendly fir'), resin-blistered smooth gray young bark furrowing with age. Occurs on moist slopes and stream terraces in the Smith River drainage mixed with Douglas-fir/hemlock. Regionally correct."
+  },
+  {
+   "name": "Port Orford Cedar (Chamaecyparis lawsoniana)",
+   "verdict": "confirmed",
+   "ruling": "ID accurate: flattened sprays with white 'X'/butterfly on scale undersides, pea-sized round cones. The Smith River watershed is a core native POC area on serpentine. The wet-weather boot/tire-cleaning safety note is a genuine active management concern: it limits spread of the lethal root pathogen Phytophthora lateralis, for which Six Rivers NF runs sanitation/wash measures. Recommend citing a Six Rivers NF POC page when publishing the safety line."
+  },
+  {
+   "name": "Tanoak (Notholithocarpus densiflorus)",
+   "verdict": "confirmed",
+   "ruling": "ID accurate: leathery toothed oak-like evergreen leaves, acorns in a bristly/fringed cap unlike a true oak's smooth cap \u2014 and it is not a true oak. Sudden oak death (Phytophthora ramorum) has killed many tanoaks regionally, so dead/standing snags as hazard trees near trails after storms is a valid caution."
+  },
+  {
+   "name": "Pacific Rhododendron (Rhododendron macrophyllum)",
+   "verdict": "confirmed",
+   "ruling": "ID accurate (leathery evergreen leaves, showy rose/purple-pink trusses). Grayanotoxins are present in all Rhododendron parts and are toxic if eaten \u2014 established toxicology; the do-not-make-tea warning is correct. Boy Scout Tree Trail late-spring bloom is accurate. Bloom-peak wording should stay a seasonal estimate."
+  },
+  {
+   "name": "Western Azalea (Rhododendron occidentale)",
+   "verdict": "confirmed",
+   "ruling": "ID accurate: deciduous, fragrant white-to-pale-pink flowers with a yellow blotch, strong sweet scent. As a Rhododendron it contains grayanotoxins \u2014 toxic if ingested. Streambank/moister-ground habitat correct. Keep bloom window as a regional estimate."
+  },
+  {
+   "name": "Western Trillium (Trillium ovatum)",
+   "verdict": "confirmed",
+   "ruling": "Biology correct (parts in threes; flower opens white and ages pink/rose, so patches show both). Picking prohibition traces to an official rule: CCR Title 14 Sec. 4306 forbids picking/digging/disturbing any plant in California State Parks except where a District Superintendent posts authorization. Trillium is not toxic and is slow to recover from damage.",
+   "sourceUrl": "https://www.parks.ca.gov/?page_id=21301"
+  },
+  {
+   "name": "California Pitcher Plant / Cobra Lily (Darlingtonia californica)",
+   "verdict": "corrected",
+   "ruling": "ID and full-protection/stay-on-boardwalk guidance are correct. But the 'Darlingtonia Trail' boardwalk as the classic viewing spot appears to conflate the Oregon Darlingtonia State Natural Site (near Florence, OR) with local occurrence; in the Smith River area Darlingtonia grows in serpentine seeps/fens (Little Bald Hills / Myrtle Creek Botanical Area), not a named local 'Darlingtonia Trail.' Coordinates rightly omitted.",
+   "correctedText": "Confined to nutrient-poor serpentine seeps, fens, and bogs; locally viewed in the Little Bald Hills / Myrtle Creek Botanical Area serpentine fens along the Smith River NRA boundary (not the separate Oregon 'Darlingtonia Trail' near Florence). Stay on any boardwalk/trail \u2014 the plant is fully protected and easily trampled."
+  },
+  {
+   "name": "Red Elderberry (Sambucus racemosa)",
+   "verdict": "corrected",
+   "ruling": "Botany correct (5-7 toothed leaflets, upright bright-red berry clusters, spring white flowers). Raw red-elderberry leaves/stems/uncooked berries do contain cyanogenic compounds and should be cooked \u2014 correct. Two fixes: don't imply blue elderberry is safe raw (raw blue elderberry can also cause GI upset \u2014 both are best cooked); and the specific Tolowa 'Red Elderberry Place' village name/translation is unverified and should be cut until a Tolowa Dee-ni' Nation or ethnobotanical source confirms it.",
+   "correctedText": "Keep 'cook before eating' for red elderberry; note raw blue elderberry is also mildly toxic (don't present it as safe raw). Remove the specific Tolowa 'Red Elderberry Place' village name/translation pending a tribal/ethnobotanical source; describe only that the Smith confluence area was culturally significant to the Tolowa."
+  },
+  {
+   "name": "Black bear (Ursus americanus)",
+   "verdict": "confirmed",
+   "ruling": "ID correct (no shoulder hump \u2014 distinguishes from the CA-extirpated grizzly; dark coat). Food-storage requirement traces to NPS: at Redwood NSP campgrounds all food/scented items must be stored in a closed vehicle, a park food-storage locker where provided, or an approved bear-resistant container (definition includes drinks, pet food, toiletries). Applies at Jed Smith and Mill Creek campgrounds.",
+   "sourceUrl": "https://www.nps.gov/redw/planyourvisit/camping.htm"
+  },
+  {
+   "name": "Roosevelt elk (Cervus canadensis roosevelti)",
+   "verdict": "confirmed",
+   "ruling": "NPS confirms seven herds concentrated well south (Bald Hills largest ~250; Prairie Creek/Gold Bluffs/Elk Meadow/Lower Redwood Creek/Orick), with range 'Freshwater Lagoon to just south of Klamath and north of Klamath near Crescent Beach' \u2014 so Del Norte is edge-of-range near Crescent Beach, not a Jed Smith herd, exactly as the entry frames it. Recommended viewing distance is 25 yards (75 ft), farther in spring and fall.",
+   "sourceUrl": "https://www.nps.gov/redw/learn/nature/roosevelt-elk.htm"
+  },
+  {
+   "name": "Mountain lion / cougar (Puma concolor)",
+   "verdict": "confirmed",
+   "ruling": "ID (tawny unspotted coat, dark-tipped tail, tracks without claw marks, cached deer kills) is accurate. Status confirmed by CDFW: mountain lions became a specially protected species with the 1990 passage of Prop 117; hunting is prohibited except via depredation permits. 'Do not run' is standard NPS/CDFW encounter guidance. Regional presence throughout the Smith River/Del Norte complex is ecologically sound.",
+   "sourceUrl": "https://wildlife.ca.gov/Conservation/Mammals/Mountain-Lion"
+  },
+  {
+   "name": "Humboldt marten (Martes caurina humboldtensis)",
+   "verdict": "confirmed",
+   "ruling": "ID correct (chocolate fur, orange/cream throat, larger/darker than a mink). Rediscovered 1996 in Six Rivers NF; federally threatened (2020) and California-endangered (2019). The <500 figure is a reasonable range-wide order of magnitude but should be cited to the USFWS species profile before printing as precise. Presence within Jed Smith's specific boundary (vs. broader Smith River NRA/Six Rivers NF) is not independently confirmed \u2014 keep the 'genuine rarity' framing."
+  },
+  {
+   "name": "Fisher (Pekania pennanti)",
+   "verdict": "corrected",
+   "ruling": "ID (larger/darker than a marten, housecat-sized, long bushy tail, loping gait) and old-growth Klamath-Siskiyou/Smith River habitat are correct. Two fixes: fishers are NOT almost entirely nocturnal \u2014 they are active by day and night (cathemeral, somewhat crepuscular); and the ESA framing should be sharper: only the Southern Sierra Nevada DPS is federally endangered (2020), while NW California fishers are a conservation concern but not ESA-listed.",
+   "correctedText": "Fishers are active by day and night (not almost entirely nocturnal), though secretive and rarely seen. Note that only the Southern Sierra Nevada DPS is federally listed (endangered, 2020); NW California fishers are a species of conservation concern but are not ESA-listed. Presence in Del Norte/Smith River drainage is plausible but verify against Six Rivers NF/CDFW range maps."
+  },
+  {
+   "name": "Northern spotted owl (Strix occidentalis caurina)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: dark-brown owl with white/round spotting (vs. barred owl's vertical belly streaking), dark eyes, no ear tufts, a series of ~four deep hoots. Federally threatened; do-not-use-playback guidance is correct and restricted by land managers. Keep the population figures as range-wide context only (not Del Norte-specific); cite the USFWS 5-year review for any precise number."
+  },
+  {
+   "name": "American dipper (Cinclus mexicanus)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: chunky slate-gray songbird that bobs/dips and is the only North American songbird that walks underwater to forage. Fast, clear, rocky Smith River tributaries are exactly its habitat, so occurrence is ecologically well-supported. Recommend confirming with an eBird hotspot or park checklist before phrasing as a documented record, but the entry is sound. No safety issues."
+  },
+  {
+   "name": "Aleutian cackling goose (Branta hutchinsii leucopareia)",
+   "verdict": "corrected",
+   "ruling": "ID (small goose, stubby bill, thin white neck-ring, dense vocal pasture-feeding flocks) is correct. Listing history confirmed: endangered 1967, reclassified threatened 1990, delisted 2001. Present-day distribution note: Humboldt County now receives the majority of wintering birds; Del Norte (Crescent City/Lake Earl) is best described as a historic/spring-staging area, not a guaranteed large flock. Treat the ~800 figure as a historic low and verify current Del Norte counts with CDFW/refuge.",
+   "correctedText": "Frame Del Norte pastures (Crescent City/Lake Earl) as a historic spring-staging area, noting Humboldt County now hosts most wintering birds. Present ~800 birds as a historic mid-20th-century low; confirm any current flock size/staging locations with CDFW or the refuge before printing numbers.",
+   "sourceUrl": "https://en.wikipedia.org/wiki/Aleutian_cackling_goose"
+  },
+  {
+   "name": "Steller sea lion (Eumetopias jubatus)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: much larger and paler tan/blond than California sea lions, thick-necked/maned males, deep roar rather than a bark \u2014 a valid side-by-side field contrast. Eastern DPS was delisted in 2013 after recovery (accurate). Crescent City harbor / Point St. George rocks are plausible haul-out/co-occurrence sites; keep-your-distance-from-haul-outs guidance is appropriate. Current local counts unverified but not asserted as fact."
+  },
+  {
+   "name": "Gray whale (Eschrichtius robustus)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: mottled barnacled gray body, no dorsal fin (knuckles), heart-shaped/bushy blow \u2014 look for the blow first. NPS lists peak migration as Nov-Dec and Mar-Apr and names Klamath River Overlook (best year-round, resident group) and Crescent Beach Overlook among top viewpoints. Point St. George is a legitimate scoping headland but is NOT on the NPS whale-viewpoint list (it is not park land) \u2014 fine to include as an additional local spot. Shore-viewing/legal-boat-distance guidance is correct.",
+   "sourceUrl": "https://www.nps.gov/redw/planyourvisit/wildlife-viewing.htm"
+  },
+  {
+   "name": "Point St. George",
+   "verdict": "confirmed",
+   "ruling": "Geography accurate: rocky headland just NW of Crescent City, Del Norte County, with the offshore St. George Reef and its historic light (St. George Reef Light); short flat walk from parking to viewpoints; good for scoping whale blows and seabirds. Coordinates rightly omitted; verify exact parking/viewpoint coordinates before publishing precise lat/lng."
+  },
+  {
+   "name": "Crescent Beach Overlook",
+   "verdict": "confirmed",
+   "ruling": "Accurate: roadside overlook with short trail and sweeping views south along Crescent Beach, on Enderts Beach Road south of Crescent City within Redwood National Park; NPS lists it as a recommended gray-whale/scenic viewpoint. A popular whale-watching and sunset pull-off. Verify exact overlook coordinates before printing precise lat/lng.",
+   "sourceUrl": "https://www.nps.gov/redw/planyourvisit/wildlife-viewing.htm"
+  },
+  {
+   "name": "Klamath River Overlook",
+   "verdict": "confirmed",
+   "ruling": "Accurate: high bluff-top overlook at the end of Requa Road above the Klamath River mouth, in Redwood NP south of Jed Smith near the Yurok community of Requa. NPS notes it as the best year-round gray-whale viewing point (a resident group is seen year-round), matching the 'most reliable land-based gray whale watching' claim. Verify exact lat/lng before printing.",
+   "sourceUrl": "https://www.nps.gov/redw/planyourvisit/wildlife-viewing.htm"
+  },
+  {
+   "name": "Coho salmon (Oncorhynchus kisutch)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: silver flanks with black spots on the back only (not lower tail lobe), spawning males hook-jawed and dark maroon/olive, adults 2ft+. Coho are present in the Smith mainstem and tributaries (SONCC coho are ESA-threatened). NPS confirms salmon/trout spawn roughly Nov-Feb and that high, murky water often makes spawning-season viewing poor/unsafe \u2014 keep specific viewing spots/timing as advisory and check with the park."
+  },
+  {
+   "name": "Chinook salmon (Oncorhynchus tshawytscha)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: largest Pacific salmon in the river, black spots on both tail lobes and dark gums, adults 20lb+ (occasionally 40+). The Smith's late-fall/winter Chinook run is its signature fishery, viewable from Hiouchi Bridge. Keep exact peak weeks and bridge-viewing conditions as unverified estimates to confirm locally before printing precise dates."
+  },
+  {
+   "name": "Steelhead trout (Oncorhynchus mykiss, anadromous)",
+   "verdict": "confirmed",
+   "ruling": "ID/biology correct: silvery spotted rainbow-trout form that, unlike Pacific salmon, can survive spawning and return to sea (repeat spawner). The Smith River holds California's record steelhead (~27 lb class), and its winter run is famously prized. Verify exact run-timing weeks against current CDFW regulations before stating as fact."
+  },
+  {
+   "name": "Coastal cutthroat trout (Oncorhynchus clarkii clarkii)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: reddish-orange throat slashes, smaller and more heavily spotted than steelhead. Both resident and sea-run (coastal) forms occur in the Smith River system's tributaries and estuary reaches \u2014 consistent with the subspecies' known Pacific-Northwest coastal range. Regionally sound entry."
+  },
+  {
+   "name": "Pacific lamprey (Entosphenus tridentatus)",
+   "verdict": "corrected",
+   "ruling": "ID correct: eel-like, jawless, round rasping oral disc, adults 2ft+, attaching to rocks in current; spawns in gravel riffles. General cultural/subsistence significance to the Tolowa Dee-ni' is well-established. But the specific '1828 Tolowa lamprey-eel trade' detail is unverified and should be cut until a tribal or NPS ethnohistory source confirms it.",
+   "correctedText": "Keep the general statement that Pacific lamprey were culturally and nutritionally important to the Tolowa Dee-ni'. Remove the specific 1828 lamprey/eel-trade claim pending a primary tribal or NPS ethnohistory source."
+  },
+  {
+   "name": "Green sturgeon (Acipenser medirostris)",
+   "verdict": "corrected",
+   "ruling": "CDFW confirms the Southern DPS spawns in the Sacramento system and the Northern DPS spawns in the Klamath and Rogue; the Smith River is not named as a spawning, holding, or rearing river in the CDFW account. Do not state or imply green sturgeon regularly occur in the Smith without a local source. ID (olive, bony scutes, barbels, to 7ft) is fine.",
+   "correctedText": "Either omit green sturgeon, or describe it only as a possible occasional non-natal visitor to the lower Smith/estuary that does NOT spawn there, and explicitly flag that Smith River occurrence is not officially documented. Keep the DPS distinction clear (Southern DPS = Sacramento; Northern DPS = Klamath/Rogue).",
+   "sourceUrl": "https://wildlife.ca.gov/Conservation/Fishes/Green-Sturgeon"
+  },
+  {
+   "name": "Rough-skinned newt (Taricha granulosa)",
+   "verdict": "corrected",
+   "ruling": "ID correct (dark above, orange-yellow belly, granular skin). Tetrodotoxin in the skin \u2014 one of the most potent natural neurotoxins, potentially lethal if ingested \u2014 is well documented. The safety line should not encourage handling: TTX is dangerous if it reaches the mouth/mucous membranes, so soften 'safe to gently handle.'",
+   "correctedText": "Safe to observe. Skin secretes tetrodotoxin (TTX), a potent neurotoxin dangerous only if it reaches the mouth or eyes; do not handle unnecessarily, never with broken skin, and wash hands afterward. Do not eat any part."
+  },
+  {
+   "name": "Red-bellied newt (Taricha rivularis)",
+   "verdict": "confirmed",
+   "ruling": "The correction is accurate: Taricha rivularis ranges from roughly Sonoma/Mendocino north to about southern Humboldt County (near the Honeydew area) and does NOT reach Del Norte. It should NOT be listed as present at Jed Smith \u2014 only the rough-skinned newt occurs here. Keeping this as a 'do not list' correction is correct."
+  },
+  {
+   "name": "Coastal tailed frog (Ascaphus truei)",
+   "verdict": "confirmed",
+   "ruling": "ID/biology correct: small mottled gray-brown frog with vertical pupils; males bear a short tail-like copulatory organ used for internal fertilization in fast water (unique among frogs). Cold, fast, well-oxygenated old-growth headwater streams are exactly its habitat, making it a valid water-quality indicator for the region. Park-specific record unconfirmed but ecologically well-supported."
+  },
+  {
+   "name": "California red-legged frog (Rana draytonii)",
+   "verdict": "corrected",
+   "ruling": "Likely a species mix-up. The red-legged frog occurring in Del Norte / the far north coast is the Northern red-legged frog (Rana aurora); the California red-legged frog (Rana draytonii) does not range this far north (northern limit around Mendocino/southern Humboldt). Listing R. draytonii at Jed Smith is almost certainly wrong.",
+   "correctedText": "Replace with Northern red-legged frog (Rana aurora), the species actually present in the Smith River corridor and coastal Del Norte. California red-legged frog (Rana draytonii) is out of range here \u2014 verify against USFWS/CDFW range maps and drop it, or reframe the entry around R. aurora."
+  },
+  {
+   "name": "No rattlesnakes in the redwood fog belt",
+   "verdict": "confirmed",
+   "ruling": "Ecologically sound as guidance: the Northern Pacific rattlesnake is essentially absent from the cool, humid coastal redwood fog belt but does occur in warmer, drier inland/foothill habitat of Del Norte/Siskiyou. Per the flag, phrase as 'rare to absent' in the deep coastal groves, not an absolute 'none ever.' No official zero-record page was reachable, but the redwood-grove characterization is defensible if worded conservatively."
+  },
+  {
+   "name": "Ticks (Ixodes pacificus and others)",
+   "verdict": "confirmed",
+   "ruling": "Accurate: Ixodes pacificus (western black-legged tick) is the primary Lyme disease vector on the West Coast, and coastal northern California has documented Lyme-positive ticks. ID (poppyseed-to-sesame-sized, reddish-brown, eight-legged adults) and check-after-brushy-hikes guidance are correct. Keep language general (present; check yourself) rather than citing a specific Del Norte infection percentage, which was not sourced."
+  },
+  {
+   "name": "Mosquitoes",
+   "verdict": "confirmed",
+   "ruling": "No hard factual claim to verify. The characterization \u2014 worst near still/slow water, wetlands, and campgrounds along the Smith River at dawn/dusk in warmer months \u2014 is reasonable regional guidance. Keep as a soft travel tip, not a statistic."
+  },
+  {
+   "name": "Crayfish (signal crayfish, Pacifastacus leniusculus)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: olive-brown to reddish, white/turquoise mark at the claw hinge, up to 4-5in, hides under rocks and backs away when disturbed. The signal crayfish is native to Pacific-Northwest / north-coast California drainages including the Smith (it is invasive only where introduced elsewhere), so occurrence in shallow rocky Smith River sections is sound. Species-specific Smith record unconfirmed but regionally expected."
+  },
+  {
+   "name": "Stoneflies & salmonflies (Plecoptera)",
+   "verdict": "confirmed",
+   "ruling": "Accurate: nymphs cling to submerged rocks and are pollution-intolerant, so their presence indicates clean, cold, well-oxygenated water \u2014 a valid framing for the undammed Smith; winged adults appear streamside during hatches that anglers time to. Keep specific hatch dates/species general or verify with a local fly shop/CDFW hatch chart before printing exact windows."
+  },
+  {
+   "name": "Chanterelle (Cantharellus spp.)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: golden-yellow funnel shape, blunt false-gill ridges running down the stem, fruity apricot smell; fall fruiting on forest-floor duff under Douglas-fir/tanoak mixed with redwoods. Regionally accurate for the Smith River corridor / Six Rivers NF. Not sourced to a park mycology page, but the natural-history content is sound."
+  },
+  {
+   "name": "King bolete / porcini (Boletus edulis)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: thick reddish-brown cap, spongy pore surface (not gills) whitening to yellow-green with age, stout swollen stem; mixed-conifer edges under Douglas-fir/Sitka spruce. Regionally expected in coastal northern California forests including the Smith River drainage. General knowledge, not park-sourced, but accurate."
+  },
+  {
+   "name": "Candy cap (Lactarius rubidus)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: small orange-brown cap exuding watery latex when cut, famous maple-syrup aroma that intensifies when dried, prized for baking; fall fruiting in conifer duff/moss in the same habitat as chanterelles. Regionally plausible/accurate for north-coast CA including Del Norte. Not confirmed against an official checklist but the natural history is sound."
+  },
+  {
+   "name": "Matsutake (Tricholoma murrillianum / magnivelare)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: white-to-grayish-brown cap, distinctive spicy cinnamon/pine smell, cottony ring on the stem, often hidden under duff. The sandy, well-drained coastal soils under Sitka spruce/pine association is accurate (a coastal-forest, not deep-redwood, mushroom). Regionally expected in Del Norte coastal pine/spruce; specific park record unconfirmed but habitat framing is correct."
+  },
+  {
+   "name": "Coral fungi (Ramaria and related genera)",
+   "verdict": "confirmed",
+   "ruling": "ID correct at genus level: branching, upright, coral-like clusters in white/yellow/pink/purple on forest-floor duff in fall. The entry rightly keeps to 'look, don't eat' \u2014 Ramaria ID is genuinely difficult and some species are laxative/toxic, so avoid naming edibles. Sound as framed."
+  },
+  {
+   "name": "Fly agaric (Amanita muscaria)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: iconic red (sometimes orange/yellow) warty cap, white gills, bulbous skirted stem. Contains ibotenic acid and muscimol \u2014 toxic if eaten, causing GI distress and neurological/psychoactive effects (not in the deadly Amanita category but genuinely poisonous). Under Douglas-fir/tanoak/mixed conifers-hardwoods at Jed Smith and Six Rivers NF. Toxicology well established; exact fruiting window kept as an estimate is appropriate."
+  },
+  {
+   "name": "Death cap (Amanita phalloides) and western destroying angel (Amanita ocreata)",
+   "verdict": "confirmed",
+   "ruling": "Critical safety content is accurate. Death cap: greenish-yellow/olive smooth cap, white gills, a skirt-like ring AND a basal cup-like volva (must dig to check base). Destroying angel: an all-white version. These cause the overwhelming majority of fatal mushroom poisonings in North America and a fraction of a cap can be lethal. Amanita phalloides is established on the northern California coast (spread under oak/tanoak), so the caution is warranted. Keep the maximally conservative blanket message: never eat any wild Amanita."
+  },
+  {
+   "name": "Mushroom-collecting rules",
+   "verdict": "confirmed",
+   "ruling": "State-park side confirmed from official regulation: CCR Title 14 Sec. 4306 forbids picking/digging/cutting/disturbing any plant (which includes fungi) in California State Parks except where a District Superintendent posts authorization for berries/mushrooms/pine cones \u2014 so foraging at Jed Smith, Del Norte Coast, and Prairie Creek is effectively prohibited unless posted. REMAINING GAP: the exact Six Rivers NF free personal-use fungi quantity (no permit) and the state-park-specific posted stance were not obtainable from an official page \u2014 keep the author's action item to call Jed Smith (707-464-6101) and the Smith River NRA/Gasquet Ranger District for the current citable numbers before publishing.",
+   "sourceUrl": "https://www.parks.ca.gov/?page_id=21301"
+  },
+  {
+   "name": "California pinefoot (Pityopus californicus)",
+   "verdict": "confirmed",
+   "ruling": "ID correct: small pale cream-to-white waxy mycoheterotrophic stalk with no green parts, resembling gnome plant/Indian pipe, emerging from deep conifer humus. It is a genuine old-growth rarity of coastal CA/OR conifer forests including the redwood region. Present it as a rare, easily-overlooked find rather than something visitors should expect; a park iNaturalist project or CNPS checklist would firm up the local record before printing it as reliably present."
+  },
+  {
+   "name": "Alluvial Flat Old Growth \u2014 Stout Grove",
+   "verdict": "confirmed",
+   "ruling": "Accurate: nearly level alluvial-flat old growth with open cathedral spacing, huge trunk diameters, little lower branching, sword fern/redwood sorrel understory, on the broad river terrace of the Smith River's South Fork, reached via Douglas Park Drive/Howland Hill Road. Coordinates rightly omitted; verify exact parking-area lat/lng before printing precise numbers."
+  },
+  {
+   "name": "Alluvial Flat Old Growth \u2014 Grove of Titans (Mill Creek Trail boardwalk)",
+   "verdict": "confirmed",
+   "ruling": "Accurate: an elevated boardwalk (opened summer 2022) on the realigned Mill Creek Trail protects root zones while routing visitors past some of the largest-girth coast redwoods, including multi-trunked 'fusion' giants. Access is a short spur off the realigned Mill Creek Trail near the Howland Hill Road area. Because access/parking rules have changed repeatedly, verify current details on the CA State Parks page before publishing specifics."
+  },
+  {
+   "name": "Upland Redwood/Douglas-fir Slopes \u2014 Boy Scout Tree Trail",
+   "verdict": "confirmed",
+   "ruling": "Accurate: steeper mixed redwood/Douglas-fir canopy with a denser huckleberry/rhododendron/sword-fern shrub layer and more blowdown/nurse logs than the flats; the Boy Scout Tree is a fused double redwood; trailhead on Howland Hill Road. Habitat description is sound (trail mileage is verified under the trips entry)."
+  },
+  {
+   "name": "Upland Redwood/Douglas-fir Slopes \u2014 Mill Creek Trail corridor",
+   "verdict": "confirmed",
+   "ruling": "Accurate: second-growth-to-old-growth transition forest along the smaller Mill Creek tributary, with varied thrush and Pacific wren commonly heard in the understory; follows Mill Creek upslope from the Howland Hill Road area toward the Grove of Titans access. Routing sound; verify exact length/connection on the current park map."
+  },
+  {
+   "name": "The Smith River & Gravel Bars",
+   "verdict": "confirmed",
+   "ruling": "Accurate: high, brown, fast in winter; dropping to clear, turquoise-green swimming/tubing water over exposed gravel bars by mid-summer, with accessible bars near Stout Grove and Hiouchi Bridge. The clear green-blue color is well documented, and the Smith is California's largest undammed river system (no mainstem dams; Smith River NRA established 1990) \u2014 the 'last major undammed river in CA' framing is defensible."
+  },
+  {
+   "name": "Serpentine Barrens & Fens \u2014 Little Bald Hills",
+   "verdict": "confirmed",
+   "ruling": "Accurate: an abrupt shift from dense redwood forest to open, stunted, sparse serpentine woodland/prairie. Serpentine chemistry \u2014 high magnesium and heavy metals, low calcium \u2014 does stunt normal trees/shrubs and select for specialized flora, exactly as described. Reached via Little Bald Hills Trail/Road from the east end of Howland Hill Road. Verify current trail access/condition with Six Rivers NF/BLM before printing trail specifics."
+  },
+  {
+   "name": "Serpentine Barrens & Fens \u2014 Myrtle Creek / Darlingtonia fen",
+   "verdict": "confirmed",
+   "ruling": "Accurate as a habitat type: boggy, nutrient-poor serpentine seeps hosting Darlingtonia (cobra lily) rosettes plus sundews, in the Little Bald Hills / Myrtle Creek serpentine area near the Smith River NRA boundary. Treat the exact fen as a regionally-known habitat rather than a single pinned, verified visitor site until confirmed against a Six Rivers NF or CNPS source."
+  },
+  {
+   "name": "Coastal Dunes & Lagoon \u2014 Tolowa Dunes State Park / Lake Earl Wildlife Area",
+   "verdict": "corrected",
+   "ruling": "Habitat description is accurate: open coastal dune scrub/grassland around a large, shallow, periodically-breaching brackish lagoon complex (Lake Earl/Lake Talawa), a major waterfowl area, ~6,100-acre combined wildlife area. But do not publish the superlative 'the largest lagoon system on the California coast' as bare fact \u2014 it is commonly cited but was not confirmable against a CDFW/State Parks source.",
+   "correctedText": "Describe as one of California's largest coastal lagoon systems (Lake Earl/Lake Talawa) \u2014 often cited as the state's largest coastal lagoon \u2014 and attribute or verify that superlative with a CDFW/CA State Parks source before printing it as fact."
+  },
+  {
+   "name": "Rocky Shore & Tidepools \u2014 Pebble Beach / Point St. George",
+   "verdict": "confirmed",
+   "ruling": "Accurate habitat: exposed rocky intertidal shelf with offshore sea stacks; low tide reveals tidepools with sea stars, anemones, chitons, and surfgrass \u2014 a wave-battered rocky-shore zonation contrasting the forest inland; along the coast NW of Crescent City off Pebble Beach Drive/Point St. George Road. Verify current access rules and note tidepool life is protected (no collecting) before publishing as a definitive entry."
+  },
+  {
+   "name": "Rocky Shore & Tidepools \u2014 Enderts Beach / Crescent Beach",
+   "verdict": "confirmed",
+   "ruling": "Accurate: a short forested trail descends to a rocky cove and tidepool shelf at the north end of Crescent Beach \u2014 one of the most accessible tidepool stops in the park complex; south of Crescent City off Enderts Beach Road within Redwood National Park. Verify precise trail stats/current access on the NPS page (the specific Enderts page was 404 at fetch), but the entry is sound."
+  },
+  {
+   "name": "Stout Grove Trail",
+   "verdict": "confirmed",
+   "ruling": "Accurate: 0.5-mi flat, easy, stroller/wheelchair-friendly gravel loop through old-growth coast redwoods on the Smith River floodplain \u2014 a strong 'wow-per-effort' grove; reached via Howland Hill Road or the seasonal summer footbridge from the Hiouchi side. Mileage matches long-standing park literature; verify current signage."
+  },
+  {
+   "name": "Hiouchi Trail",
+   "verdict": "corrected",
+   "ruling": "The trail is real (north-bank Smith River old growth from the Hiouchi/Hwy 199 area toward Stout Grove), but the '~4 mi one-way' figure is doubtful \u2014 the Hiouchi Trail is commonly cited at roughly 2 miles one-way; the 4-mile number likely reflects an out-and-back or a Hiouchi+Stout Grove linkage.",
+   "correctedText": "~2 miles one-way (verify current mileage on park signage); can be combined with Stout Grove Trail for a longer river-view outing. Do not print ~4 mi one-way without confirmation."
+  },
+  {
+   "name": "Hatton Trail / Hatton Loop",
+   "verdict": "confirmed",
+   "ruling": "Accurate: a short ~0.5-mi loop near the Jed Smith campground/amphitheater off Douglas Park Road, with a longer ~4-mi option linking toward Stout Grove via the seasonal footbridge. Access to the longer option depends on the summer-only footbridge (typically ~Memorial Day-Labor Day) \u2014 confirm current installation dates with the park before relying on the route."
+  },
+  {
+   "name": "Nickerson Ranch Trail",
+   "verdict": "confirmed",
+   "ruling": "Plausible and consistent with park geography: a ~1-mi easy-moderate quiet mixed-forest walk in the Little Bald Hills area off Howland Hill/Little Bald Hills Road, a good early/late-season lower option when higher trails are muddy. Could not confirm the exact trailhead/condition from an official page this pass \u2014 verify at the visitor center before publishing as a definitive route."
+  },
+  {
+   "name": "Boy Scout Tree Trail (to Fern Falls)",
+   "verdict": "confirmed",
+   "ruling": "Accurate: ~5.5-mi round trip, moderate, rooty single-track through dense old growth ending at Fern Falls, with the Boy Scout Tree (a fused double redwood) about 2.9 mi in; trailhead on Howland Hill Road roughly 2.5 mi from the Hiouchi end. Mileage matches long-standing park literature; the small unpaved pullout fills early \u2014 confirm parking conditions locally."
+  },
+  {
+   "name": "Little Bald Hills Trail",
+   "verdict": "confirmed",
+   "ruling": "Accurate: ~10-mi round trip (out-and-back to the serpentine barrens/backcountry camp), moderate-strenuous, climbing out of redwoods onto open, stunted serpentine soil with distinct flora; east end of Howland Hill/Little Bald Hills Road transitioning into Six Rivers NF. Commonly cited figure; verify on current signage before printing as exact."
+  },
+  {
+   "name": "Howland Hill Road (scenic drive)",
+   "verdict": "confirmed",
+   "ruling": "Accurate: ~6-mi unpaved, narrow, one-lane-in-places forest road through old growth connecting Hiouchi (Hwy 199) to the Crescent City side; no RVs or trailers; allow 30-45 min; pull-outs used for oncoming traffic. It is genuinely subject to seasonal grading, storm damage, and occasional closures \u2014 keep the advice to check CA State Parks alerts / call the visitor center before driving, especially after winter storms."
+  },
+  {
+   "name": "Smith River Summer Footbridge",
+   "verdict": "confirmed",
+   "ruling": "Accurate: a seasonal pedestrian bridge installed roughly late May-early September (exact dates vary year to year with river flow), crossing the Smith near the Jed Smith campground and letting hikers/bikers reach Stout Grove and River Beach without driving Howland Hill Road. Confirm the current-season install/removal dates with the park before planning around it."
+  },
+  {
+   "name": "River Beach / Jed Smith day-use swimming",
+   "verdict": "confirmed",
+   "ruling": "Accurate and appropriately flagged as a safety item: gravel-bar swimming holes with clear, cold, blue-green water; no lifeguards; current strength varies with flow/season, so the advice to seek calmer side channels and check conditions is sound. Keep it as a safety-flagged entry."
+  },
+  {
+   "name": "Battery Point Lighthouse",
+   "verdict": "corrected",
+   "ruling": "Access and operation confirmed: reached on foot across a low-tide isthmus that floods quickly (check tides), operated as a lighthouse/keeper's museum by the Del Norte County Historical Society, tours Apr-Sep daily 10-4 and Oct-Mar weekends 10-4 (tide-dependent). But the date is wrong: the lighthouse was built and first lit in 1856, not 1852.",
+   "correctedText": "Change '1852 lighthouse' to '1856 lighthouse (first lit 1856).' Reached on foot across a sand/rock isthmus only at low tide \u2014 check tide tables, the crossing floods fast; museum run by the Del Norte County Historical Society. Verify current hours/fee with the Historical Society before printing.",
+   "sourceUrl": "https://en.wikipedia.org/wiki/Battery_Point_Lighthouse"
+  },
+  {
+   "name": "Northcoast Marine Mammal Center",
+   "verdict": "confirmed",
+   "ruling": "Accurate: a small donation-based nonprofit seal/sea lion rescue-and-rehab center at Crescent City Harbor (adjacent to the boat basin) with outdoor viewing pools of recovering pinnipeds; a short, family-friendly stop. Existence is well established; hours are seasonal/volunteer-dependent, so keep the 'check their site or call ahead' note."
+  },
+  {
+   "name": "Radio Road sunset spot",
+   "verdict": "confirmed",
+   "ruling": "Reasonable as a local-knowledge tip: free, informal bluff-top pullouts along Radio Road near Point St. George facing west/southwest with an open ocean horizon. Present it as an informal local spot rather than an official facility; no official confirmation available, but nothing here is a factual/safety claim that requires sourcing."
+  },
+  {
+   "name": "Tolowa Dunes State Park / Lake Earl Wildlife Area (trip)",
+   "verdict": "corrected",
+   "ruling": "Accurate as a free, extensive dune/lagoon system with excellent birding (waterfowl, shorebirds, raptors), multiple trailheads, and some sandy/muddy sections. But soften the superlative 'California's largest coastal lagoon' unless attributed to a CDFW/State Parks source, and verify specific trail mileages/access points with the Tolowa Dunes docent program or CDFW Lake Earl Wildlife Area page.",
+   "correctedText": "Describe as an extensive dune/lagoon system (Lake Earl/Lake Talawa), often cited as one of California's largest coastal lagoons \u2014 attribute or verify that superlative with CDFW/State Parks. Confirm current trail mileages/access before printing specifics."
+  },
+  {
+   "name": "Crescent Beach Overlook & Enderts Beach tidepools (trip)",
+   "verdict": "confirmed",
+   "ruling": "Accurate: the overlook is a short walk from a parking pullout, and Enderts Beach itself is roughly 0.5-1 mi down a steeper access trail to reach tidepools at low tide; south of Crescent City off Enderts Beach Road, Redwood National Park. Tidepool life is protected \u2014 no collecting (NPS) \u2014 and tidepooling/best-tide timing depends on the day's tide table, so keep the advice to check NOAA tide predictions."
+  },
+  {
+   "name": "Damnation Creek Trail",
+   "verdict": "confirmed",
+   "ruling": "Accurate: ~4.2-mi round trip (sources vary 4-4.5 mi), moderately strenuous with real elevation loss/gain, dropping from old-growth redwood forest down a shrinking canyon to a rocky beach cove; trailhead on old Highway 101 (Coastal Drive) south of Crescent City in Del Norte Coast Redwoods SP. Verify exact mileage at the trailhead kiosk, but the entry is sound."
+  },
+  {
+   "name": "False Klamath Cove",
+   "verdict": "confirmed",
+   "ruling": "Accurate: a roadside pullout beach cove with sea stacks along Highway 101 just north of the Klamath River mouth; good short beach walk with no facilities. Verify current parking/access details, but the geography and description are correct."
+  },
+  {
+   "name": "Trees of Mystery + End of the Trail Museum",
+   "verdict": "confirmed",
+   "ruling": "Accurate: a private paid roadside attraction in Klamath (SkyTrail gondola through the redwood canopy, giant Paul Bunyan/Babe statues, a trail through carved redwood formations) plus the End of the Trail Native American artifact museum; on Highway 101 roughly 20 min south of Crescent City. Existence is well established; confirm current admission price and hours at treesofmystery.net before printing."
+  },
+  {
+   "name": "Fern Canyon (Prairie Creek Redwoods SP)",
+   "verdict": "confirmed",
+   "ruling": "Confirmed from the official park page: a short, flat ~0.7-1 mi loop through a fern-draped ~50-ft canyon (a Jurassic Park filming location) with real summer access hurdles \u2014 a day-use permit is required for the Gold Bluffs Beach Day-Use Area including the Fern Canyon Trailhead from May 15 to September 15, and Davison Road is limited to 8 ft wide and 24 ft long with no trailers. Reserve/check the current permit process before a summer visit.",
+   "sourceUrl": "https://www.parks.ca.gov/?page_id=415"
+  },
+  {
+   "name": "Elk Meadow",
+   "verdict": "confirmed",
+   "ruling": "Accurate: a free roadside pullout near Orick that is a reliable spot to see Roosevelt elk in open prairie (best mornings/evenings), with no permit needed even in summer (unlike Fern Canyon). NPS guidance is a 25-yard (75-ft) minimum, farther in the fall rut and spring calving, so the 'keep well back (100+ ft)' framing is appropriately conservative. Minor: Elk Meadow Day-Use is off US-101 at Davison Road near Prairie Creek rather than strictly on the Newton B. Drury Parkway."
+  },
+  {
+   "name": "Myrtle Creek Trail",
+   "verdict": "confirmed",
+   "ruling": "Accurate: an easy ~1.5-2 mi trail following an 1850s hydraulic-mining ditch route through the botanically unusual Myrtle Creek Botanical Area, with strong wildflower diversity driven by serpentine soils; off Highway 199 near the Oregon border (BLM/Six Rivers NF). Could not confirm exact current mileage/condition from an official page this pass \u2014 verify before printing precise numbers."
+  },
+  {
+   "name": "Forks Day-Use Area (Smith River swimming)",
+   "verdict": "corrected",
+   "ruling": "A Six Rivers NF day-use/swimming site near the Middle/South Fork confluence area near Gasquet is plausible, and the safety guidance (no lifeguards; cold water and current year-round; check for submerged hazards) is sound. But the exact official name/facilities could not be confirmed (fetches 404'd), so do not assert it as the 'officially named' site or promise specific facilities.",
+   "correctedText": "Do not state the exact official site name or promise picnic tables/outhouse without confirmation \u2014 describe it as a local Smith River swimming hole near the Middle/South Fork confluence near Gasquet and verify the official Six Rivers NF site name, status, and facilities before publishing. Keep the no-lifeguards / cold-water / current safety note."
+  },
+  {
+   "name": "Panther Flat Swimming Hole",
+   "verdict": "confirmed",
+   "ruling": "Plausible and consistent with a real Six Rivers NF site: a Middle Fork Smith River swimming hole with a sandy/gravel bank adjacent to Panther Flat Campground on Highway 199 east of Gasquet, easy pull-off access. Panther Flat Campground is an established Six Rivers NF facility; the safety note (no lifeguards; cold, clear water can mask depth and current) is sound. Verify current facility/access status before relying on amenities."
+  },
+  {
+   "name": "Rumiano Cheese Company tasting/tour (Crescent City)",
+   "verdict": "confirmed",
+   "ruling": "Accurate: Rumiano is a real family-run creamery (founded 1919, among California's oldest cheese companies) in Crescent City with a retail shop \u2014 a quick, low-key stop and reasonable rainy-day filler. Confirm current tour/tasting availability and hours at rumianocheese.com or by phone, since public tours may be limited or seasonal."
+  },
+  {
+   "name": "Crissey Field (Oregon side day trip)",
+   "verdict": "corrected",
+   "ruling": "The site is real \u2014 Crissey Field State Recreation Site, Oregon's southernmost state park, with the Oregon Welcome Center, short boardwalk/dune trails, and good estuary birding, just north of the CA/OR border ~25-30 min north of Crescent City. But it sits at the mouth of the Winchuck River, not the Chetco (the Chetco River is at Brookings, a few miles farther north).",
+   "correctedText": "Change 'mouth of the Chetco River' to 'mouth of the Winchuck River, at the CA/OR border (Brookings area to the north).' Verify current trail specifics and welcome-center hours locally before promising details."
+  }
+ ]
+}

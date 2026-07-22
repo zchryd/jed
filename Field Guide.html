@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Field Guide — What Lives Where in the Smith River Country</title>
+<style>
+:root{
+  --paper:#F2EEE3; --paper2:#E9E1CC; --ink:#2A241C; --ink-soft:#5C523F;
+  --emerald:#14594E; --emerald-soft:#3E7A6C; --bark:#6B4A32; --madrone:#A8541A;
+  --rule:#D8CFB8; --glass:#EAF2EE;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);font:17px/1.62 "Iowan Old Style",Georgia,"Times New Roman",serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px 96px}
+a{color:var(--emerald)}
+a:focus-visible{outline:2px solid var(--emerald);outline-offset:2px}
+header{border-bottom:3px double var(--bark);padding:52px 0 26px;margin-bottom:6px}
+.eyebrow{font:600 12px/1 "Seravek","Avenir Next","Helvetica Neue",sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--bark);margin-bottom:16px;display:flex;align-items:center;gap:10px}
+h1{font-size:clamp(32px,5.5vw,46px);line-height:1.1;font-weight:700}
+h1 em{font-style:italic;color:var(--emerald)}
+.standfirst{margin-top:16px;font-size:19px;line-height:1.55;color:var(--ink-soft);font-style:italic;max-width:62ch}
+.methods{margin-top:20px;background:var(--glass);border:1px solid var(--rule);border-left:4px solid var(--emerald);padding:13px 17px;font:13.5px/1.6 "Seravek","Avenir Next","Helvetica Neue",sans-serif;color:var(--ink-soft)}
+.methods strong{color:var(--emerald)}
+nav.zones{margin:22px 0 0;display:flex;flex-wrap:wrap;gap:8px;font:600 12px/1 "Seravek","Avenir Next",sans-serif}
+nav.zones a{text-decoration:none;background:#fff8;border:1px solid var(--rule);border-radius:999px;padding:8px 13px;color:var(--emerald)}
+nav.zones a:hover{background:#fff}
+section{margin-top:58px}
+.bearing{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:16px}
+.bearing .zno{font:600 13px/1 "SF Mono",Menlo,monospace;color:var(--bark);letter-spacing:.06em;white-space:nowrap}
+h2{font-size:26px;font-weight:700}
+.standhere{font:14px/1.6 "Seravek","Avenir Next",sans-serif;color:var(--ink-soft);margin:0 0 16px}
+.standhere b{color:var(--emerald)}
+section > p{margin:13px 0;max-width:70ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:12px;margin:18px 0}
+.card{background:#fff8;border:1px solid var(--rule);border-top:3px solid var(--emerald-soft);padding:12px 14px;font:13.5px/1.55 "Seravek","Avenir Next","Helvetica Neue",sans-serif}
+.card h4{font:700 15px/1.3 "Iowan Old Style",Georgia,serif;color:var(--emerald)}
+.card .sci{font-style:italic;color:var(--ink-soft);font-size:12px}
+.card p{margin-top:6px}
+.card .lk{color:var(--bark);font-weight:600}
+.card .season{display:inline-block;margin-top:7px;font:600 10.5px/1 "Seravek",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--emerald-soft);border-radius:3px;padding:4px 7px}
+.card.animal{border-top-color:#4A6FA5}
+.card.fungus{border-top-color:#8C6D3F}
+.card.hazard{border-top-color:var(--madrone)}
+.callout{margin:22px 0;padding:15px 18px;font:14px/1.62 "Seravek","Avenir Next",sans-serif;background:#fff6;border:1px solid var(--rule)}
+.callout.safety{border-left:4px solid var(--madrone);background:#F5EBDD}
+.callout.rules{border-left:4px solid var(--emerald);background:var(--glass)}
+.callout .tag{display:block;font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:7px}
+.callout.safety .tag{color:var(--madrone)}
+.callout.rules .tag{color:var(--emerald)}
+.callout ul{margin:6px 0 0 18px}
+.callout li{margin:5px 0}
+.footer-nav{margin-top:72px;padding-top:20px;border-top:3px double var(--bark);font:600 14px/1.5 "Seravek","Avenir Next",sans-serif;display:flex;gap:22px;flex-wrap:wrap}
+@media print{.footer-nav,nav.zones{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#6B4A32" stroke-width="1.6"/><rect x="5" y="5" width="4" height="4" transform="rotate(45 7 7)" fill="#14594E"/></svg> Jedediah Smith Redwoods · Smith River · Del Norte Coast</div>
+  <h1>Field guide: <em>what lives where, and how to know it.</em></h1>
+  <p class="standfirst">Eight habitats, one river. Walk from the tallest forest on Earth to a pitcher-plant bog to a tidepool in a single day — this guide tells you what you're looking at in each one.</p>
+  <div class="methods"><strong>How to trust this page:</strong> species facts here are standard, well-established regional natural history, cross-checked against official park and wildlife-agency pages; everything involving safety or rules got an extra adversarial review. Where something couldn't be confirmed to current official sources (exact goose counts, one trail's posted mileage), the wording says so. Two corrections that review made: it's the <em>northern</em> red-legged frog here (not the California species), and green sturgeon are at most rare visitors to the lower river — they don't spawn in the Smith.</div>
+  <nav class="zones" aria-label="Jump to a habitat">
+    <a href="#flats">1 · River-flat giants</a><a href="#slopes">2 · Upland forest</a><a href="#river">3 · The river</a><a href="#edge">4 · Riverbank edge</a><a href="#serpentine">5 · Serpentine</a><a href="#dunes">6 · Dunes &amp; lagoon</a><a href="#tidepools">7 · Tidepools</a><a href="#reading">8 · Reading the forest</a><a href="#fungi">9 · The fungus year</a>
+  </nav>
+</header>
+
+<section id="flats">
+  <div class="bearing"><span class="zno">ZONE 1</span><h2>The river-flat giants — alluvial old growth</h2></div>
+  <p class="standhere"><b>Stand here:</b> Stout Grove (0.5-mi loop) · the Grove of Titans boardwalk · the campground's own river flat.</p>
+  <p>The very biggest redwoods grow on the flats, and it's no accident: every big flood (1955 and 1964 among them) lays down a fresh sheet of silt, and redwoods respond by growing a brand-new root system up into it — most trees would suffocate; redwoods get richer soil. The result is open, cathedral-like groves with almost no shrub layer: just huge spaced columns over a solid carpet of redwood sorrel and sword fern. Flood-prone ground also kills off the competition, which is why the flats are nearly pure redwood.</p>
+  <div class="cards">
+    <div class="card"><h4>Coast redwood</h4><div class="sci">Sequoia sempervirens · K'vsh-chu in Tolowa</div><p><span class="lk">Look for:</span> soft, fibrous, deeply-ridged red-brown bark (up to a foot thick); flat, two-ranked needles on shade branches but short awl-like needles up top; cones startlingly small — grape-sized — for the tallest living thing on Earth. Sprouts in rings from burls and stumps: no other big conifer here does that.</p><span class="season">All year</span></div>
+    <div class="card"><h4>Redwood sorrel</h4><div class="sci">Oxalis oregana</div><p><span class="lk">Look for:</span> the shamrock carpet under the giants. Leaves fold down like little umbrellas within minutes in direct sun — watch a sunfleck move and the carpet moves with it. Pink-white flowers in spring.</p><span class="season">Blooms Apr–Jun</span></div>
+    <div class="card"><h4>Sword fern</h4><div class="sci">Polystichum munitum</div><p><span class="lk">Look for:</span> shoulder-high evergreen fountains everywhere; each leaflet has a little "sword hilt" lobe at its base. The default fern of the forest floor.</p><span class="season">All year</span></div>
+    <div class="card"><h4>Western trillium</h4><div class="sci">Trillium ovatum</div><p><span class="lk">Look for:</span> everything in threes — three leaves, three white petals that age to pink-purple. Never pick one: the plant can take years to recover.</p><span class="season">Feb–May</span></div>
+    <div class="card"><h4>Clintonia (bead lily)</h4><div class="sci">Clintonia andrewsiana</div><p><span class="lk">Look for:</span> broad glossy basal leaves, a stalk of deep-rose flowers in late spring, then metallic steel-blue berries by late summer — the bluest thing on the forest floor. Not edible.</p><span class="season">May–Jun · berries Aug</span></div>
+    <div class="card animal"><h4>Banana slug</h4><div class="sci">Ariolimax columbianus</div><p><span class="lk">Look for:</span> up to 8 inches of bright yellow to olive slug, out on damp mornings. The forest's recycler — it eats leaves, dung, and mushrooms and spreads seeds and spores. Its slime numbs the tongue of anything that licks it; don't be that animal.</p><span class="season">Wet days, all year</span></div>
+    <div class="card animal"><h4>Varied thrush</h4><div class="sci">Ixoreus naevius</div><p><span class="lk">Listen for:</span> a single eerie, buzzy whistled note held for a second, then a long pause, then another on a different pitch — the soundtrack of old growth. Looks like a robin wearing a black necklace band.</p><span class="season">Best fall–spring</span></div>
+    <div class="card animal"><h4>Pacific wren</h4><div class="sci">Troglodytes pacificus</div><p><span class="lk">Listen for:</span> an impossibly long, tumbling, tinkling song from a bird the size of a ping-pong ball, usually in root-wads and fern shadows near the ground.</p><span class="season">Sings Mar–Jul</span></div>
+    <div class="card animal"><h4>Wandering salamander</h4><div class="sci">Aneides vagrans</div><p><span class="lk">Fun one:</span> you probably won't see it — many live their whole lives 200+ feet up, in the fern mats and canopy soil that accumulate on big redwood limbs. A vertical world with its own residents.</p><span class="season">Hidden, all year</span></div>
+  </div>
+</section>
+
+<section id="slopes">
+  <div class="bearing"><span class="zno">ZONE 2</span><h2>Upland forest — redwood, Douglas-fir, and friends</h2></div>
+  <p class="standhere"><b>Stand here:</b> Boy Scout Tree Trail · Mill Creek Trail · anywhere Howland Hill Road climbs.</p>
+  <p>Off the flats, the forest mixes. Slopes bring Douglas-fir, western hemlock, and grand fir in with the redwoods, plus a real shrub layer — this is where the rhododendrons put on their May–June show. Five big conifers look alike at first; bark and needles tell them apart in seconds.</p>
+  <div class="cards">
+    <div class="card"><h4>Douglas-fir</h4><div class="sci">Pseudotsuga menziesii</div><p><span class="lk">Look for:</span> thick, deeply-furrowed corky gray-brown bark; soft needles all around the twig; and the giveaway cone — three-pointed "mouse tails" sticking out of every scale. No other cone here has them.</p><span class="season">All year</span></div>
+    <div class="card"><h4>Western hemlock</h4><div class="sci">Tsuga heterophylla</div><p><span class="lk">Look for:</span> the drooping top — the leader nods over like a whip. Tiny needles of mixed lengths give sprays a feathery, messy look; cones are small and papery. (Rogers called the 1828 giants "hemlock" — now you know why he was guessing.)</p><span class="season">All year</span></div>
+    <div class="card"><h4>Sitka spruce</h4><div class="sci">Picea sitchensis</div><p><span class="lk">Look for:</span> bark in thin, flaking potato-chip scales, and needles so stiff and sharp a handshake with a branch hurts. Loves the fog belt and river bottoms near the coast.</p><span class="season">All year</span></div>
+    <div class="card"><h4>Grand fir</h4><div class="sci">Abies grandis</div><p><span class="lk">Look for:</span> glossy flat needles combed neatly into two ranks, white-striped beneath; crush a few — citrus. True-fir cones stand upright on the branch and fall apart in place, so you'll rarely find a whole one on the ground.</p><span class="season">All year</span></div>
+    <div class="card"><h4>Port Orford cedar</h4><div class="sci">Chamaecyparis lawsoniana</div><p><span class="lk">Look for:</span> lacy flat sprays with white X-shaped marks on the underside; tiny round cones like soccer balls. A Smith River specialty — this drainage holds some of the last big stands untouched by the introduced root disease that's killing the species elsewhere. It spreads in mud: <b>stay on trails, and arrive with clean boots.</b></p><span class="season">All year</span></div>
+    <div class="card"><h4>Tanoak · madrone · California bay</h4><div class="sci">Notholithocarpus · Arbutus · Umbellularia</div><p><span class="lk">Quick IDs:</span> tanoak — toothed leathery leaves, fuzzy acorn caps. Madrone — smooth orange-red bark peeling like sunburn. Bay — crush a leaf and your sinuses will report immediately.</p><span class="season">All year</span></div>
+    <div class="card"><h4>Pacific rhododendron</h4><div class="sci">Rhododendron macrophyllum</div><p><span class="lk">Look for:</span> big evergreen leaf rosettes and fist-sized pink flower trusses against redwood bark — the park's signature photo. Its cousin <b>western azalea</b> (deciduous, white-and-gold, honeysuckle-sweet smell) blooms in wetter spots.</p><span class="season">May–Jun</span></div>
+    <div class="card"><h4>Huckleberries, two ways</h4><div class="sci">Vaccinium ovatum · V. parvifolium</div><p><span class="lk">Look for:</span> evergreen huckleberry — small glossy dark leaves, blue-black berries late summer. Red huckleberry — bright green zig-zag twigs, translucent red berries, often growing straight out of old stumps.</p><span class="season">Berries Jul–Sep</span></div>
+    <div class="card animal"><h4>Marbled murrelet</h4><div class="sci">Brachyramphus marmoratus</div><p><span class="lk">The old-growth secret:</span> a seabird that fishes the ocean but nests on wide mossy redwood limbs, flying inland at dawn. Listen for high "keer" calls over the canopy at first light. It's also why rangers are fierce about crumbs: food scraps feed jays and ravens, and jays eat murrelet eggs. A crumb-free picnic is murrelet conservation.</p><span class="season">Nests Apr–Sep</span></div>
+    <div class="card animal"><h4>Northern spotted owl</h4><div class="sci">Strix occidentalis caurina</div><p><span class="lk">Status:</span> still here in the old growth, but declining as barred owls move in. A four-note hoot after dark ("who — who-who — whooo") is a good night. Report any sighting to a ranger; they track them.</p><span class="season">Heard at night</span></div>
+    <div class="card animal"><h4>Black bear &amp; black-tailed deer</h4><p><span class="lk">Reality check:</span> deer are daily; bears are common but shy — you'll see claw-scarred trunks and torn logs more often than bears. The campground's bear lockers are the law for all food and toiletries. Mountain lions and bobcats live here too; sightings are rare gifts.</p><span class="season">All year</span></div>
+    <div class="card animal"><h4>Humboldt marten &amp; fisher</h4><div class="sci">Martes caurina humboldtensis · Pekania pennanti</div><p><span class="lk">The rarities:</span> two house-cat-sized forest hunters of old growth. The coastal marten was thought extinct until rediscovered on the Six Rivers NF in 1996; a few hundred remain. Seeing either is lottery luck — but this forest is exactly what they need.</p><span class="season">Nearly never seen</span></div>
+  </div>
+</section>
+
+<section id="river">
+  <div class="bearing"><span class="zno">ZONE 3</span><h2>The river — clear, cold, and alive</h2></div>
+  <p class="standhere"><b>Stand here:</b> the gravel bar below the campground · Hiouchi Bridge · the summer footbridge.</p>
+  <p>The Smith runs jade-green and absurdly clear because its bed is hard rock and its watershed is unlogged-enough, undammed, and steep — storms blow through it fast (it can rise from a summer trickle's 2,000 cfs to 50,000+ in days, and drop back just as fast). Winter is the drama season: big water, and the salmon and steelhead that made the river famous.</p>
+  <div class="cards">
+    <div class="card animal"><h4>Chinook salmon</h4><div class="sci">Oncorhynchus tshawytscha</div><p><span class="lk">See them:</span> late fall–early winter, when big dark fish push upriver after the first storms. Watch quietly from the Hiouchi Bridge or gravel-bar edges; look for rolling backs in pools and V-wakes over shallows.</p><span class="season">Oct–Dec</span></div>
+    <div class="card animal"><h4>Coho salmon &amp; steelhead</h4><div class="sci">O. kisutch · O. mykiss</div><p><span class="lk">Know:</span> the Smith is a stronghold for threatened coho (they favor the smaller tributaries like Mill Creek) and for winter steelhead — the wild run anglers whisper about, Dec–Mar. Coastal cutthroat hide under the alder banks all year.</p><span class="season">Coho Nov–Jan · steelhead Dec–Mar</span></div>
+    <div class="card animal"><h4>Pacific lamprey</h4><div class="sci">Entosphenus tridentatus</div><p><span class="lk">Respect:</span> ancient, jawless, eel-shaped — and a treasured food of the Tolowa Dee-ni' for millennia; the first written record of this river (June 20, 1828) is Tolowa traders selling "lamprey eels" to Jedediah Smith's clerk. Look for suction-scars on rocks and, in spring, lampreys wrestling stones to build nests.</p><span class="season">Spawns spring</span></div>
+    <div class="card animal"><h4>American dipper</h4><div class="sci">Cinclus mexicanus</div><p><span class="lk">Look for:</span> a slate-gray tennis ball of a bird doing knee-bends on a mid-river rock, then walking <em>underwater</em>. Where a dipper lives, the river is healthy.</p><span class="season">All year</span></div>
+    <div class="card animal"><h4>River otter · osprey · kingfisher · merganser</h4><p><span class="lk">The river crew:</span> otter families porpoising in quiet pools (dawn/dusk); ospreys hovering and crashing feet-first for fish in summer; the belted kingfisher's rattle; common merganser flotillas of striped chicks in June–July.</p><span class="season">Spring–fall best</span></div>
+    <div class="card animal"><h4>Pacific giant salamander</h4><div class="sci">Dicamptodon tenebrosus</div><p><span class="lk">Look for:</span> under cool creek-side wood (look, don't move the wood far, put it back): a foot-long, marbled-brown salamander — one of the few salamanders that can vocalize; a disturbed one may give a little bark-squeak.</p><span class="season">All year, hidden</span></div>
+    <div class="card hazard"><h4>Rough-skinned newt</h4><div class="sci">Taricha granulosa</div><p><span class="lk">Handle with care:</span> pebbly brown back, traffic-cone-orange belly, strolling in the open like it owns the trail — because it does: its skin carries tetrodotoxin. Fine to watch; if you must move one off a road, use a leaf, don't touch your face, wash your hands. Never anywhere near mouths.</p><span class="season">Most visible in rains</span></div>
+  </div>
+</section>
+
+<section id="edge">
+  <div class="bearing"><span class="zno">ZONE 4</span><h2>The riverbank edge — alder and berry country</h2></div>
+  <p class="standhere"><b>Stand here:</b> the line where gravel bar meets forest, anywhere along the Stout Grove loop or River Beach.</p>
+  <p>Between water and redwood runs a narrow, sunlit strip that floods too often for conifers — so it belongs to fast movers: red alder (speckled gray bark, little woody "cones"), willow thickets, bigleaf maple draped in moss. This is berry and birdsong country, and in summer the busiest wildlife edge in the park.</p>
+  <div class="cards">
+    <div class="card"><h4>Red alder</h4><div class="sci">Alnus rubra</div><p><span class="lk">Look for:</span> pale speckled bark (often lichen-white) and mini pine-cone catkins. Alders fix nitrogen — they're the riverbank's soil-builders after every flood.</p><span class="season">All year</span></div>
+    <div class="card"><h4>Salmonberry &amp; thimbleberry</h4><div class="sci">Rubus spectabilis · R. parviflorus</div><p><span class="lk">Look for:</span> salmonberry — magenta flowers in earliest spring, then salmon-orange raspberries in June. Thimbleberry — huge soft maple-shaped leaves, white flowers, flat red caps that fall apart in your fingers.</p><span class="season">Berries Jun–Aug</span></div>
+    <div class="card"><h4>Red elderberry</h4><div class="sci">Sambucus racemosa</div><p><span class="lk">Look for:</span> frothy cream flower cones then bright-red berry clusters. Raw berries are mildly toxic (birds don't care). The Tolowa village inside this park — Chvn-su'lh-dvn, "Red Elderberry Place" — is named for this shrub; when you see one on the Hiouchi flat, you're seeing the reason for a name a thousand years older than the park.</p><span class="season">Berries Jul–Aug</span></div>
+    <div class="card hazard"><h4>Poison oak &amp; stinging nettle</h4><div class="sci">Toxicodendron diversilobum · Urtica dioica</div><p><span class="lk">The edge's two gotchas:</span> poison oak ("leaves of three, let it be" — glossy, scalloped, red in fall, bare stems in winter still potent) likes sunny edges and river bars, rarely deep redwood shade. Nettle lines damp banks; brush = sting. Long pants on brushy edges solve both.</p><span class="season">All year</span></div>
+  </div>
+</section>
+
+<section id="serpentine">
+  <div class="bearing"><span class="zno">ZONE 5</span><h2>Serpentine country — the botanical island</h2></div>
+  <p class="standhere"><b>Stand here:</b> Little Bald Hills Trail (the forest just <em>stops</em>) · Myrtle Creek Botanical Area off US-199.</p>
+  <p>Climb the Little Bald Hills and the tallest forest on Earth gives way, in a few hundred feet, to open stunted woodland on rust-red soil. That's serpentine — rock so high in magnesium and heavy metals, and so starved of calcium, that ordinary plants fail. What grows instead is a specialist flora found almost nowhere else, which is exactly why the Smith River country is a legend among botanists.</p>
+  <div class="cards">
+    <div class="card"><h4>California pitcher plant</h4><div class="sci">Darlingtonia californica</div><p><span class="lk">Look for:</span> knee-high hooded green "cobras" with a forked tongue, standing in wet serpentine seeps. It eats insects: nectar lures them under the hood, false-window skylights confuse them, downward hairs do the rest. Find them in fen pockets in the Myrtle Creek / Little Bald Hills serpentine — and ask at the Gasquet ranger station for the current best roadside fen stop on 199.</p><span class="season">Pitchers all year · flowers Jun</span></div>
+    <div class="card"><h4>Reading serpentine</h4><p><span class="lk">Look for:</span> rusty-orange bare soil, glossy blue-green rock with a soapy feel, trees suddenly small and spaced (stunted pines and cypresses instead of redwoods), and spring wildflowers you won't have seen all trip. Botanists call these "islands"; treat them that way — stay on the trail, the soils scar for decades.</p><span class="season">Wildflowers Apr–Jun</span></div>
+    <div class="card"><h4>Why no redwoods here?</h4><p><span class="lk">The lesson:</span> redwoods are champions of the rich flats, not of hardship. On serpentine their advantage collapses and the tough specialists win — the whole competitive order of the forest, rewritten by chemistry underfoot.</p><span class="season">—</span></div>
+  </div>
+</section>
+
+<section id="dunes">
+  <div class="bearing"><span class="zno">ZONE 6</span><h2>Dunes &amp; lagoon — Tolowa Dunes and Lake Earl</h2></div>
+  <p class="standhere"><b>Stand here:</b> Tolowa Dunes State Park trailheads off Lake Earl Drive, 30 minutes from camp.</p>
+  <p>North of Crescent City the forest yields to a huge sweep of dunes wrapped around Lake Earl and Lake Talawa — one of California's largest coastal lagoon systems. The lagoon periodically breaches its sandbar to the sea and swings between fresh and brackish, which makes it a bird machine: rafts of waterfowl in winter, shorebird flocks on passage, raptors patrolling the dune grass. This is also storied ground — Yontocket and 'Ee-chuu-le' stand at its edges (see the Historical Map), so walk it as a guest.</p>
+  <div class="cards">
+    <div class="card animal"><h4>Aleutian cackling goose</h4><div class="sci">Branta hutchinsii leucopareia</div><p><span class="lk">The comeback:</span> a small goose with a white neck-ring that fell to a few hundred birds in the mid-1900s (island foxes ate them on their Alaskan breeding islands) — Del Norte's pastures were their historic spring staging ground, and spring skeins here were part of one of conservation's great recoveries. These days the biggest flocks winter farther south in Humboldt; in spring, look up anyway.</p><span class="season">Spring</span></div>
+    <div class="card animal"><h4>Waterfowl &amp; raptors</h4><p><span class="lk">Scan for:</span> wigeon, pintail and teal rafts on the lagoon in winter; white egrets stalking the edges; northern harriers coursing low over dune grass with their white rump-patch flashing; peregrines putting everything to flight.</p><span class="season">Fall–spring</span></div>
+    <div class="card"><h4>Dune plants</h4><p><span class="lk">Look for:</span> mats of pink sand verbena and silvery beach sagewort holding the dunes together, with shore pine behind. Stay off the vegetated dune faces — those mats are decades old.</p><span class="season">Blooms May–Aug</span></div>
+  </div>
+</section>
+
+<section id="tidepools">
+  <div class="bearing"><span class="zno">ZONE 7</span><h2>Rocky shore &amp; tidepools</h2></div>
+  <p class="standhere"><b>Stand here:</b> Enderts Beach (best all-around) · Pebble Beach · below Point St. George — always on a falling low tide.</p>
+  <p>Check a tide table (Crescent City station), arrive an hour before low, and read the shore in stripes: barnacles highest, then mussel beds with ochre stars, then anemone-and-surfgrass gardens at the waterline. Touch gently with a wet finger, pry nothing loose, and never turn your back on the ocean — this coast's sneaker waves are genuinely dangerous.</p>
+  <div class="cards">
+    <div class="card animal"><h4>Ochre sea star</h4><div class="sci">Pisaster ochraceus</div><p><span class="lk">Look for:</span> stout five-armed stars in purple or orange clamped to mussel beds. The population is rebuilding after the 2013+ sea-star wasting epidemic — finding several is good news you can see.</p><span class="season">Low tide</span></div>
+    <div class="card animal"><h4>Giant green anemone</h4><div class="sci">Anthopleura xanthogrammica</div><p><span class="lk">Look for:</span> emerald flowers the size of your palm in the lowest pools (the green is partly solar — algae living in its tissues). A gentle wet-finger touch gets a sticky handshake; that's its hunting grip.</p><span class="season">Low tide</span></div>
+    <div class="card animal"><h4>Chitons, hermit crabs, sculpins</h4><p><span class="lk">Look closer:</span> oval armor-plated chitons welded to rock (including the brick-red giant Pacific chiton); every turban snail shell may be walking (hermit crab); camouflaged sculpins darting in the pools. Harbor seals watch you from the water; give hauled-out seals 100 yards.</p><span class="season">Low tide</span></div>
+    <div class="card animal"><h4>Gray whales</h4><div class="sci">Eschrichtius robustus</div><p><span class="lk">From the bluffs:</span> heart-shaped blows, southbound Dec–Jan (mothers north with calves Mar–May). Point St. George and Crescent Beach Overlook are the local grandstands; the Klamath River Overlook (40 min south) is the famous one.</p><span class="season">Dec–Jan · Mar–May</span></div>
+  </div>
+</section>
+
+<section id="reading">
+  <div class="bearing"><span class="zno">ZONE 8</span><h2>Reading the forest — old growth vs. second growth</h2></div>
+  <p class="standhere"><b>Stand here:</b> Howland Hill Road passes through both — watch the forest change as you drive.</p>
+  <p>Once you know the tells, you can read a forest's biography from the roadside. <b>Old growth:</b> trunks of wildly different sizes, big irregular canopy gaps, huge downed logs in every stage of decay, standing dead spires, and that open, mossy, layered feel. <b>Second growth:</b> even-aged trunks all about the same size standing close and straight, thin uniform canopy, little large wood on the ground.</p>
+  <div class="cards">
+    <div class="card"><h4>Fairy rings</h4><p><span class="lk">Look for:</span> a perfect circle of redwoods — they sprouted from the living root crown of one logged or fallen giant, whose ghost is the empty center. The genetic individual may be thousands of years old even where every visible trunk is young.</p><span class="season">—</span></div>
+    <div class="card"><h4>Nurse logs &amp; goosepens</h4><p><span class="lk">Look for:</span> straight rows of trees that all germinated on one long-gone fallen log (some still stand on "stilts" where the log rotted away), and fire-hollowed living trunks big enough to stand in — settlers penned geese in them, hence the name. Both are old-growth signatures: recovery measured in centuries.</p><span class="season">—</span></div>
+    <div class="card"><h4>Fog, the summer river</h4><p><span class="lk">Why mornings drip:</span> summer rain here is fog — redwood needles comb water from marine fog and rain it onto their own roots (a meaningful share of the forest's summer water). It's why the giant groves hug the fog belt, and why a "dry" July morning under the canopy isn't.</p><span class="season">Jun–Sep mornings</span></div>
+  </div>
+</section>
+
+<section id="fungi">
+  <div class="bearing"><span class="zno">ZONE 9</span><h2>The fungus year — and the flowers that pretend</h2></div>
+  <p class="standhere"><b>Stand here:</b> any trail, October through January, after the rains return.</p>
+  <p>Fall flips a switch: the first soaking storms wake a mushroom flora the region is famous for. In the state park you're a photographer, not a forager — <b>collecting anything is prohibited</b> — and that makes the park a great place to <em>learn</em> them before deciding whether foraging (on national-forest land, under its rules) is ever for you.</p>
+  <div class="cards">
+    <div class="card fungus"><h4>Pacific golden chanterelle</h4><div class="sci">Cantharellus formosus</div><p><span class="lk">Look for:</span> egg-yolk gold trumpets with blunt, forking ridges (not true knife-edge gills) running down the stem; smells faintly of apricot. The classic of the coastal forest.</p><span class="season">Oct–Jan</span></div>
+    <div class="card fungus"><h4>King bolete · matsutake · candy cap</h4><p><span class="lk">The other celebrities:</span> king bolete — a burger-bun cap over a spongy pore layer, no gills at all. Matsutake — white, firm, smells of cinnamon-and-pine. Candy cap — small brown cap that smells of maple syrup as it dries. All revered, all with dangerous imitators — enjoy by eye.</p><span class="season">Oct–Jan</span></div>
+    <div class="card fungus"><h4>Turkey tail &amp; artist's conk</h4><div class="sci">Trametes versicolor · Ganoderma applanatum</div><p><span class="lk">On every log:</span> turkey tail — banded fans in fuzzy rainbow browns. Artist's conk — a hard gray shelf whose white underside bruises brown at a touch (hence the name; look for old ones bearing decades-old scratched drawings — and leave them be).</p><span class="season">All year</span></div>
+    <div class="card fungus"><h4>Fly agaric</h4><div class="sci">Amanita muscaria</div><p><span class="lk">The postcard:</span> the red cap with white flecks, under spruce and pine near the coast. Beautiful, photogenic, toxic. Admire; don't sample.</p><span class="season">Oct–Dec</span></div>
+    <div class="card hazard"><h4>Death cap &amp; destroying angel</h4><div class="sci">Amanita phalloides · A. ocreata</div><p><span class="lk">The reason for all the warnings:</span> plain-looking pale mushrooms — greenish-tan or pure white cap, skirt on the stem, cup at the base, often near oaks — whose toxin destroys livers days after a pleasant-tasting meal. They grow in this region. The rule that keeps people alive: <b>never eat any wild mushroom without an expert identification in hand.</b></p><span class="season">Fall–winter</span></div>
+    <div class="card"><h4>The flowers that pretend to be fungi</h4><div class="sci">Allotropa · Hemitomes · Corallorhiza · Pityopus</div><p><span class="lk">Look for:</span> ghostly leafless stems on the dark forest floor — candy-striped sugarstick, pinkish gnome plant, spotted coralroot orchid, pale California pinefoot. They're true flowering plants with no chlorophyll: they tap the underground fungal network that links the trees, and surface only to bloom. The redwood forest's strangest wildflowers.</p><span class="season">May–Aug</span></div>
+  </div>
+
+  <div class="callout safety"><span class="tag">Safety, the short list</span>
+    <ul>
+      <li><b>Mushrooms:</b> never eat wild finds without expert ID — death caps and destroying angels grow here and taste fine. Too late to un-eat one; poison control: 1-800-222-1222.</li>
+      <li><b>Rough-skinned newts</b> carry tetrodotoxin — look, don't handle; wash hands. The <b>yellow-spotted millipede</b> advertises with almond smell (cyanide) — same policy.</li>
+      <li><b>Ticks</b> (Lyme is present on this coast): repellent, long pants in brush, full-body check after hikes. <b>Poison oak</b> on sunny edges and river bars.</li>
+      <li><b>Ocean:</b> sneaker waves and rising tides take lives on this coast — never turn your back, keep kids high on the beach, check tide tables for tidepooling and the Battery Point crossing.</li>
+      <li><b>River:</b> cold and stronger than it looks even in August; no lifeguards. <b>Bears:</b> all food and toiletries in the metal lockers — it's the law at the campground.</li>
+    </ul>
+  </div>
+  <div class="callout rules"><span class="tag">The rules of the ground</span>
+    <ul>
+      <li>In the <b>state park</b>, everything is protected: no picking flowers, berries, cones, or mushrooms, no collecting rocks or wood. Cameras yes, baskets no.</li>
+      <li>On adjacent <b>Six Rivers National Forest / Smith River NRA</b> land, some personal gathering is allowed under Forest Service rules — ask at the Gasquet ranger station on US-199 before collecting anything.</li>
+      <li><b>Dogs:</b> allowed in the campground and on roads/beaches on leash; not on park trails. <b>Drones:</b> prohibited in the parks. <b>Fishing:</b> current CDFW regulations (many Smith runs are catch-and-release, barbless); check before you cast.</li>
+      <li>Stay on the boardwalk at the Grove of Titans, and on trails everywhere — root zones and serpentine soils are the two most easily wounded things in this guide.</li>
+    </ul>
+  </div>
+</section>
+
+<nav class="footer-nav">
+  <a href="Start Here.html">⟵ Start Here</a>
+  <a href="Hikes and Day Trips.html">Hikes &amp; Day Trips</a>
+  <a href="Historical Map.html">Historical Map</a>
+  <a href="Campground Map.html">Campground Map</a>
+  <a href="History Report.html">History Report</a>
+</nav>
+</div>
+</body>
+</html>
