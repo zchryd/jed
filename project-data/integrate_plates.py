@@ -22,6 +22,7 @@ html=re.sub(r'<svg class="duo"[^>]*>.*?</svg>\n?', '', html, flags=re.S)
 html=re.sub(r'<figure class="plate">.*?</figure>', '', html, flags=re.S)
 html=re.sub(r'\n?<section id="credits">.*?</section>', '', html, flags=re.S)
 html=re.sub(r'/\* PLATES \*/.*?/\* END PLATES \*/\n?', '', html, flags=re.S)
+html=re.sub(r'<!-- LIGHTBOX -->.*?<!-- END LIGHTBOX -->\n?', '', html, flags=re.S)
 
 # ---- 1. dry-run heading match ----
 problems=[]
@@ -62,6 +63,27 @@ figure.plate img{max-width:100%;max-height:190px;width:auto;height:auto;vertical
 #credits .grid i{color:var(--ink)}
 #credits a{color:var(--bark)}
 @media (max-width:640px){#credits .grid{columns:1}}
+/* click-to-enlarge */
+.cards .card{cursor:zoom-in;transition:transform .09s ease,box-shadow .14s ease}
+.cards .card:hover{box-shadow:0 5px 18px rgba(30,26,18,.14);transform:translateY(-1px)}
+.cards .card:focus-visible{outline:2px solid var(--emerald);outline-offset:3px}
+.lb{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(30,26,18,.64)}
+.lb.on{display:flex}
+.lb-panel{position:relative;background:#F7F3E9;max-width:660px;width:100%;max-height:92vh;overflow:auto;padding:30px 34px 34px;border-top:5px solid var(--emerald-soft);box-shadow:0 20px 64px rgba(0,0,0,.45);font:16.5px/1.62 "Seravek","Avenir Next","Helvetica Neue",sans-serif;color:var(--ink)}
+.lb-panel.animal{border-top-color:#4A6FA5}
+.lb-panel.fungus{border-top-color:#8C6D3F}
+.lb-panel.hazard{border-top-color:var(--madrone)}
+.lb-panel h4{font:700 30px/1.15 "Iowan Old Style",Georgia,serif;color:var(--emerald);margin:2px 0}
+.lb-panel .sci{font-style:italic;color:var(--ink-soft);font-size:16px;margin-bottom:4px}
+.lb-panel p{margin-top:10px;max-width:60ch}
+.lb-panel .lk{color:var(--bark);font-weight:600}
+.lb-panel .season{display:inline-block;margin-top:14px;font:600 11px/1 "Seravek",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--emerald-soft);border-radius:3px;padding:5px 9px}
+.lb-panel figure.plate{margin:0 0 20px!important;background:#F2EEE3;border:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:16px;text-align:center}
+.lb-panel figure.plate img{max-width:100%;max-height:60vh;filter:url(#jed-duotone)}
+#lb-x{position:absolute;top:6px;right:10px;border:0;background:none;font:300 32px/1 "Helvetica Neue",sans-serif;color:var(--ink-soft);cursor:pointer;padding:6px 10px}
+#lb-x:hover,#lb-x:focus-visible{color:var(--madrone)}
+.lb-hint{font:600 10px/1 "Seravek",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--bark);opacity:.5;margin-top:20px}
+@media print{.lb{display:none!important}.cards .card{cursor:auto}}
 /* END PLATES */
 """
 html=html.replace("</style>", css+"</style>",1)
@@ -100,11 +122,48 @@ credits=('\n<section id="credits">\n'
  '  <div class="grid">\n    '+"\n    ".join(rows)+'\n  </div>\n</section>\n')
 html=html.replace('<nav class="footer-nav">', credits+'\n<nav class="footer-nav">',1)
 
+# ---- 5b. lightbox modal + script before </body> ----
+lightbox=r'''<!-- LIGHTBOX -->
+<div id="lb" class="lb" role="dialog" aria-modal="true" aria-label="Enlarged species card" tabindex="-1">
+  <div id="lb-panel" class="lb-panel"></div>
+</div>
+<script>
+(function(){
+  var cards=[].slice.call(document.querySelectorAll('.cards .card'));
+  var lb=document.getElementById('lb'), panel=document.getElementById('lb-panel'), last=null;
+  function open(card){
+    last=card;
+    var mods=card.className.split(/\s+/).filter(function(x){return x&&x!=='card';}).join(' ');
+    panel.className='lb-panel '+mods;
+    panel.innerHTML='<button id="lb-x" aria-label="Close">×</button>'+card.innerHTML+
+      '<div class="lb-hint">Esc or tap outside to close</div>';
+    lb.classList.add('on'); document.body.style.overflow='hidden';
+    document.getElementById('lb-x').addEventListener('click',close);
+    lb.focus();
+  }
+  function close(){ lb.classList.remove('on'); document.body.style.overflow=''; panel.innerHTML='';
+    if(last){ last.focus(); last=null; } }
+  cards.forEach(function(c){
+    c.tabIndex=0; c.setAttribute('role','button');
+    c.addEventListener('click',function(){open(c);});
+    c.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();open(c);} });
+  });
+  lb.addEventListener('click',function(e){ if(e.target===lb) close(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&lb.classList.contains('on')) close(); });
+  // deep-link / test hook: #lb<n> opens the nth species card on load
+  var m=(location.hash||'').match(/^#lb(\d+)$/); if(m&&cards[+m[1]]) open(cards[+m[1]]);
+})();
+</script>
+<!-- END LIGHTBOX -->
+'''
+html=html.replace("</body>", lightbox+"</body>",1)
+
 # ---- 6. update trust note ----
 old="they don't spawn in the Smith.</div>"
 new=("they don't spawn in the Smith. <strong>The engravings</strong> beside each species are historical "
-     "public-domain scientific plates, license-checked and tinted to match this guide; the ~10 species without a "
-     "faithful public-domain plate are left unillustrated on purpose. Full sources are listed at the foot of the page.</div>")
+     "public-domain scientific plates, license-checked and tinted to match this guide; the species without a "
+     "faithful public-domain plate are left unillustrated on purpose. <strong>Tap or click any card</strong> to "
+     "enlarge its plate and text. Full sources are listed at the foot of the page.</div>")
 if old in html: html=html.replace(old,new,1)
 
 open(HTML,"w",encoding="utf-8").write(html)

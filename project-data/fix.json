@@ -1,0 +1,84 @@
+{
+ "gray-whale": [
+  {
+   "file": "fix/gray-whale.jpg",
+   "title": "File:\"California Grays Among the Ice\" - Eschrichtius robustus 1874 art detail, from- The marine mammals of the north-western coast of North America (Plate V) BHL16226101 (cropped).jpg",
+   "lic": "Public domain",
+   "artist": "Scammon, Charles Melville",
+   "src": "https://commons.wikimedia.org/wiki/File:%22California_Grays_Among_the_Ice%22_-_Eschrichtius_robustus_1874_art_detail,_from-_The_marine_mammals_of_the_north-western_coast_of_North_America_(Plate_V)_BHL16226101_(cropped).jpg"
+  }
+ ],
+ "river-otter": [
+  {
+   "title": "File:Canada Otter, Lutra Canadensis, Sabine, Var, Lataxina Mollis, Gray, Male - DPLA - 8a4e083f6d06e38b898c85b1aa8ca4ff.jpg",
+   "sc": 2,
+   "lic": "Public domain",
+   "artist": "Audubon, John Woodhouse, 1812-1862",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Canada_Otter%2C_Lutra_Canadensis%2C_Sabine%2C_Var%2C_Lataxina_Mollis%2C_Gray%2C_Male_-_DPLA_-_8a4e083f6d06e38b898c85b1aa8ca4ff.jpg/500px-Canada_Otter%2C_Lutra_Canadensis%2C_Sabine%2C_Var%2C_Lataxina_Mollis%2C_Gray%2C_Male_-_DPLA_-_8a4e083f6d06e38b898c85b1aa8ca4ff.jpg",
+   "src": "https://commons.wikimedia.org/wiki/File:Canada_Otter,_Lutra_Canadensis,_Sabine,_Var,_Lataxina_Mollis,_Gray,_Male_-_DPLA_-_8a4e083f6d06e38b898c85b1aa8ca4ff.jpg",
+   "file": "fix/river-otter__0.jpg"
+  },
+  {
+   "title": "File:Canada Otter, Lutra Canadensis, Sabine. Natural Size. Male - DPLA - 02cb8aea6a31db0398b29cd97237ce2e.jpg",
+   "sc": 2,
+   "lic": "Public domain",
+   "artist": "Audubon, John James, 1785-1851",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Canada_Otter%2C_Lutra_Canadensis%2C_Sabine._Natural_Size._Male_-_DPLA_-_02cb8aea6a31db0398b29cd97237ce2e.jpg/500px-Canada_Otter%2C_Lutra_Canadensis%2C_Sabine._Natural_Size._Male_-_DPLA_-_02cb8aea6a31db0398b29cd97237ce2e.jpg",
+   "src": "https://commons.wikimedia.org/wiki/File:Canada_Otter,_Lutra_Canadensis,_Sabine._Natural_Size._Male_-_DPLA_-_02cb8aea6a31db0398b29cd97237ce2e.jpg",
+   "file": "fix/river-otter__1.jpg"
+  }
+ ],
+ "american-dipper": [
+  {
+   "title": "File:American water ouzel Cinclus Americanus Male, 1. Female, 2 c.1 v.4 plate 370 - DPLA - 02558a10bc83711b910c9e6fc612698e (page 1).jpg",
+   "sc": 10,
+   "lic": "Public domain",
+   "artist": "Audubon, John James, 1785-1851; Havell, Robert, 1793-1878",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/American_water_ouzel_Cinclus_Americanus_Male%2C_1._Female%2C_2_c.1_v.4_plate_370_-_DPLA_-_02558a10bc83711b910c9e6fc612698e_%28page_1%29.jpg/960px-American_water_ouzel_Cinclus_Americanus_Male%2C_1._Female%2C_2_c.1_v.4_plate_370_-_DPLA_-_02558a10bc83711b910c9e6fc612698e_%28page_1%29.jpg",
+   "src": "https://commons.wikimedia.org/wiki/File:American_water_ouzel_Cinclus_Americanus_Male,_1._Female,_2_c.1_v.4_plate_370_-_DPLA_-_02558a10bc83711b910c9e6fc612698e_(page_1).jpg",
+   "file": "fix/american-dipper__0.jpg"
+  },
+  {
+   "title": "File:American water ouzel Cinclus Americanus Male, 1. Female, 2 c.1 v.4 plate 370 - DPLA - 02558a10bc83711b910c9e6fc612698e (page 2).jpg",
+   "sc": 10,
+   "lic": "Public domain",
+   "artist": "Audubon, John James, 1785-1851; Havell, Robert, 1793-1878",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/American_water_ouzel_Cinclus_Americanus_Male%2C_1._Female%2C_2_c.1_v.4_plate_370_-_DPLA_-_02558a10bc83711b910c9e6fc612698e_%28page_2%29.jpg/960px-American_water_ouzel_Cinclus_Americanus_Male%2C_1._Female%2C_2_c.1_v.4_plate_370_-_DPLA_-_02558a10bc83711b910c9e6fc612698e_%28page_2%29.jpg",
+   "src": "https://commons.wikimedia.org/wiki/File:American_water_ouzel_Cinclus_Americanus_Male,_1._Female,_2_c.1_v.4_plate_370_-_DPLA_-_02558a10bc83711b910c9e6fc612698e_(page_2).jpg",
+   "file": "fix/american-dipper__1.jpg"
+  },
+  {
+   "title": "File:Columbian water ouzel. Arctic water ouzel Cinclus Townsendi, Aud. 1. Female. Cinclus mortoni, Townsend. 2. Male c.1 v.4 plate 435 - DPLA - d2d3ff8bcbaa2cefea95907f33def57a (page 1).jpg",
+   "sc": 10,
+   "lic": "Public domain",
+   "artist": "Audubon, John James, 1785-1851; Havell, Robert, 1793-1878",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Columbian_water_ouzel._Arctic_water_ouzel_Cinclus_Townsendi%2C_Aud._1._Female._Cinclus_mortoni%2C_Townsend._2._Male_c.1_v.4_plate_435_-_DPLA_-_d2d3ff8bcbaa2cefea95907f33def57a_%28page_1%29.jpg/960px-thumbnail.jpg",
+   "src": "https://commons.wikimedia.org/wiki/File:Columbian_water_ouzel._Arctic_water_ouzel_Cinclus_Townsendi,_Aud._1._Female._Cinclus_mortoni,_Townsend._2._Male_c.1_v.4_plate_435_-_DPLA_-_d2d3ff8bcbaa2cefea95907f33def57a_(page_1).jpg",
+   "file": "fix/american-dipper__2.jpg"
+  },
+  {
+   "title": "File:Columbian water ouzel. Arctic water ouzel Cinclus Townsendi, Aud. 1. Female. Cinclus mortoni, Townsend. 2. Male c.1 v.4 plate 435 - DPLA - d2d3ff8bcbaa2cefea95907f33def57a (page 2).jpg",
+   "sc": 10,
+   "lic": "Public domain",
+   "artist": "Audubon, John James, 1785-1851; Havell, Robert, 1793-1878",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Columbian_water_ouzel._Arctic_water_ouzel_Cinclus_Townsendi%2C_Aud._1._Female._Cinclus_mortoni%2C_Townsend._2._Male_c.1_v.4_plate_435_-_DPLA_-_d2d3ff8bcbaa2cefea95907f33def57a_%28page_2%29.jpg/960px-thumbnail.jpg",
+   "src": "https://commons.wikimedia.org/wiki/File:Columbian_water_ouzel._Arctic_water_ouzel_Cinclus_Townsendi,_Aud._1._Female._Cinclus_mortoni,_Townsend._2._Male_c.1_v.4_plate_435_-_DPLA_-_d2d3ff8bcbaa2cefea95907f33def57a_(page_2).jpg",
+   "file": "fix/american-dipper__3.jpg"
+  },
+  {
+   "title": "File:370 American Water Ouzel.jpg",
+   "sc": 4,
+   "lic": "Public domain",
+   "artist": "John James Audubon",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/370_American_Water_Ouzel.jpg/960px-370_American_Water_Ouzel.jpg",
+   "src": "https://commons.wikimedia.org/wiki/File:370_American_Water_Ouzel.jpg",
+   "file": "fix/american-dipper__4.jpg"
+  }
+ ],
+ "american-dipper_final": {
+  "title": "File:370 American Water Ouzel.jpg",
+  "lic": "Public domain",
+  "src": "https://commons.wikimedia.org/wiki/File:370_American_Water_Ouzel.jpg",
+  "artist": "John James Audubon"
+ }
+}

@@ -10,6 +10,7 @@ CAND=json.load(open(os.path.join(HERE,"candidates.json")))
 REQ =json.load(open(os.path.join(HERE,"requery.json")))
 MIC =json.load(open(os.path.join(HERE,"micro.json")))
 V1  =json.load(open(os.path.join(HERE,"plates_manifest.json")))
+FIXJ=json.load(open(os.path.join(HERE,"fix.json")))   # re-sourced corrections
 
 PICKS={
  "redwood-sorrel":("V1",None),"western-trillium":("REQ",2),
@@ -21,11 +22,11 @@ PICKS={
  # wrong species (epiphytic fern; Cucubalus baccifer). coho uses a labelled
  # coho plate, not the chum (O. keta) that scored highest.
  "coho-salmon":("CAND",2),"pacific-lamprey":("CAND",0),"american-dipper":("REQ",0),
- "river-otter":("CAND",0),"giant-salamander":("V1",None),"salmonberry":("V1",None),
+ "river-otter":("FIX",0),"giant-salamander":("V1",None),"salmonberry":("V1",None),
  "red-elderberry":("CAND",1),"poison-oak":("CAND",1),"pitcher-plant":("CAND",1),
  "aleutian-goose":("V1",None),"harrier":("REQ",0),"sand-verbena":("V1",None),
  "ochre-star":("V1",None),"green-anemone":("REQ",0),"chiton":("REQ",0),
- "gray-whale":("CAND",1),"chanterelle":("CAND",0),"king-bolete":("CAND",0),
+ "gray-whale":("FIX",0),"chanterelle":("CAND",0),"king-bolete":("CAND",0),
  "turkey-tail":("CAND",0),"fly-agaric":("CAND",0),"death-cap":("CAND",1),"coralroot":("CAND",0),
 }
 # human-readable source names for plates whose Commons filename is a bare scan id
@@ -34,11 +35,16 @@ CREDIT={
  "coho-salmon":"Coho salmon — fisheries plate (Evermann & Goldsborough)",
  "pacific-wren":"Winter Wren & Rock Wren — bird plate",
  "poison-oak":"Poison-oak — The New Student's Reference Work",
+ "gray-whale":"Scammon, The Marine Mammals of the North-Western Coast of North America — “California Grays Among the Ice”",
+ "river-otter":"Canada Otter — Audubon, The Quadrupeds of North America",
  "huckleberry":None,
 }
 def resolve(slug,src,idx):
     if src=="V1":
         m=V1[slug]; return os.path.join(HERE,m["file"]), m["title"], m["license"], m.get("artist",""), m.get("source","")
+    if src=="FIX":
+        c=FIXJ[slug][idx]
+        return os.path.join(HERE,c["file"]), c["title"], c["lic"], c.get("artist",""), c.get("src","")
     j={"CAND":CAND,"REQ":REQ,"MIC":MIC}[src]
     c=j[slug]["cand"][idx]
     return os.path.join(HERE,c["file"]), c["title"], c["lic"], c.get("artist",""), c.get("src","")
