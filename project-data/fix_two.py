@@ -2,7 +2,7 @@ import json, os, re, subprocess, time, urllib.parse
 from io import BytesIO
 from PIL import Image, ImageOps
 HERE=os.path.dirname(os.path.abspath(__file__)); FX=os.path.join(HERE,"fix"); os.makedirs(FX,exist_ok=True)
-UA="jed-fieldguide-plates/1.0 (personal trip guide; contact [redacted])"; API="https://commons.wikimedia.org/w/api.php"
+UA="jed-fieldguide-plates/1.0 (personal project; +https://github.com/zchryd/jed)"; API="https://commons.wikimedia.org/w/api.php"
 def curl(u,t=45):
     r=subprocess.run(["curl","-sSL","--max-time",str(t),"-A",UA,u],capture_output=True,timeout=t+8)
     if r.returncode: raise RuntimeError("curl")

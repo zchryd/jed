@@ -10,7 +10,7 @@ from PIL import Image, ImageOps
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CAND = os.path.join(HERE, "cand"); os.makedirs(CAND, exist_ok=True)
-UA = "jed-fieldguide-plates/1.0 (personal trip guide; contact [redacted])"
+UA = "jed-fieldguide-plates/1.0 (personal project; +https://github.com/zchryd/jed)"
 API = "https://commons.wikimedia.org/w/api.php"
 
 # import the species list from v1 to stay in sync

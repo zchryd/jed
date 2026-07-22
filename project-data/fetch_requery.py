@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 
 HERE=os.path.dirname(os.path.abspath(__file__))
 C2=os.path.join(HERE,"cand2"); os.makedirs(C2,exist_ok=True)
-UA="jed-fieldguide-plates/1.0 (personal trip guide; contact [redacted])"
+UA="jed-fieldguide-plates/1.0 (personal project; +https://github.com/zchryd/jed)"
 API="https://commons.wikimedia.org/w/api.php"
 
 # slug -> (queries[], relevance-token-set)

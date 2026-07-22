@@ -2,7 +2,7 @@ import json, os, re, subprocess, time, urllib.parse
 from io import BytesIO
 from PIL import Image, ImageOps
 HERE=os.path.dirname(os.path.abspath(__file__)); C5=os.path.join(HERE,"cand5"); os.makedirs(C5,exist_ok=True)
-UA="jed-fieldguide-plates/1.0 (personal trip guide; contact [redacted])"; API="https://commons.wikimedia.org/w/api.php"
+UA="jed-fieldguide-plates/1.0 (personal project; +https://github.com/zchryd/jed)"; API="https://commons.wikimedia.org/w/api.php"
 QS=["Pseudotsuga taxifolia plate","Abies douglasii plate","Pseudotsuga douglasii","Pseudotsuga menziesii cone foliage plate","Abies douglasii Lambert"]
 TOK={"pseudotsuga","douglasii","taxifolia","abies","douglas"}
 def curl(u,t=30):

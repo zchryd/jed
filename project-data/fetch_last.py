@@ -2,7 +2,7 @@ import json, os, re, subprocess, time, urllib.parse
 from io import BytesIO
 from PIL import Image, ImageOps
 HERE=os.path.dirname(os.path.abspath(__file__)); C4=os.path.join(HERE,"cand4"); os.makedirs(C4,exist_ok=True)
-UA="jed-fieldguide-plates/1.0 (personal trip guide; contact [redacted])"; API="https://commons.wikimedia.org/w/api.php"
+UA="jed-fieldguide-plates/1.0 (personal project; +https://github.com/zchryd/jed)"; API="https://commons.wikimedia.org/w/api.php"
 JOBS={
  "coast-redwood":(["Taxodium sempervirens","Sequoia sempervirens branch cone","Sequoia sempervirens Nordens"],{"sequoia","taxodium","redwood"}),
  "red-alder":(["Alnus oregona Silva","Alnus rubra Britton","Alnus rubra branch leaf","Alnus oregona plate"],{"alnus"}),

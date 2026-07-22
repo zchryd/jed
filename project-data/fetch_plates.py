@@ -16,7 +16,7 @@ OUT_IMG = os.path.join(HERE, "plates")
 OUT_MANIFEST = os.path.join(HERE, "plates_manifest.json")
 os.makedirs(OUT_IMG, exist_ok=True)
 
-UA = "jed-fieldguide-plates/1.0 (personal trip guide; contact [redacted])"
+UA = "jed-fieldguide-plates/1.0 (personal project; +https://github.com/zchryd/jed)"
 API = "https://commons.wikimedia.org/w/api.php"
 
 # (slug, anchor h4 text in Field Guide, scientific/subject to search, extra hint words)
