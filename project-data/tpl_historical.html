@@ -54,15 +54,28 @@ body{font:14px/1.5 "Seravek","Avenir Next","Helvetica Neue",sans-serif;color:var
 .pp .prec{margin-top:8px;font-size:11px;color:#7A7060;font-style:italic}
 .pp .srcs{margin-top:8px;font-size:11px}
 .pp .srcs a{color:var(--emerald);display:block;margin-top:2px}
-#mobilebar{display:none}
+.pnav{display:flex;flex-wrap:wrap;gap:4px 10px;margin-bottom:11px;font-weight:600}
+.pnav a{color:#9FD0BF}
+/* bigger, always-reachable popup close target; never let a popup overrun the screen */
+.leaflet-popup-close-button{width:32px!important;height:32px!important;font:26px/28px "Helvetica Neue",Arial,sans-serif!important;padding:2px 0 0!important;color:#7A7060!important}
+.leaflet-popup-content{max-width:calc(100vw - 56px)}
+/* pinned "home" button (mobile) */
+.homebtn{position:fixed;top:12px;left:12px;z-index:1500;display:none;align-items:center;gap:6px;
+  background:var(--paper);color:var(--emerald);font:700 13px/1 "Seravek","Avenir Next",sans-serif;
+  padding:10px 13px;border-radius:999px;box-shadow:0 2px 10px #0008;text-decoration:none}
+.homebtn:active{transform:scale(.97)}
 @media (max-width:760px){
-  body{flex-direction:column}
-  #panel{width:100%;min-width:0;max-height:45%;order:2}
-  #map{order:1;min-height:55%}
+  html{height:auto}
+  body{height:auto;flex-direction:column;overflow-x:hidden;overflow-y:visible}
+  #map{order:1;flex:0 0 auto;height:56vh;min-height:340px;width:100%}
+  #panel{order:2;flex:0 0 auto;width:100%;max-width:100%;min-width:0;max-height:none;box-shadow:0 -3px 14px #0007}
+  #tl{flex:none;overflow:visible;height:auto;max-height:none}
+  .homebtn{display:flex}
 }
 </style>
 </head>
 <body>
+<a class="homebtn" href="Start Here.html" aria-label="Back to the guide home page"><svg width="12" height="12" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#14594E" stroke-width="1.8"/><rect x="5" y="5" width="4" height="4" transform="rotate(45 7 7)" fill="#14594E"/></svg> Guide home</a>
 <aside id="panel">
   <div class="phead">
     <div class="eyebrow"><svg width="12" height="12" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#C9B896" stroke-width="1.6"/><rect x="5" y="5" width="4" height="4" transform="rotate(45 7 7)" fill="#58A08F"/></svg> Where it happened</div>
@@ -72,6 +85,7 @@ body{font:14px/1.5 "Seravek","Avenir Next","Helvetica Neue",sans-serif;color:var
   <div class="chips" id="chips" role="group" aria-label="Filter by theme"></div>
   <div id="tl" role="list"></div>
   <div class="pfoot">
+    <div class="pnav"><a href="Start Here.html">⌂ Guide home</a> · <a href="Field Guide.html">Field Guide</a> · <a href="Campground Map.html">Campground</a> · <a href="Hikes and Day Trips.html">Hikes</a> · <a href="History Report.html">Report</a></div>
     <div class="bases" role="group" aria-label="Base map">
       <button class="bbtn" data-base="img" aria-pressed="true">Imagery</button>
       <button class="bbtn" data-base="topo" aria-pressed="false">Topo</button>
@@ -103,6 +117,21 @@ var THEMES={
 };
 
 var map=L.map('map',{zoomControl:true}).setView([41.845,-124.11],11);
+map.zoomControl.setPosition('topright');
+/* keep popups within the map so the close button is always reachable */
+map.on('popupopen',function(e){
+  var el=e.popup.getElement();
+  var c=el&&el.querySelector('.leaflet-popup-content');
+  if(!c) return;
+  c.style.height=''; c.style.overflowY='';
+  var avail=map.getSize().y-96;
+  if(c.scrollHeight>avail){ c.style.height=avail+'px'; c.style.overflowY='auto'; }
+  var w=el.querySelector('.leaflet-popup-content-wrapper')||el; void w.offsetHeight;
+  var mr=map.getContainer().getBoundingClientRect(), pr=w.getBoundingClientRect(), pad=12, dx=0, dy=0;
+  if(pr.left<mr.left+pad) dx=pr.left-(mr.left+pad); else if(pr.right>mr.right-pad) dx=pr.right-(mr.right-pad);
+  if(pr.top<mr.top+pad) dy=pr.top-(mr.top+pad); else if(pr.bottom>mr.bottom-pad) dy=pr.bottom-(mr.bottom-pad);
+  if(dx||dy) map.panBy([dx,dy],{animate:false});
+});
 var bases={
   img:L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery © Esri'}),
   topo:L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'USGS The National Map'}),
@@ -150,7 +179,7 @@ function popupHtml(ev){
 }
 var markers={};
 EVENTS.forEach(function(ev){
-  var m=L.marker([ev.lat,ev.lng],{icon:pinIcon(ev),title:ev.title}).bindPopup(popupHtml(ev),{maxWidth:380,minWidth:320});
+  var m=L.marker([ev.lat,ev.lng],{icon:pinIcon(ev),title:ev.title}).bindPopup(popupHtml(ev),{maxWidth:272,autoPanPadding:[10,10],keepInView:true});
   m.addTo(map); markers[ev.id]=m;
 });
 

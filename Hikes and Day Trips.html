@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Jed Smith"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#3B2A20"><link rel="apple-touch-icon" href="icon-180.png"><link rel="icon" type="image/png" sizes="512x512" href="icon-512.png"><link rel="manifest" href="manifest.webmanifest">
 <title>Hikes &amp; Day Trips — Jed Smith and the Del Norte Coast</title>
 <style>/* required styles */
 
@@ -666,6 +665,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
 		print-color-adjust: exact;
 		}
 	}
+
+.leaflet-popup-scrolled{overflow:auto;}
 </style>
 <style>
 :root{
@@ -718,10 +719,19 @@ h2{font-size:26px;font-weight:700}
 .pp p{margin:7px 0 0;font-size:13px}
 .pp .prec{margin-top:7px;font-size:11px;color:#7A7060;font-style:italic}
 .footer-nav{margin-top:72px;padding-top:20px;border-top:3px double var(--bark);font:600 14px/1.5 "Seravek","Avenir Next",sans-serif;display:flex;gap:22px;flex-wrap:wrap}
-@media print{.footer-nav{display:none}#tripmap{display:none}}
+.ghome{position:sticky;top:0;z-index:200;display:flex;align-items:center;gap:8px;background:#3B2A20;color:#F5EFE0;text-decoration:none;font:600 12px/1 "Seravek","Avenir Next","Helvetica Neue",sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:11px 24px}
+.ghome:hover{background:#4A3524;color:#fff}
+.leaflet-popup-close-button{width:32px!important;height:32px!important;font:26px/28px "Helvetica Neue",Arial,sans-serif!important;padding:2px 0 0!important;color:#7A7060!important}
+.leaflet-popup-content{max-width:calc(100vw - 56px)}
+@media (max-width:760px){
+  .wrap{padding:0 16px 72px}
+  #tripmap{height:58vh;min-height:340px;margin:20px 0 8px}
+}
+@media print{.ghome{display:none}.footer-nav{display:none}#tripmap{display:none}}
 </style>
 </head>
 <body>
+<a class="ghome" href="Start Here.html"><svg width="12" height="12" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#C9B896" stroke-width="1.6"/><rect x="5" y="5" width="4" height="4" transform="rotate(45 7 7)" fill="#58A08F"/></svg> Guide home</a>
 <div class="wrap">
 
 <header>
@@ -1162,6 +1172,19 @@ var GCOLOR={park:'#2E7D4F',city:'#4A6FA5',south:'#1C7C8C',upriver:'#8C6D3F'};
 var map=L.map('tripmap',{zoomControl:true,scrollWheelZoom:false}).setView([41.72,-124.11],10);
 map.on('focus click',function(){map.scrollWheelZoom.enable()});
 map.on('blur',function(){map.scrollWheelZoom.disable()});
+map.on('popupopen',function(e){
+  var el=e.popup.getElement();
+  var c=el&&el.querySelector('.leaflet-popup-content');
+  if(!c) return;
+  c.style.height=''; c.style.overflowY='';
+  var avail=map.getSize().y-96;
+  if(c.scrollHeight>avail){ c.style.height=avail+'px'; c.style.overflowY='auto'; }
+  var w=el.querySelector('.leaflet-popup-content-wrapper')||el; void w.offsetHeight;
+  var mr=map.getContainer().getBoundingClientRect(), pr=w.getBoundingClientRect(), pad=12, dx=0, dy=0;
+  if(pr.left<mr.left+pad) dx=pr.left-(mr.left+pad); else if(pr.right>mr.right-pad) dx=pr.right-(mr.right-pad);
+  if(pr.top<mr.top+pad) dy=pr.top-(mr.top+pad); else if(pr.bottom>mr.bottom-pad) dy=pr.bottom-(mr.bottom-pad);
+  if(dx||dy) map.panBy([dx,dy],{animate:false});
+});
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery © Esri'}).addTo(map);
 L.geoJSON(LAYERS.water,{style:{color:'#5FA8C7',weight:1,fillColor:'#8FC7DC',fillOpacity:.45,interactive:false}}).addTo(map);
 L.geoJSON(LAYERS.rivers,{style:{color:'#2E86AB',weight:1.3,opacity:.8,interactive:false}}).addTo(map);
@@ -1177,7 +1200,7 @@ TRIPS.forEach(function(t){
   var m=L.marker([t.lat,t.lng],{icon:icon,title:t.name}).bindPopup(
     '<div class="pp"><div class="meta">'+t.stats+'</div><h3>'+t.name+'</h3><p>'+t.why+'</p><p class="tip"><b>Tip:</b> '+t.tip+'</p>'+
     '<div class="prec">'+(t.exact?'Trailhead/parking location from mapped data.':'Location approximate — follow signs on the ground.')+'</div></div>',
-    {maxWidth:360,minWidth:300});
+    {maxWidth:272,autoPanPadding:[10,10],keepInView:true});
   m.addTo(map); markers[t.id]=m;
 });
 
