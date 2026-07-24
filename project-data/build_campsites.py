@@ -218,7 +218,88 @@ def check():
             if d<worst[0]: worst=(d,(sites[i]['n'],sites[j]['n']))
     print(f"min pairwise separation: {worst[0]:.1f}m between {worst[1]}")
 
+
+def build_from_warp():
+    """Place each site at its warped-official position snapped onto its
+    assigned chain path (Zach's overlay method), official order enforced."""
+    import importlib.util as ilu
+    spec=ilu.spec_from_file_location("wc", os.path.join(HERE,"warp_check.py"))
+    wc=ilu.module_from_spec(spec); spec.loader.exec_module(wc)
+    fwd,_=wc.build_warp()
+    lay=json.load(open(f"{HERE}/official_layout.json"))
+    px={str(s['n']):s['px'] for c in lay['chains'] for s in c['sites'] if not s.get('facility')}
+    adj=build_graph(); info=load_layout()
+    out=[]; report=[]
+    for spec_c in CHAINS:
+        cid=spec_c['id']
+        ids=[str(n) for n in CHAIN_SITES[cid]]
+        if spec_c.get('cluster'):
+            for n,pos in zip(ids,spec_c['positions']):
+                s=info[n]
+                out.append({"n":s['n'],"lat":pos[0],"lng":pos[1],
+                            "cabin":s['cabin'],"ada":s['ada'],
+                            **({"hikebike":True} if isinstance(s['n'],str) else {})})
+            report.append(f"[{cid}] cluster x{len(ids)}")
+            continue
+        path=chain_path(adj,spec_c['waypoints'])
+        cum=arclen(path); L=cum[-1]
+        if spec_c.get('placement')=='spread':
+            t0=spec_c.get('span',[0,1])[0]*L; t1=spec_c.get('span',[0,1])[1]*L
+            ov=spec_c.get('t_overrides',{}); sides=spec_c.get('sides',{})
+            for i,n in enumerate(ids):
+                s=info[n]
+                t=t0+(t1-t0)*ov.get(n,(i+0.5)/len(ids))
+                pt,tang=point_at(path,cum,t)
+                pos=offset(pt,tang,sides.get(n,s.get('side')),spec_c.get('offset_m',11.0),None)
+                out.append({"n":s['n'],"lat":round(pos[0],6),"lng":round(pos[1],6),
+                            "cabin":s['cabin'],"ada":s['ada'],
+                            **({"hikebike":True} if isinstance(s['n'],str) else {})})
+            report.append(f"[{cid}] spread x{len(ids)}")
+            continue
+        # warp each site label -> meters -> closest arclength on path + perp dist
+        tstars=[]; perps=[]
+        for n in ids:
+            m=fwd([px[n]])[0]
+            tgt=(m[1]/MLAT, m[0]/MLON)   # lat,lng
+            best=(1e18,0.0)
+            for i in range(len(path)-1):
+                a,b=path[i],path[i+1]
+                ax,ay=m_xy(*a); bx,by=m_xy(*b)
+                dx,dy=bx-ax,by-ay; L2=dx*dx+dy*dy
+                tx,ty=m_xy(*tgt)
+                u=0 if L2==0 else max(0,min(1,((tx-ax)*dx+(ty-ay)*dy)/L2))
+                d=math.hypot(ax+u*dx-tx,ay+u*dy-ty)
+                if d<best[0]: best=(d,cum[i]+u*math.sqrt(L2))
+            perps.append(best[0]); tstars.append(best[1])
+        # enforce official order with min gap, within [m0, L-m1]
+        GAP=9.0
+        m0,m1=spec_c.get('margins',[2.0,2.0])
+        tstars=[max(m0,min(L-m1,t)) for t in tstars]
+        for i in range(1,len(tstars)):
+            if tstars[i]<tstars[i-1]+GAP: tstars[i]=tstars[i-1]+GAP
+        over=tstars[-1]-(L-m1)
+        if over>0:
+            for i in range(len(tstars)-1,-1,-1):
+                lim=(L-m1)-(len(tstars)-1-i)*GAP
+                if tstars[i]>lim: tstars[i]=lim
+        sides=spec_c.get('sides',{})
+        flags=[f"{n}:{d:.0f}m" for n,d in zip(ids,perps) if d>70]
+        for n,t in zip(ids,tstars):
+            s=info[n]
+            pt,tang=point_at(path,cum,max(0.0,min(L,t)))
+            side=sides.get(n, s.get('side'))
+            pos=offset(pt,tang,side,spec_c.get('offset_m',11.0),None)
+            out.append({"n":s['n'],"lat":round(pos[0],6),"lng":round(pos[1],6),
+                        "cabin":s['cabin'],"ada":s['ada'],
+                        **({"hikebike":True} if isinstance(s['n'],str) else {})})
+        report.append(f"[{cid}] L={L:.0f}m perp(med)={sorted(perps)[len(perps)//2]:.0f}m"
+                      +(f"  WRONG-ROAD? {flags}" if flags else ""))
+    out.sort(key=lambda r:(isinstance(r['n'],str),r['n'] if isinstance(r['n'],int) else 0,str(r['n'])))
+    json.dump(out,open(f"{HERE}/campsites.json","w"),indent=0)
+    print("\n".join(report)); print(f"WROTE {len(out)} sites (warp mode)")
+
 if __name__=="__main__":
     if "--explore" in sys.argv: explore()
-    elif "--check" in sys.argv: configure() if False else check()
+    elif "--check" in sys.argv: check()
+    elif "--warp" in sys.argv: configure(); build_from_warp()
     else: configure(); build()
