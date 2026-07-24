@@ -1,0 +1,190 @@
+{
+  "source": "official-maps/campmap2019.pdf page 2 (rev 2019; md5 fd5f8ee0... matches parks.ca.gov current). Transcribed 2026-07-23 from 300dpi render, tile-by-tile.",
+  "conventions": "chains listed in travel order; side = which side of the road the site pad is on, in the chain's travel direction context, recorded as compass-ish hints (in/out for the north loop ring; W/E/N/S elsewhere). px = approx pixel on the 2550x3300 render, for re-verification only.",
+  "chains": [
+    {
+      "id": "north_top", "desc": "North loop, top edge, W->E from NW shoulder to NE corner",
+      "sites": [
+        {"n": 15, "side": "out", "px": [700, 1470]},
+        {"n": 14, "side": "out", "px": [745, 1420]},
+        {"n": 12, "side": "out", "px": [800, 1400]},
+        {"n": 13, "side": "in",  "px": [845, 1480], "ada": true},
+        {"n": "CH-north", "side": "in", "px": [905, 1480], "facility": true, "note": "camp host, old site 11 pad"},
+        {"n": 10, "side": "out", "px": [880, 1395]},
+        {"n": 8,  "side": "out", "px": [910, 1420]},
+        {"n": 9,  "side": "in",  "px": [902, 1465]},
+        {"n": 6,  "side": "out", "px": [945, 1435]},
+        {"n": 7,  "side": "in",  "px": [974, 1522]},
+        {"n": 5,  "side": "out", "px": [975, 1445]}
+      ]
+    },
+    {
+      "id": "north_east", "desc": "North loop, E edge, N->S from NE corner (Line A junction) to J1",
+      "sites": [
+        {"n": 4, "side": "out", "px": [1010, 1450]},
+        {"n": 2, "side": "out", "px": [1040, 1495]},
+        {"n": 3, "side": "in",  "px": [1000, 1540]},
+        {"n": 1, "side": "out", "px": [1052, 1598]}
+      ]
+    },
+    {
+      "id": "north_seedge", "desc": "North loop, S/SE edge, E->W from J1 to the S-branch junction",
+      "sites": [
+        {"n": 28, "side": "in",  "px": [1012, 1650], "note": "N side, just W of J1"},
+        {"n": 27, "side": "out", "px": [980, 1655]},
+        {"n": 25, "side": "in",  "px": [920, 1648], "ada": true},
+        {"n": 26, "side": "out", "px": [925, 1660], "cabin": true, "note": "directly across from 25"},
+        {"n": 24, "side": "in",  "px": [862, 1650], "cabin": true}
+      ]
+    },
+    {
+      "id": "north_west", "desc": "North loop, S+W edge, E->W then S->N back to NW shoulder",
+      "sites": [
+        {"n": 23, "side": "in",  "px": [745, 1737]},
+        {"n": 22, "side": "out", "px": [700, 1727]},
+        {"n": 20, "side": "out", "px": [727, 1673]},
+        {"n": 21, "side": "in",  "px": [725, 1665]},
+        {"n": 19, "side": "in",  "px": [717, 1610]},
+        {"n": 18, "side": "out", "px": [710, 1600]},
+        {"n": 17, "side": "in",  "px": [735, 1560], "ada": true},
+        {"n": 16, "side": "out", "px": [715, 1535]}
+      ]
+    },
+    {
+      "id": "b_chain", "desc": "S branch from north loop S edge (jct ~px 838,1685) S past west-loop top junction, then spine: 37/38, CH-west, 39, 40, curving E to VC parking then S as 41/42, 43/44, ending at bottom triangle",
+      "sites": [
+        {"n": 29, "side": "W", "px": [858, 1712], "note": "small spur arc W of branch, top"},
+        {"n": 30, "side": "W", "px": [830, 1795], "cabin": true},
+        {"n": 31, "side": "E", "px": [904, 1760]},
+        {"n": 32, "side": "E", "px": [905, 1798]},
+        {"n": 33, "side": "W", "px": [845, 1835]},
+        {"n": 34, "side": "E", "px": [905, 1855]},
+        {"n": 35, "side": "W", "px": [770, 1868]},
+        {"n": 36, "side": "E", "px": [835, 1878]},
+        {"n": 37, "side": "W", "px": [757, 1958], "ada": true},
+        {"n": 38, "side": "E", "px": [845, 1965]},
+        {"n": "CH-west", "side": "W", "px": [740, 2010], "facility": true, "note": "second camp host"},
+        {"n": 39, "side": "E", "px": [840, 2020], "ada": true},
+        {"n": 40, "side": "NE", "px": [900, 2090], "note": "on the E-curving stretch toward VC parking"},
+        {"n": 41, "side": "W", "px": [700, 2230], "ada": true},
+        {"n": 42, "side": "E", "px": [775, 2245]},
+        {"n": 43, "side": "W", "px": [770, 2300]},
+        {"n": 44, "side": "E", "px": [830, 2330]}
+      ]
+    },
+    {
+      "id": "west_loop", "desc": "West loop W edge N->S from top junction (with b_chain) past teardrop, then bottom edge E to the triangle",
+      "sites": [
+        {"n": 50, "side": "N", "px": [628, 1905], "note": "at teardrop N neck"},
+        {"n": 51, "side": "W", "px": [560, 1930], "note": "teardrop W side"},
+        {"n": 52, "side": "W", "px": [545, 1985], "note": "teardrop W side"},
+        {"n": 53, "side": "W", "px": [570, 2050]},
+        {"n": 54, "side": "W", "px": [590, 2085]},
+        {"n": 55, "side": "W", "px": [610, 2135]},
+        {"n": 56, "side": "W", "px": [610, 2205]},
+        {"n": 49, "side": "E", "px": [655, 2240], "note": "inside, across from 56"},
+        {"n": 57, "side": "W", "px": [585, 2300]},
+        {"n": 48, "side": "E", "px": [700, 2310], "note": "inside, across from 57"},
+        {"n": 58, "side": "W", "px": [585, 2365]},
+        {"n": 47, "side": "E", "px": [650, 2385], "note": "inside SW corner"},
+        {"n": 45, "side": "N", "px": [740, 2415], "note": "bottom edge, inside"}
+      ]
+    },
+    {
+      "id": "boatlaunch_road", "desc": "From bottom triangle SW to Winter Boat Launch",
+      "sites": [
+        {"n": 46, "side": "S", "px": [735, 2495], "note": "S side just W/SW of triangle"},
+        {"n": 59, "side": "W", "px": [640, 2545]},
+        {"n": 60, "side": "W", "px": [672, 2605]}
+      ]
+    },
+    {
+      "id": "east_chain", "desc": "From J1 S: 106..99, merging with b_chain area near 38, then continuing as merged chain 97..92 to VC junction",
+      "sites": [
+        {"n": 106, "side": "E", "px": [1075, 1668]},
+        {"n": 104, "side": "E", "px": [1105, 1710]},
+        {"n": 105, "side": "W", "px": [1020, 1745], "cabin": true},
+        {"n": 103, "side": "W", "px": [1000, 1780]},
+        {"n": 102, "side": "E", "px": [1120, 1838]},
+        {"n": 100, "side": "W", "px": [1000, 1892]},
+        {"n": 101, "side": "E", "px": [1120, 1925]},
+        {"n": 98,  "side": "E", "px": [1150, 1962]},
+        {"n": 99,  "side": "W", "px": [1035, 2000]},
+        {"n": 97,  "side": "W", "px": [1020, 2025]},
+        {"n": 96,  "side": "E", "px": [1120, 2040]},
+        {"n": 95,  "side": "W", "px": [1020, 2062]},
+        {"n": 94,  "side": "E", "px": [1075, 2098]},
+        {"n": 93,  "side": "E", "px": [1020, 2135]},
+        {"n": 92,  "side": "E", "px": [1040, 2172]}
+      ]
+    },
+    {
+      "id": "east_outer", "desc": "Line B south of VC junction, N->S then curving W: 91,90,89,88 then corner 87/86",
+      "sites": [
+        {"n": 91, "side": "E", "px": [1140, 2190]},
+        {"n": 90, "side": "W", "px": [1060, 2250]},
+        {"n": 89, "side": "W", "px": [1065, 2310]},
+        {"n": 88, "side": "E", "px": [1150, 2312]},
+        {"n": 87, "side": "N", "px": [1050, 2390]},
+        {"n": 86, "side": "S", "px": [1110, 2428]}
+      ]
+    },
+    {
+      "id": "bottom_road", "desc": "Bottom road E->W from the 86/87 corner to the triangle",
+      "sites": [
+        {"n": 85, "side": "N", "px": [1020, 2400]},
+        {"n": 84, "side": "S", "px": [1035, 2495]},
+        {"n": 83, "side": "N", "px": [975, 2445]},
+        {"n": 82, "side": "N", "px": [925, 2428]},
+        {"n": 81, "side": "S", "px": [872, 2500]}
+      ]
+    },
+    {
+      "id": "river_branch", "desc": "Branch from bottom road S toward footbridge, N->S",
+      "sites": [
+        {"n": 80, "side": "W", "px": [928, 2528]},
+        {"n": 79, "side": "E", "px": [1008, 2555]},
+        {"n": 78, "side": "W", "px": [952, 2618]},
+        {"n": 77, "side": "E", "px": [1035, 2602]},
+        {"n": 76, "side": "W", "px": [985, 2692]}
+      ]
+    },
+    {
+      "id": "hikebike", "desc": "Cluster of 5 tents inside the hike/bike loop W of Line B, S of self-registration",
+      "sites": [
+        {"n": "A", "side": "cluster", "px": [770, 770]},
+        {"n": "B", "side": "cluster", "px": [855, 780]},
+        {"n": "C", "side": "cluster", "px": [858, 838]},
+        {"n": "D", "side": "cluster", "px": [772, 882]},
+        {"n": "E", "side": "cluster", "px": [878, 888]}
+      ],
+      "note": "Stray letters 'B, A' print near River Beach Trail (px ~600-660,1815-1850) with no tents/ticks/road — not site markers."
+    }
+  ],
+  "facilities": {
+    "entrance_station": {"px": [1147, 1900], "note": "ON the N-S road (Line B), S of the Line-A T-junction; kiosk dot W side"},
+    "rv_dump": {"px": [1180, 2000], "note": "E side of Line B, S of entrance station"},
+    "self_registration": {"px": [1215, 690], "note": "on Line B at hike/bike loop N junction; restrooms just S"},
+    "day_use": {"px": [1255, 250], "note": "spur N from self-reg junction; parking Y, picnic W side, ADA"},
+    "restrooms_north": {"px": [820, 1520], "note": "inside north loop, center-S, with showers + ADA feature; near 17/19/24"},
+    "restrooms_east": {"px": [1000, 1830], "note": "W side of east chain below 103: ADA + restrooms"},
+    "restrooms_vc": {"px": [740, 2085], "note": "restrooms+showers N of VC parking, near 40; ADA + P below"},
+    "restrooms_sw": {"px": [660, 2190], "note": "P + ADA restroom on west side near 55/56 (P circles); minor"},
+    "visitor_center": {"px": [857, 2160], "note": "dot; label leader from 'Visitor Center' text"},
+    "campfire_center": {"px": [955, 2200], "note": "SE of VC dot, with P and ADA icons"},
+    "winter_boat_launch": {"px": [785, 2790]},
+    "footbridge_trail": {"px": [900, 2850], "note": "dotted, from launch road SE"}
+  },
+  "junctions": {
+    "J1": {"px": [1035, 1648], "desc": "north loop SE corner: E edge + SE edge + east_chain top"},
+    "J_A_T": {"px": [1150, 1447], "desc": "Line A x Line B T; Line A: loop NE corner -> teardrop pullout -> US-199"},
+    "J_sbranch": {"px": [838, 1685], "desc": "north loop S edge -> b_chain"},
+    "J_wtop": {"px": [795, 1850], "desc": "b_chain x west_loop W edge top"},
+    "J_merge": {"px": [1070, 1975], "desc": "east_chain merges near 99/38 zone"},
+    "J_vc": {"px": [950, 2205], "desc": "merged chain + Line B + VC area roads"},
+    "J_triangle": {"px": [760, 2460], "desc": "west loop bottom + bottom_road + boatlaunch_road"},
+    "J_corner_se": {"px": [1080, 2415], "desc": "east_outer curves W into bottom_road"},
+    "J_riverbranch": {"px": [940, 2490], "desc": "bottom_road -> river_branch"}
+  },
+  "count_check": "numbered 1-10,12-60,76-106 = 90 (86 family + 4 cabins) + A-E (5) + 2 CH facilities. ADA circled: 13,17,25,37,39,41."
+}

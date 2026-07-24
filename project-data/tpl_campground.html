@@ -88,7 +88,7 @@ body{font:14px/1.5 "Seravek","Avenir Next","Helvetica Neue",sans-serif;color:var
   <div class="phead">
     <div class="eyebrow"><svg width="12" height="12" viewBox="0 0 14 14" aria-hidden="true"><rect x="2.2" y="2.2" width="9.6" height="9.6" transform="rotate(45 7 7)" fill="none" stroke="#C9B896" stroke-width="1.6"/><rect x="5" y="5" width="4" height="4" transform="rotate(45 7 7)" fill="#C9A227"/></svg> Jedediah Smith Campground</div>
     <h1>Campground Map &amp; Notebook</h1>
-    <p>87 family sites, 4 cabins, 5 hike-&amp;-bike sites. Tap any site to read about it or pin a note — notes stay saved on this computer.</p>
+    <p>86 family sites (old site 11 is now the camp host), 4 cabins, 5 hike-&amp;-bike sites. Tap any site to read about it or pin a note — notes stay saved on this computer.</p>
   </div>
   <div class="searchrow">
     <input id="sitesearch" placeholder="Find a site… e.g. 84 or A" aria-label="Find a site by number">
@@ -134,17 +134,17 @@ var LAYERS={
 var SITES=__DATA_sites__;
 var FACILITIES=[
   {n:"Entrance station",lat:41.79820,lng:-124.08410,note:"Check-in 2 p.m. (cabins 3 p.m.) · check-out noon"},
-  {n:"Camp host",lat:41.798133,lng:-124.086112,note:"Camp host site — the former site 11, in the north loop"},
-  {n:"Camp host",lat:41.795450,lng:-124.086550,note:"Camp host site — lower loop, near the visitor center"},
-  {n:"RV dump station",lat:41.79805,lng:-124.08492,note:"No hookups anywhere in the campground"},
+  {n:"Camp host",lat:41.798292,lng:-124.086380,note:"Camp host site — the former site 11, inside the north loop"},
+  {n:"Camp host",lat:41.795969,lng:-124.085859,note:"Camp host site — on the middle road across from site 39"},
+  {n:"RV dump station",lat:41.79795,lng:-124.08432,note:"Just south of the entrance station · no hookups anywhere in the campground"},
   {n:"Day-use area · parking",lat:41.80207,lng:-124.08507,note:"Picnic area, river access ($8/vehicle day use)"},
   {n:"Self-registration",lat:41.80060,lng:-124.08560,note:"Day-use self-registration"},
-  {n:"Restrooms · showers",lat:41.79807,lng:-124.08700,note:"Near sites 24–25"},
-  {n:"Restrooms · showers",lat:41.79723,lng:-124.08633,note:"Near sites 32–34 / 102–103"},
-  {n:"Restrooms · showers",lat:41.79460,lng:-124.08520,note:"By the visitor center, near sites 40 / 92 (accessible)"},
-  {n:"Restrooms",lat:41.79588,lng:-124.08696,note:"Southwest loops, near sites 47–55"},
+  {n:"Restrooms · showers",lat:41.79800,lng:-124.08652,note:"Inside the north loop, by the camp host (accessible)"},
+  {n:"Restrooms · showers",lat:41.79659,lng:-124.08543,note:"On the east road below cabin 105, near 100–103 (accessible)"},
+  {n:"Restrooms · showers",lat:41.79520,lng:-124.08578,note:"Near site 40, north of the visitor-center parking (accessible)"},
+  {n:"Restrooms",lat:41.79510,lng:-124.08690,note:"West side, near sites 41 and 55–56 (accessible)"},
   {n:"Visitor center",lat:41.79465,lng:-124.08505,note:"Exhibits & nature store"},
-  {n:"Campfire center",lat:41.79530,lng:-124.08610,note:"Evening programs (location approximate)"},
+  {n:"Campfire center",lat:41.79452,lng:-124.08488,note:"Southeast of the visitor center · evening programs (location approximate)"},
   {n:"Winter boat launch",lat:41.79330,lng:-124.08640,note:"Vehicle boat launch"},
   {n:"Summer footbridge",lat:41.79295,lng:-124.08645,note:"To Stout Grove · installed July–Sept as river level allows"},
   {n:"Stout Memorial Grove",lat:41.78850,lng:-124.08440,note:"0.5-mi loop under the giants — the 1929 grove that started the park"},
@@ -242,7 +242,7 @@ function findSite(){
   if(m){ map.flyTo(m.getLatLng(),18,{duration:.5}); m.openPopup(); }
   else{
     document.getElementById('sitesearch').value='';
-    document.getElementById('sitesearch').placeholder='No site “'+q+'” — sites are 1–60, 76–106, A–E';
+    document.getElementById('sitesearch').placeholder='No site “'+q+'” — sites are 1–10, 12–60, 76–106, A–E';
   }
 }
 document.getElementById('gobtn').addEventListener('click',findSite);
