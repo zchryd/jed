@@ -117,7 +117,7 @@ body{font:14px/1.5 "Seravek","Avenir Next","Helvetica Neue",sans-serif;color:var
     <div class="row">
       <a href="official-maps/campmap2019.pdf">Official park map (PDF)</a>
     </div>
-    Site positions are <i>approximate</i> — placed along the real campground roads to match the official California State Parks map (not survey data). Reservations: <a href="https://www.reservecalifornia.com" target="_blank" rel="noopener">ReserveCalifornia.com</a> · (800) 444-7275.
+    Site positions were <i>placed by hand</i> against the official park map and the aerial photo — faithful, but not survey data. Reservations: <a href="https://www.reservecalifornia.com" target="_blank" rel="noopener">ReserveCalifornia.com</a> · (800) 444-7275.
   </div>
 </aside>
 <div id="map" role="application" aria-label="Campground map"></div>
@@ -213,7 +213,7 @@ SITES.forEach(function(s){
       '<div class="plinks"><a href="https://www.campsitephotos.com/campground/jedediah-smith-redwoods-state-park/" target="_blank" rel="noopener">Photos: campsitephotos.com</a> · <a href="https://www.google.com/search?tbm=isch&q='+encodeURIComponent('"Jedediah Smith" campground site '+key)+'" target="_blank" rel="noopener">Photo search: site '+key+'</a></div>'+
       '<textarea placeholder="Your note about site '+key+'… (e.g. “shady, close to river beach, got it for July 4”)">'+v.replace(/</g,'&lt;')+'</textarea>'+
       '<div class="row"><button data-act="save">Save note</button>'+(v?'<button class="ghost" data-act="del">Remove note</button>':'')+'</div>'+
-      '<div class="prec">Position approximate — matched to the official park map.</div>';
+      '<div class="prec">Placed by hand from the official park map.</div>';
     el.addEventListener('click',function(e){
       var act=e.target.dataset&&e.target.dataset.act;
       if(act==='save'){ var t=el.querySelector('textarea').value.trim();
