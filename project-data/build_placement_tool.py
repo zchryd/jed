@@ -17,6 +17,12 @@ leaf_js=open(f'{HERE}/leaflet.js').read()
 leaf_css=open(f'{HERE}/leaflet.css').read()
 def data(n): return open(f'{HERE}/geo-layers/{n}.geojson').read()
 sites=open(f'{HERE}/campsites.json').read()
+import re as _re
+_tpl=open(f'{HERE}/tpl_campground.html',encoding='utf-8').read()
+_m=_re.search(r'var FACILITIES=\[(.*?)\];',_tpl,_re.S)
+_ents=_re.findall(r'\{n:"([^"]+)",lat:([\d.]+),lng:(-[\d.]+),note:"([^"]*)"\}',_m.group(1))
+facs=json.dumps([{"id":"F%d"%i,"n":n,"lat":float(la),"lng":float(lo),"note":note}
+                 for i,(n,la,lo,note) in enumerate(_ents)])
 OFFICIAL=os.environ.get("OFFICIAL_IMG", "/private/tmp/claude-501/-Users-zach-Desktop-jed/64cddecd-6b5d-4c02-a346-a2ba14e28f5e/scratchpad/official2017_campground.jpg")
 off_b64=base64.b64encode(open(OFFICIAL,'rb').read()).decode()
 
@@ -66,7 +72,7 @@ button{font:700 13px/1 sans-serif;padding:9px 12px;border-radius:5px;border:0;cu
 <body>
 <aside id="panel">
   <h1>Place the campsites by hand</h1>
-  <div class="step"><span class="no">1</span><b>Drag</b> any site dot to where it belongs. Or:</div>
+  <div class="step"><span class="no">1</span><b>Drag</b> any site dot — or any dark <b>label</b> (Restrooms, Visitor center…) — to where it belongs. The little gold dot under a label marks its exact spot. Or:</div>
   <div class="step"><span class="no">2</span>Type the numbers to redo below and press <b>Start placing</b> — then <b>tap the map once per site</b>, in order. Undo/Skip any time.</div>
   <div class="step"><span class="no">3</span>Use <b>Show official map</b> (bottom) to see the reference beside the satellite.</div>
   <div class="step"><span class="no">4</span>When it looks right, press <b>Save my placements</b> — it downloads a file. Then just tell Claude "done".</div>
@@ -96,7 +102,8 @@ button{font:700 13px/1 sans-serif;padding:9px 12px;border-radius:5px;border:0;cu
 <script>
 var LAYERS={roads:__DATA_camp_roads__,areas:__DATA_camp_areas__,water:__DATA_water__};
 var SITES=__DATA_sites__;
-var KEY='jed-placement-v1';
+var FACS=__DATA_facs__;
+var KEY='jed-placement-v2';
 
 var map=L.map('map',{zoomControl:true}).setView([41.7955,-124.0857],17);
 map.zoomControl.setPosition('topright');
@@ -104,16 +111,11 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
 L.geoJSON(LAYERS.water,{style:{color:'#5FA8C7',weight:1,fillColor:'#8FC7DC',fillOpacity:.4,interactive:false}}).addTo(map);
 L.geoJSON(LAYERS.areas,{style:{color:'#C9B896',weight:1.4,fillOpacity:0,dashArray:'6 5',interactive:false}}).addTo(map);
 L.geoJSON(LAYERS.roads,{style:{color:'#E8D9A0',weight:3,opacity:.95,interactive:false}}).addTo(map);
-[["Kiosk",41.79820,-124.08410],["RV dump",41.79795,-124.08432],["Self-registration",41.79999,-124.08570],
- ["Visitor Center",41.79465,-124.08505],["Winter boat launch",41.79328,-124.08650],
- ["Summer footbridge",41.79295,-124.08645]].forEach(function(f){
-  L.marker([f[1],f[2]],{interactive:false,icon:L.divIcon({className:'',iconAnchor:[0,0],
-    html:'<div style="background:#3B2A20cc;color:#F5EFE0;border-radius:4px;font:600 10px/1.2 sans-serif;padding:2px 5px;white-space:nowrap;transform:translate(-50%,-100%)">'+f[0]+'</div>'})}).addTo(map);
-});
 
 var store={};
 try{ store=JSON.parse(localStorage.getItem(KEY)||'{}'); }catch(e){ store={}; }
 if(!store.pos) store.pos={};
+if(!store.fac) store.fac={};
 function persist(){ localStorage.setItem(KEY,JSON.stringify(store)); }
 
 var markers={}, undoStack=[];
@@ -133,6 +135,25 @@ SITES.forEach(function(s){
     persist(); m.setIcon(iconFor(s)); setStatus('Moved site '+s.n+'.');
   });
   m.addTo(map); markers[String(s.n)]=m;
+});
+
+var facMarkers={};
+function facIcon(f){
+  var moved=store.fac[f.id]?'box-shadow:0 0 0 3px #C9A227;':'';
+  return L.divIcon({className:'',iconSize:[0,0],iconAnchor:[0,0],
+    html:'<div style="transform:translate(-50%,-100%);cursor:grab">'
+        +'<div style="background:#3B2A20;color:#F5EFE0;border:1px solid #fff9;'+moved+'border-radius:4px;font:600 11px/1.25 sans-serif;padding:3px 6px;white-space:nowrap">'+f.n+'</div>'
+        +'<div style="width:7px;height:7px;border-radius:50%;background:#C9A227;border:1.5px solid #fff;margin:2px auto 0"></div></div>'});
+}
+FACS.forEach(function(f){
+  var pos=store.fac[f.id]||[f.lat,f.lng];
+  var m=L.marker(pos,{icon:facIcon(f),draggable:true,title:f.n});
+  m.on('dragstart',function(){ undoStack.push({fac:f.id,prev:store.fac[f.id]||null}); });
+  m.on('dragend',function(){
+    var ll=m.getLatLng(); store.fac[f.id]=[+ll.lat.toFixed(6),+ll.lng.toFixed(6)];
+    persist(); m.setIcon(facIcon(f)); setStatus('Moved label: '+f.n);
+  });
+  m.addTo(map); facMarkers[f.id]=m;
 });
 
 function setStatus(t){ document.getElementById('status').textContent=t; }
@@ -187,6 +208,14 @@ document.getElementById('stopbtn').addEventListener('click',function(){ qi=queue
 document.getElementById('skipbtn').addEventListener('click',function(){ if(qi>=0){ qi++; banner(); } });
 document.getElementById('undobtn').addEventListener('click',function(){
   var u=undoStack.pop(); if(!u){ setStatus('Nothing to undo.'); return; }
+  if(u.fac){
+    if(u.prev) store.fac[u.fac]=u.prev; else delete store.fac[u.fac];
+    persist();
+    var f=FACS.filter(function(x){return x.id===u.fac})[0];
+    facMarkers[u.fac].setLatLng(store.fac[u.fac]||[f.lat,f.lng]);
+    facMarkers[u.fac].setIcon(facIcon(f));
+    setStatus('Undid label move: '+f.n); return;
+  }
   if(u.prev) store.pos[u.n]=u.prev; else delete store.pos[u.n];
   persist();
   var s=SITES.filter(function(x){return String(x.n)===u.n})[0];
@@ -207,14 +236,19 @@ document.getElementById('savebtn').addEventListener('click',function(){
     if(s.hikebike) r.hikebike=true;
     return r;
   });
-  var blob=new Blob([JSON.stringify({placed_by:'Zach placement tool v1',sites:out},null,1)],{type:'application/json'});
+  var facout=FACS.map(function(f){
+    var p=store.fac[f.id]||[f.lat,f.lng];
+    return {n:f.n,lat:p[0],lng:p[1],note:f.note};
+  });
+  var blob=new Blob([JSON.stringify({placed_by:'Zach placement tool v2',sites:out,facilities:facout},null,1)],{type:'application/json'});
   var a=document.createElement('a'); a.href=URL.createObjectURL(blob);
   a.download='jed-campsite-placements.json'; a.click(); URL.revokeObjectURL(a.href);
   setStatus('Saved! The file is in your Downloads. Now tell Claude "done".');
 });
 document.getElementById('resetbtn').addEventListener('click',function(){
   if(confirm('Throw away ALL your moves and start over from the current map?')){
-    store.pos={}; persist(); undoStack=[];
+    store.pos={}; store.fac={}; persist(); undoStack=[];
+    FACS.forEach(function(f){ facMarkers[f.id].setLatLng([f.lat,f.lng]); facMarkers[f.id].setIcon(facIcon(f)); });
     SITES.forEach(function(s){ markers[String(s.n)].setLatLng([s.lat,s.lng]); markers[String(s.n)].setIcon(iconFor(s)); });
     setStatus('Reset. All dots back to where the map had them.');
   }
@@ -233,7 +267,10 @@ if(location.search.indexOf('selftest')>=0){
     place(q[1],L.latLng(41.7941,-124.0856));
     var u=undoStack.length;
     document.getElementById('undobtn').click();
-    var ok=(q.length===3)&&(store.pos['76'])&&(!store.pos['77'])&&(undoStack.length===u-1);
+    store.fac['F0']=[41.7999,-124.0850];
+    var f0=FACS.filter(function(x){return x.id==='F0'})[0];
+    var ok=(q.length===3)&&(store.pos['76'])&&(!store.pos['77'])&&(undoStack.length===u-1)
+           &&(FACS.length===16)&&(!!facMarkers['F0'])&&(f0.note.length>0);
     document.title='SELFTEST-'+(ok?'OK':'FAIL');
   }catch(e){ document.title='SELFTEST-ERR-'+e.message; }
 }
@@ -243,7 +280,7 @@ if(location.search.indexOf('selftest')>=0){
 '''
 page=page.replace('/*__LEAFLET_CSS__*/',leaf_css).replace('/*__LEAFLET_JS__*/',leaf_js)
 page=page.replace('__DATA_camp_roads__',data('camp_roads')).replace('__DATA_camp_areas__',data('camp_areas')).replace('__DATA_water__',data('water'))
-page=page.replace('__DATA_sites__',sites).replace('__OFFICIAL_B64__',off_b64)
+page=page.replace('__DATA_sites__',sites).replace('__DATA_facs__',facs).replace('__OFFICIAL_B64__',off_b64)
 out=f'{JED}/Place Campsites.html'
 open(out,'w').write(page)
 print(f"wrote {out} ({os.path.getsize(out)//1024} KB)")
